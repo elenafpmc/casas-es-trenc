@@ -1,0 +1,24 @@
+.header {
+  background-color: $white;
+  display: flex;
+  max-width: 1200px;
+  margin: 0px auto;
+
+  &__nav {
+    align-self: flex-end;
+    ul {
+      li {
+        display: inline-block;
+        padding: 0 15px;
+        a {
+          display: block;
+          min-height: 60px;
+          line-height: 60px;
+        }
+        &__info {
+
+        }
+      }
+    }
+  }
+}
