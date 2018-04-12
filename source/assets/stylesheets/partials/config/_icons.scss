@@ -1,0 +1,69 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-triangle:before {
+  content: "\e909";
+}
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-arrow-left-alt:before {
+  content: "\e901";
+}
+.icon-arrow-left-hero:before {
+  content: "\e902";
+}
+.icon-arrow-left:before {
+  content: "\e903";
+}
+.icon-arrow-right-alt:before {
+  content: "\e904";
+}
+.icon-arrow-right-hero:before {
+  content: "\e905";
+}
+.icon-arrow-right:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e907";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-house:before {
+  content: "\e90d";
+  color: #000;
+}
+.icon-instagram:before {
+  content: "\e90e";
+}
+.icon-mail:before {
+  content: "\e90f";
+}
+.icon-sketch:before {
+  content: "\e910";
+  color: #000;
+}
+.icon-worldwide:before {
+  content: "\e911";
+  color: #000;
+}
+.icon-youtube:before {
+  content: "\e912";
+}

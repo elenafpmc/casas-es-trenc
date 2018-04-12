@@ -1,10 +1,120 @@
-// @font-face {
-// 	font-family: 'Fontname';
-// 	src: font-url('Fontname-variant.eot');
-//   src: font-url('Fontname-variant.eot?#iefix') format('embedded-opentype'),
-//        font-url('Fontname-variant.woff2') format('woff2'),
-//        font-url('Fontname-variant.woff') format('woff');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: font-url('playfairdisplay-regular.eot');
+  src: font-url('playfairdisplay-regular.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-regular.woff2') format('woff2'),
+       font-url('playfairdisplay-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+	font-family: 'PlayfairDisplay';
+	src: font-url('playfairdisplay-bold.eot');
+  src: font-url('playfairdisplay-bold.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-bold.woff2') format('woff2'),
+       font-url('playfairdisplay-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: font-url('playfairdisplay-italic.eot');
+  src: font-url('playfairdisplay-italic.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-italic.woff2') format('woff2'),
+       font-url('playfairdisplay-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: font-url('playfairdisplay-bolditalic.eot');
+  src: font-url('playfairdisplay-bolditalic.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-bolditalic.woff2') format('woff2'),
+       font-url('playfairdisplay-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: font-url('playfairdisplay-black.eot');
+  src: font-url('playfairdisplay-black.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-black.woff2') format('woff2'),
+       font-url('playfairdisplay-black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: font-url('playfairdisplay-blackitalic.eot');
+  src: font-url('playfairdisplay-blackitalic.eot?#iefix') format('embedded-opentype'),
+       font-url('playfairdisplay-blackitalic.woff2') format('woff2'),
+       font-url('playfairdisplay-blackitalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'PT-Sans';
+  src: font-url('pt_sans-web-regular.eot');
+  src: font-url('pt_sans-web-regular.eot?#iefix') format('embedded-opentype'),
+       font-url('pt_sans-web-regular.woff2') format('woff2'),
+       font-url('pt_sans-web-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT-Sans';
+  src: font-url('pt_sans-web-bold.eot');
+  src: font-url('pt_sans-web-bold.eot?#iefix') format('embedded-opentype'),
+       font-url('pt_sans-web-bold.woff2') format('woff2'),
+       font-url('pt_sans-web-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT-Sans';
+  src: font-url('pt_sans-web-italic.eot');
+  src: font-url('pt_sans-web-italic.eot?#iefix') format('embedded-opentype'),
+       font-url('pt_sans-web-italic.woff2') format('woff2'),
+       font-url('pt_sans-web-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT-Sans';
+  src: font-url('pt_sans-web-bolditalic.eot');
+  src: font-url('pt_sans-web-bolditalic.eot?#iefix') format('embedded-opentype'),
+       font-url('pt_sans-web-bolditalic.woff2') format('woff2'),
+       font-url('pt_sans-web-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  font-url('icomoon.eot?luh3bq');
+  src:  font-url('icomoon.eot?luh3bq#iefix') format('embedded-opentype'),
+    font-url('icomoon.ttf?luh3bq') format('truetype'),
+    font-url('icomoon.woff?luh3bq') format('woff'),
+    font-url('icomoon.svg?luh3bq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
