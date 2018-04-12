@@ -1,0 +1,81 @@
+.footer {
+  &__banner {
+    background-color: $brown;
+    padding: 70px 0;
+    &__list {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      li {
+        text-align: center;
+        color: $brown-dark;
+        padding: 0 50px;
+        [class^="icon-"] {
+          display: block;
+          font-size: 56px;
+          margin-bottom: 15px;
+          &:before {
+            color: inherit;
+          }
+        }
+        .text {
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  &__contact {
+    padding-top: 70px;
+    &__adress {
+      font-size: 17px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+      .title {
+        color: $grey;
+        text-transform: uppercase;
+      }
+      .text {
+        color: $black;
+      }
+    }
+    &__mail {
+      font-size: 17px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+      a {
+        color: $black;
+        display: block;
+        text-decoration: none;
+      }
+    }
+    &__social {
+      text-align: center;
+      padding-bottom: 35px;
+      border-bottom: 1px solid rgba($black, 0.1);
+      a {
+        color: $black;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin: 0 13px;
+      }
+    }
+    &__legal {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0 24px 0;
+      ul {
+        display: flex;
+        li {
+          padding: 0 5px;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
