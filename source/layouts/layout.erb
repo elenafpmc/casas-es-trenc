@@ -8,11 +8,11 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Project Name" %></title>
     <%= stylesheet_link_tag("stylesheets") %>
-    <%= javascript_include_tag("all.fn", "all") %>
   </head>
   <body>
     <div class="body-wrapper">
       <%= yield %>
     </div>
+    <%= javascript_include_tag("all.fn", "all") %>
   </body>
 </html>

@@ -2,6 +2,9 @@
   extra_classes ||= ''
 %>
 <header class="header <%= extra_classes %>">
+  <div>
+    Casas Es Trenc
+  </div>
   <nav class="header__nav">
     <ul>
       <li>
@@ -17,12 +20,37 @@
         <a href="#">Contacto</a>
       </li>
       <li>
-        ES
+        <div class="cnt-lang-selector">
+          <button type="button" class="lang-selector-val">
+            <span class="flag flag-es"></span>
+            <span class="text">ES</span>
+          </button>
+          <ul class="lang-list">
+            <li>
+              <a href="#" class="lang-selector-val">
+                <span class="flag flag-es"></span>
+                <span class="text">EN</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="lang-selector-val">
+                <span class="flag flag-es"></span>
+                <span class="text">DE</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="lang-selector-val">
+                <span class="flag flag-es"></span>
+                <span class="text">FR</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </li>
       <li class="header__nav__info">
         <button type="button" class="btn-info">
-          <span>_^_</span>
-          <span>+ info</span>
+          <span class="icon-mail"></span>
+          <span class="text">+ info</span>
         </button>
       </li>
     </ul>
