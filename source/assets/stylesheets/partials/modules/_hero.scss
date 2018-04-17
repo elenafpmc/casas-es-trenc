@@ -3,7 +3,13 @@
   &__slider {
     &__bg {
       width: 100%;
+      height: 550px;
       display: block;
+      background-repeat: no-repeat;
+      background-size: cover;
+      @include media("<phablet") {
+        height: 460px;
+      }
     }
     &__next,
     &__prev {
@@ -14,6 +20,10 @@
       height: auto;
       width: auto;
       margin-top: -73px;
+      @include media("<phablet") {
+        font-size: 60px;
+        margin-top: -30px;
+      }
       [class^="icon-"] {
         display: block;
       }
@@ -28,6 +38,11 @@
 
     width: 260px;
     padding: 25px;
+    @include media("<phablet") {
+      left: 30px;
+      right: 30px;
+      margin: auto;
+    }
     &__title {
       font-size: 12px;
       font-weight: 700;
