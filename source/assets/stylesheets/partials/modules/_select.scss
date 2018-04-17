@@ -1,0 +1,24 @@
+.select {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: $grey-light;
+  &__label {
+    display: block;
+  }
+  &__field {
+    display: block;
+    width: 100%;
+    height: 47px;
+    background-color: $grey-light;
+    font-family: $font_default;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    color: $black;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+  }
+}

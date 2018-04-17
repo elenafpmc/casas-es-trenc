@@ -23,6 +23,7 @@
           text-transform: uppercase;
         }
         &.header__nav__info {
+          padding-right: 0;
           .btn-info {
             background-color: $black;
             border: 0;
