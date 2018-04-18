@@ -55,5 +55,11 @@
     top: 22px;
     left: 58px;
     z-index: 10;
+    @include media("<phablet") {
+      top: -10px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
   }
 }
