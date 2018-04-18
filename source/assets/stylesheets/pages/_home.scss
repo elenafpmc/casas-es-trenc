@@ -1,0 +1,59 @@
+.carousel-home {
+  width: 100%;
+
+  .slide-sectores-content {
+    padding-left: 34px;
+    .logos-home {
+      width: auto;
+      margin-top: 37px;
+      margin-bottom: 17px;
+    }
+    &.ave-paraiso {
+      .logos-home {
+        margin-left: -22px;
+      }
+    }
+    &.buganvilla {
+      .logos-home {
+        margin-left: -37px;
+      }
+    }
+    .btn {
+      margin-top: 13px;
+    }
+    .text {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+  }
+  &__slider__next,
+  &__slider__prev {
+    position: static;
+    margin: 0;
+    background-image: none;
+    display: inline-block;
+    
+    width: 34px;
+    height: 34px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 17px;
+    background-color: $white;
+    box-shadow: $box-shadow;
+    font-size: 11px;
+    &.swiper-button-disabled {
+      font-size: 11px;
+      opacity: 0.2;
+      box-shadow: none;
+    }
+  }
+  &__slider__next {
+    margin-left: 10px;
+  }
+  &__slider__controls {
+    position: absolute;
+    top: 22px;
+    left: 58px;
+    z-index: 10;
+  }
+}

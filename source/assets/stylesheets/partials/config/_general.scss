@@ -37,7 +37,14 @@ img {
 
 .link {
   color: $black;
+  font-style: italic;
+  font-weight: 700;
   text-decoration: none;
+  font-size: 14px;
+  [class^="icon-"] {
+    font-size: 11px;
+    margin-left: 10px;
+  }
 }
 
 /* ========== HELPERS ========== */

@@ -1,0 +1,19 @@
+<%
+  extra_classes ||= ""
+  title ||= ""
+  small_title ||= ""
+  image ||= ""
+  content ||= ""
+%>
+
+
+<div class="content-image <%= extra_classes %>">
+  <div class="content-image__content">
+    <p class="title-small"><%= small_title %></p>
+    <p class="title"><%= title %></p>
+    <%= content %>
+  </div>
+  <div class="content-image__image">
+    <%= image_tag(image, :class => '') %>
+  </div>
+</div>

@@ -14,5 +14,64 @@ layout: layout
     :form => true
   }) %>
 
+  <div class="carousel-home">
+    <div class="swiper-container carousel-home__slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <%= partial("modules/content-image", :locals => {
+            :extra_classes => 'content-image--right',
+            :image => 'content/slide-sectores.png',
+            :small_title => 'nuestros',
+            :title => 'Sectores',
+            :content => '<div class="slide-sectores-content ave-paraiso">' +
+                          image_tag('content/logo-avedelparaiso.png', :class => 'logos-home') + 
+                          '<p class="text">Desde 220.000€ a 250.000€</p>' + 
+                          partial("modules/button", :locals => {
+                            :extra_classes => 'btn--ave',
+                            :type => "submit",
+                            :text => "Ver Ave del Paraíso"
+                          }) + 
+                          '</div>' +
+                          '<div class="slide-sectores-content buganvilla">' +
+                          image_tag('content/logo-buganvilla.png', :class => 'logos-home') + 
+                          '<p class="text">Desde 295.000€ a 360.000€</p>' + 
+                          partial("modules/button", :locals => {
+                            :extra_classes => 'btn--buganvilla',
+                            :type => "submit",
+                            :text => "Ver Buganvilla"
+                          }) +
+                        '</div>'
+          }) %>
+        </div>
+        <div class="swiper-slide">
+          <%= partial("modules/content-image", :locals => {
+            :extra_classes => 'content-image--left',
+            :image => 'content/slide-viviendas.png',
+            :small_title => 'nuestras',
+            :title => 'Viviendas',
+            :content => '<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. </p>
+              <p class="text"><a href="#" class="link">Áticos con terraza <span class="icon-arrow-right"></a></p>
+              <p class="text"><a href="#" class="link">Bajos con jardín <span class="icon-arrow-right"></a></p>'
+          }) %>
+        </div>
+        <div class="swiper-slide">
+          <%= partial("modules/content-image", :locals => {
+            :extra_classes => 'content-image--right',
+            :image => 'content/slide-ubicacion.png',
+            :small_title => 'inmejorable',
+            :title => 'Ubicación',
+            :content => '<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. </p>
+              <p class="text"><a href="#" class="link">Lorem ipsum <span class="icon-arrow-right"></a></p>'
+          }) %>
+        </div>
+      </div>
+
+      <div class="carousel-home__slider__controls">
+        <div class="swiper-button-prev carousel-home__slider__prev"><span class="icon-arrow-left"></span></div>
+        <div class="swiper-button-next carousel-home__slider__next"><span class="icon-arrow-right"></span></div>
+      </div>
+    </div>
+  </div>
+
 </div>
 <%= partial("shared/footer") %>
