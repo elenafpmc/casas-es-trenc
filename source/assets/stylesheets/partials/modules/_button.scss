@@ -1,0 +1,94 @@
+.btn {
+  display: inline-block;
+  width: auto;
+  padding: 17px 15px;
+  font-family: $font_default;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: $black;
+  background-color: $white;
+  border-radius: 3px;
+  border: 2px solid $white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  &--block {
+    display: block;
+    width: 100%;
+  }
+
+  &--primary {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+    &:hover {
+      background-color: rgba($black, 0.8);
+      border-color: rgba($black, 0.8);
+    }
+    &:active {
+      // background-color: mix($primary-10, $darkness, 85%);
+      // border-color: mix($primary-10, $darkness, 85%);
+    }
+    &[disabled] {
+      background-color: mix($black, $white, 20%);
+      border-color: mix($black, $white, 20%);
+    }
+  }
+
+  &--ave {
+    background-color: $orange;
+    border-color: $orange;
+    color: $white;
+    padding: 10px 15px;
+    &:hover {
+      background-color: rgba($orange, 0.8);
+      border-color: rgba($orange, 0.8);
+    }
+    &:active {
+      // background-color: mix($primary-10, $darkness, 85%);
+      // border-color: mix($primary-10, $darkness, 85%);
+    }
+    &[disabled] {
+      background-color: mix($orange, $white, 20%);
+      border-color: mix($orange, $white, 20%);
+    }
+  }
+
+  &--buganvilla {
+    background-color: $pink;
+    border-color: $pink;
+    color: $white;
+    padding: 10px 15px;
+    &:hover {
+      background-color: rgba($pink, 0.8);
+      border-color: rgba($pink, 0.8);
+    }
+    &:active {
+      // background-color: mix($primary-10, $darkness, 85%);
+      // border-color: mix($primary-10, $darkness, 85%);
+    }
+    &[disabled] {
+      background-color: mix($pink, $white, 20%);
+      border-color: mix($pink, $white, 20%);
+    }
+  }
+
+  &--secondary {
+    
+    &:hover {
+      
+    }
+    &:active {
+      
+    }
+    &[disabled] {
+      
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
