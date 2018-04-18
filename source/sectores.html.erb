@@ -1,0 +1,114 @@
+---
+title: Sectores
+layout: layout
+---
+<%= partial("shared/header", :locals => {
+  :extra_classes => ''
+}) %>
+
+<div class="content__wrapper sectores">
+
+  <%= partial("modules/sector", :locals => {
+    :extra_classes => 'sector--left',
+    :type => 'sector',
+    :title => 'Aves del paraíso',
+    :image => 'assets/images/content/sector-avedelparaiso.png',
+    :text => '<p class="text">Pisos desde</p> <p class="price">220.000€</p>',
+    :content => '<div class="sector__content__info">' +
+                  image_tag('content/logo-avedelparaiso.png', :class => 'sector__content__info__logo') +
+                  '<p class="sector__content__info__title">Apartamentos Aves del Paraíso</p>
+                  <div class="sector__content__info__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p class="price">
+                      <span class="small">Pisos desde</span>
+                       220.000€
+                    </p>
+                  </div>
+                </div>',
+    :sector_list => [
+      {
+        :image => 'content/sector-list-01.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-02.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      },
+      {
+        :image => 'content/sector-list-03.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-04.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      },
+      {
+        :image => 'content/sector-list-05.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-06.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      }
+    ]
+  }) %>
+
+  <%= partial("modules/sector", :locals => {
+    :extra_classes => 'sector--right',
+    :type => 'sector',
+    :title => 'Buganvilla',
+    :image => 'assets/images/content/sector-buganvilla.png',
+    :text => '<p class="text">Pisos desde</p> <p class="price">295.000€</p>',
+    :content => '<div class="sector__content__info">' +
+                  image_tag('content/logo-buganvilla.png', :class => 'sector__content__info__logo') +
+                  '<p class="sector__content__info__title">Apartamentos Buganvilla</p>
+                  <div class="sector__content__info__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p class="price">
+                      <span class="small">Pisos desde</span>
+                       295.000€ a 360.000€
+                    </p>
+                  </div>
+                </div>',
+    :sector_list => [
+      {
+        :image => 'content/sector-list-01.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-02.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      },
+      {
+        :image => 'content/sector-list-03.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-04.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      },
+      {
+        :image => 'content/sector-list-05.png',
+        :title => 'Cocina americana',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
+      },
+      {
+        :image => 'content/sector-list-06.png',
+        :title => 'Salón con vistas',
+        :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
+      }
+    ]
+  }) %>
+
+</div>
+<%= partial("shared/footer") %>

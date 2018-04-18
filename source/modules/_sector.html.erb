@@ -1,0 +1,39 @@
+<%
+  extra_classes ||= ""
+  type ||= ""
+  title ||= ""
+  image ||= ""
+  text ||= ""
+  content ||= ""
+  sector_list ||= []
+%>
+
+
+<div class="sector <%= extra_classes %>">
+  <div class="sector__header" style="background-image: url(<%= image %>);">
+    <div class="sector__header__content">
+      <p class="sector__header__content__title"><%= title %></p>
+      <div class="sector__header__content__text"><%= text %></div>
+
+      <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
+    </div>
+  </div>
+  <div class="sector__content">
+    <%= content %>
+    <% if sector_list.count > 0 %>
+      <div class="sector__content__list">
+        <% sector_list.each do | item | %>
+          <div class="sector__content__list__item">
+            <%= image_tag(item[:image], :class => 'item-image')%>
+            <p class="title">
+              <%= item[:title] %>
+            </p>
+            <p class="text">
+              <%= item[:text] %>
+            </p>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
