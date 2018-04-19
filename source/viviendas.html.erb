@@ -1,0 +1,46 @@
+---
+title: Viviendas
+layout: layout
+---
+<%= partial("shared/header", :locals => {
+  :extra_classes => ''
+}) %>
+
+<div class="content__wrapper sectores">
+
+  <%= partial("modules/sector", :locals => {
+    :extra_classes => 'sector--left',
+    :type => 'vivienda',
+    :title => 'Áticos con terraza',
+    :image => 'assets/images/content/sector-avedelparaiso.png',
+    :text => '',
+    :content => '<div class="sector__content__info">
+                  <p class="sector__content__info__title">Áticos</p>
+                  <div class="sector__content__info__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p>
+                    </p>
+                  </div>
+                </div>'
+  }) %>
+
+  <%= partial("modules/sector", :locals => {
+    :extra_classes => 'sector--right',
+    :type => 'vivienda',
+    :title => 'Bajo con jardín',
+    :image => 'assets/images/content/sector-buganvilla.png',
+    :text => '',
+    :content => '<div class="sector__content__info">
+                  <p class="sector__content__info__title">Bajos</p>
+                  <div class="sector__content__info__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p class="price">
+                      <span class="small">Pisos desde</span>
+                       295.000€ a 360.000€
+                    </p>
+                  </div>
+                </div>'
+  }) %>
+
+</div>
+<%= partial("shared/footer") %>
