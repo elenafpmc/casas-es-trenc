@@ -1,0 +1,1 @@
+$(".sector").length>0&&$(".btn-sector").on("click",function(){var e=$(this).closest(".sector"),s=e.find(".sector__content");s.is(":hidden")?(s.slideDown(500),e.addClass("open")):(s.slideUp(500),e.removeClass("open"))});
