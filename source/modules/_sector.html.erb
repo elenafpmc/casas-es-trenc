@@ -16,6 +16,15 @@
       <% if ( type == 'sector') %>
         <div class="sector__header__content__text"><%= text %></div>
       <% end %>
+      <% if ( type == 'vivienda') %>
+        <div class="cnt-button">
+          <%= partial("modules/button", :locals => {
+            :extra_classes => 'btn--sm btn--secondary',
+            :type => "button",
+            :text => "Solicita un catálogo"
+          }) %>
+        </div>
+      <% end %>
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
   </div>
@@ -34,6 +43,101 @@
             </p>
           </div>
         <% end %>
+      </div>
+    <% end %>
+
+    <% if ( type == 'vivienda') %>
+      <div class="gallery">
+        <div class="swiper-container gallery__top">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-container gallery__thumbs">
+          <div class="swiper-button-prev gallery__thumbs__prev"><span class="icon-arrow-left-alt"></span></div>
+
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+            <div class="swiper-slide">
+              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
+            </div>
+          </div>
+
+
+          <div class="swiper-button-next gallery__thumbs__next"><span class="icon-arrow-right-alt"></span></div>
+        </div>
+
+        <div class="row center-sm">
+          <div class="col-sm-3">
+            <%= partial("modules/button", :locals => {
+              :extra_classes => 'btn--sm btn--primary',
+              :type => "button",
+              :text => "Solicita un catálogo"
+            }) %>
+          </div>
+        </div>
+
+        <div class="row center-sm">
+          <div class="col-sm-3">
+            <a href="#" class="link">Ver memoria de calidades <span class="icon-arrow-right"></span></a>
+          </div>
+        </div>
       </div>
     <% end %>
   </div>

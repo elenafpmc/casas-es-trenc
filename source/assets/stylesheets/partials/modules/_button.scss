@@ -18,7 +18,9 @@
     display: block;
     width: 100%;
   }
-
+  &--sm {
+    padding: 10px 15px;
+  }
   &--primary {
     background-color: $black;
     border-color: $black;
