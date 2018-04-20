@@ -12,6 +12,9 @@
 <div class="sector <%= extra_classes %>">
   <div class="sector__header" style="background-image: url(<%= image %>);">
     <div class="sector__header__content">
+      <% if ( type == 'ubicacion') %>
+        <div class="sector__header__content__text"><%= text %></div>
+      <% end %>
       <p class="sector__header__content__title"><%= title %></p>
       <% if ( type == 'sector') %>
         <div class="sector__header__content__text"><%= text %></div>
