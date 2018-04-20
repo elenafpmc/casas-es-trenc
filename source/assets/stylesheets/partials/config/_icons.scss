@@ -13,6 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-tel:before {
+  content: "\e90a";
+}
+.icon-arrow-right-hero:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-arrow-left-hero:before {
+  content: "\e905";
+  color: #fff;
+}
 .icon-triangle:before {
   content: "\e909";
 }
@@ -22,17 +33,11 @@
 .icon-arrow-left-alt:before {
   content: "\e901";
 }
-.icon-arrow-left-hero:before {
-  content: "\e902";
-}
 .icon-arrow-left:before {
   content: "\e903";
 }
 .icon-arrow-right-alt:before {
   content: "\e904";
-}
-.icon-arrow-right-hero:before {
-  content: "\e905";
 }
 .icon-arrow-right:before {
   content: "\e906";

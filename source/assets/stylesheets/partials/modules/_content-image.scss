@@ -35,6 +35,9 @@
       color: $grey;
       padding-left: 33px;
       margin-bottom: 18px;
+      &.lead {
+        color: $black;
+      }
       .link {
         margin-bottom: 8px;
       }

@@ -14,7 +14,6 @@
     justify-content: flex-end;
     align-items: center;
     height: 550px;
-    width: calc(100% - 60px);
     @include media("<phablet") {
       width: 100%;
       height: 350px;
@@ -39,6 +38,12 @@
       }
       &__text {
         color: $white;
+        .title {
+          font-family: $font_title;
+          font-size: 20px;
+          line-height: 27px;
+          margin-bottom: 13px;
+        }
         .text {
           font-size: 18px;
           line-height: 32px;
@@ -252,6 +257,15 @@
           display: block;
         }
       }
+    }
+  }
+  &--fullwidth {
+    width: 100%;
+    padding-top: 0;
+  }
+  &--left {
+    .sector__header {
+      width: calc(100% - 60px);
     }
   }
   &--right {

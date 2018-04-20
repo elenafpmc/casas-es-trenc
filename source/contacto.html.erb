@@ -1,0 +1,124 @@
+---
+title: Contacto
+layout: layout
+---
+<%= partial("shared/header", :locals => {
+  :extra_classes => ''
+}) %>
+
+<div class="content__wrapper contacto">
+
+  <div class="contacto__info">
+    <div class="contacto__info__content">
+      <div class="contacto__info__content__block">
+        <p class="contacto__info__content__title">
+          CASAS ES TRENC OFICINA DE VENTAS
+        </p>
+        <p class="contacto__info__content__address">
+          Carrer de sa Vinyola
+          <br />
+          07639 Sa Ràpita - Campos
+          <br />
+          Illes Balears, Spain
+        </p>
+        <a href="mailto:info@casasestrencmallorca.com"><span class="icon-mail"></span>info@casasestrencmallorca.com</a>
+        <a href="tel:+34871811998"><span class="icon-tel"></span>(+34) 871811998</a>
+      </div>
+      <div class="contacto__info__content__block">
+        <p class="contacto__info__content__title">
+          URNOVA, OFICINA EN MALLORCA
+        </p>
+        <p class="contacto__info__content__address">
+          C/ Joan Maragall, 38 Local 9
+          <br />
+          07006 Palma de Mallorca, España
+        </p>
+        <a href="mailto:info@urnova.com"><span class="icon-mail"></span>info@urnova.com</a>
+        <a href="tel:+34971274282"><span class="icon-tel"></span>(+34) 971274282</a>
+        <a href="http://www.urnova.es" class="link">www.urnova.es</a>
+      </div>
+    </div>
+    <div class="contacto__info__map">
+      <%= image_tag('content/mapa-ubicacion.jpg', :class => '') %>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row center-xs">
+      <div class="col-sm-8 col-md-4 col-xs-12">
+        <div class="contacto__form">
+          <form>
+            <div class="form-item">
+              <%= partial("modules/input", :locals => {
+                :extra_classes => '',
+                :placeholder => "Nombre y apellidos",
+                :name => "contact-name",
+                :type => "text"
+              }) %>
+            </div>
+            <div class="form-item">
+
+              <%= partial("modules/select", :locals => {
+                :extra_classes => 'small',
+                :name => "contact-phone-prefix",
+                :options => ['+34', '+23', '+43']
+              }) %>
+
+
+              <%= partial("modules/input", :locals => {
+                :extra_classes => '',
+                :placeholder => "Número de teléfono",
+                :name => "contact-phone",
+                :type => "text"
+              }) %>
+            </div>
+
+            <div class="form-item">
+              <%= partial("modules/input", :locals => {
+                :extra_classes => '',
+                :placeholder => "Mail",
+                :name => "contact-mail",
+                :type => "email"
+              }) %>
+            </div>
+
+            <div class="form-item">
+              
+              <%= partial("modules/select", :locals => {
+                :extra_classes => '',
+                :name => "contact-subject",
+                :options => ['Visita directa con el promotor', 'Visita directa con el promotor', 'Visita directa con el promotor']
+              }) %>
+
+            </div>
+
+            <div class="form-item">
+              <%= partial("modules/input", :locals => {
+                :extra_classes => '',
+                :placeholder => "Mensaje",
+                :name => "hero-message",
+                :type => "test"
+              }) %>
+            </div>
+
+            <div class="form-item">
+              <%= partial("modules/checkbox", :locals => {
+                :extra_classes => '',
+                :label => "Acepto la cláusula de privacidad.",
+                :name => "hero-lega",
+              }) %>
+            </div>
+
+            <%= partial("modules/button", :locals => {
+              :extra_classes => 'btn--block btn--primary',
+              :type => "submit",
+              :text => "Enviar"
+            }) %>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<%= partial("shared/footer") %>
