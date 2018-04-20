@@ -29,15 +29,17 @@ if ( $('.gallery').length > 0 ) {
     });
     var galleryThumbs = new Swiper(swiperThumb, {
       spaceBetween: 3,
-      // slidesOffsetBefore: 50,
-      // slidesOffsetAfter: 50,
-      // centeredSlides: true,
       slidesPerView: 5,
       touchRatio: 0.2,
       slideToClickedSlide: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
+      },
+      breakpoints: {
+        767: {
+          slidesPerView: 3
+        }
       }
     });
     galleryTop.controller.control = galleryThumbs;

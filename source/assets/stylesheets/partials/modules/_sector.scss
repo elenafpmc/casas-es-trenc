@@ -22,6 +22,9 @@
     &__content {
       padding-bottom: 38px;
       text-align: center;
+      @include media("<phablet") {
+        max-width: calc(100% - 20px);
+      }
       &__title {
         font-family: $font_title;
         font-size: 60px;
@@ -163,12 +166,20 @@
       .gallery__top {
         width: calc(100% - 226px);
         margin: 0 auto 30px auto;
+        @include media("<phablet") {
+          width: 100%;
+        }
       }
       .gallery__thumbs {
         width: calc(100% - 226px);
         margin: 0 auto 44px auto;
         padding: 0 50px;
         background-color: $white;
+        @include media("<phablet") {
+          width: 100%;
+          padding: 0 20px;
+          margin: 0 auto 20px auto;
+        }
         .swiper-slide {
           &:before {
             content: '';
@@ -196,6 +207,11 @@
           bottom: 0;
           height: auto;
           margin: 0;
+          @include media("<phablet") {
+            width: 20px;
+            padding: 14px 0 14px 0;
+            font-size: 12px;
+          }
           [class^="icon-"] {
             height: 16px;
             margin: auto;
