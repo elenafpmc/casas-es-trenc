@@ -56,7 +56,7 @@
         </div>
       </li>
       <li class="header__nav__info">
-        <button type="button" class="btn-info">
+        <button type="button" class="btn-info" data-modal-open="modal-info">
           <span class="icon-mail"></span>
           <span class="text">+ info</span>
         </button>
@@ -64,3 +64,14 @@
     </ul>
   </nav>
 </header>
+
+<%= partial("modules/modal", :locals => {
+    :modal_selector => 'modal-info',
+    :extra_classes => 'modal-info',
+    :title => 'Más información',
+    :content => partial("modules/form-info", :locals => {
+        :extra_classes => '',
+        :prefix => "modal"
+      })
+  }) %>
+  

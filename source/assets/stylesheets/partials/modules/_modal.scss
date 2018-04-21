@@ -1,0 +1,74 @@
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($black, 0.5);
+  overflow: auto;
+  padding: 0 8px 8px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -10;
+  transition: opacity 0.5s ease-out 0s, visibility 0.5s ease-out 0s;
+
+  &__dialog {
+    display: block;
+    position: relative;
+    width: 624px;
+    height: auto;
+    max-width: 100%;
+    padding: 30px 25px 25px 25px;
+    margin: 100px auto 0;
+    background-color: $white;
+    &__close {
+      display: block;
+      position: absolute;
+      font-size: 16px;
+      color: $black;
+      height: 16px;
+      width: 16px;
+      top: 16px;
+      right: 16px;
+      cursor: pointer;
+    }
+
+    &__wrapper {
+
+      &__title {
+        font-family: $font_default;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        color: $black;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 0 16px 0;
+      }
+
+      &__content {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .modal-open &.modal-open {
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+  }
+
+  &.modal-info {
+    .modal__dialog {
+      width: 260px;
+    }
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+}
