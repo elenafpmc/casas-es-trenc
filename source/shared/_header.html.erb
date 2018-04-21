@@ -1,5 +1,6 @@
 <%
   extra_classes ||= ''
+  active ||= ''
 %>
 <header class="header <%= extra_classes %>">
   <button type="button" class="btn-menu-mobile show-on-mobile"><span class="menu-bar"></span></button>
@@ -15,16 +16,16 @@
 
   <nav class="header__nav">
     <ul>
-      <li>
+      <li <%= active == 'sectores' ? 'class="active"' : '' %> >
         <a href="#">Sectores</a>
       </li>
-      <li>
+      <li <%= active == 'viviendas' ? 'class="active"' : '' %> >
         <a href="#">Viviendas</a>
       </li>
-      <li>
+      <li <%= active == 'ubicacion' ? 'class="active"' : '' %> >
         <a href="#">Ubicación</a>
       </li>
-      <li>
+      <li <%= active == 'contacto' ? 'class="active"' : '' %> >
         <a href="#">Contacto</a>
       </li>
       <li class="menu-lang">
