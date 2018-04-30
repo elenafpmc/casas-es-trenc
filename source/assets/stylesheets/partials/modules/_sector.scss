@@ -266,6 +266,9 @@
   &--left {
     .sector__header {
       width: calc(100% - 60px);
+      @include media("<phablet") {
+        width: 100%;
+      }
     }
   }
   &--right {
