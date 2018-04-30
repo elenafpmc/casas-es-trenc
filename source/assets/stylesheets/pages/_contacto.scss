@@ -1,4 +1,24 @@
 .contacto {
+  padding-top: 30px;
+  &__title {
+    font-family: $font_title;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 20px auto;
+  }
+  &__text {
+    font-size: 17px;
+    line-height: 24px;
+    color: $grey;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 30px auto;
+
+  }
   &__info {
     display: flex;
     align-items: stretch;
