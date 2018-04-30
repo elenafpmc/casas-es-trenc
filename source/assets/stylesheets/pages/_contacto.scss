@@ -53,6 +53,8 @@
         margin-bottom: 5px;
         color: inherit;
         text-decoration: none;
+        display: inline-block;
+        clear: both;
         [class^="icon-"] {
           margin-left: 0;
           font-size: 16px;
@@ -61,8 +63,29 @@
           top: 0px;
           left: 0;
         }
+  &:after {
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: $black;
+    position: absolute;
+    left: 26px;
+    bottom: 0;
+    transition: width 0.5s;
+  }
+  &:hover {
+    &:after {
+      height: 1px;
+      width: calc(100% - 25px);
+    }
+  }
         &.link {
-          text-decoration: underline;
+          // text-decoration: underline;
+          display: inline-block;
+          &:after {
+            left: 26px;
+          }
         }
       }
     }
