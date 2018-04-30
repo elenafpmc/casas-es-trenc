@@ -8,6 +8,15 @@ if ( $('.sector').length > 0 ) {
       setTimeout(function(){
         sector.trigger('show-sector');
       }, 500);
+
+      var headerOffset = $('.header').height();
+      var sectorContentTop = sectorContent.offset().top;
+
+      $('html, body').animate({
+          scrollTop: sectorContentTop - headerOffset + 1
+      }, 1000, function() {
+      });
+
     } else {
       sectorContent.slideUp(500);
       sector.removeClass('open');
