@@ -96,10 +96,11 @@ layout: layout
             </div>
 
             <div class="form-item">
-              <%= partial("modules/textarea", :locals => {
+              <%= partial("modules/input", :locals => {
                 :extra_classes => '',
                 :placeholder => "Mensaje",
-                :name => "hero-message"
+                :name => "contact-message",
+                :type => "text"
               }) %>
             </div>
 
@@ -107,7 +108,7 @@ layout: layout
               <%= partial("modules/checkbox", :locals => {
                 :extra_classes => '',
                 :label => "Acepto la <a href='./politica-de-privacidad'>cláusula de privacidad.</a>",
-                :name => "hero-lega",
+                :name => "contact-lega",
               }) %>
             </div>
 
