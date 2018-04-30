@@ -112,10 +112,15 @@
     &__map {
       width: calc(100% * 7 / 12);
       text-align: center;
+      display: flex;
+      align-items: stretch;
       @include media("<tablet") {
         width: 60%;
       }
       @include media("<phablet") {
+        width: 100%;
+      }
+      .map {
         width: 100%;
       }
     }
