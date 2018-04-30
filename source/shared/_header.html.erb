@@ -3,7 +3,6 @@
   active ||= ''
 %>
 <header class="header <%= extra_classes %>">
-  <button type="button" class="btn-menu-mobile show-on-mobile"><span class="menu-bar"></span></button>
   <div class="header__logo">
     <div class="header__logo__left">
       <%= image_tag('content/logo.png', :class => 'logo') %>
@@ -64,6 +63,7 @@
       </li>
     </ul>
   </nav>
+  <button type="button" class="btn-menu-mobile show-on-mobile"><span class="menu-bar"></span></button>
 </header>
 
 <%= partial("modules/modal", :locals => {

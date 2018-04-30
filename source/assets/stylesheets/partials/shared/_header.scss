@@ -10,9 +10,6 @@
   left: 0;
   right: 0;
   z-index: 99;
-  @include media("<phablet") {
-    justify-content: flex-start;
-  }
   .btn-menu-mobile {
     display: none;
     background-color: $white;
