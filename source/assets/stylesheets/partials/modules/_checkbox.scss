@@ -12,6 +12,9 @@
     line-height: 19px;
     text-align: left;
     color: $grey;
+    a {
+      color: $black;
+    }
 
     &::before {
       content: '';
