@@ -19,15 +19,15 @@
       <% if ( type == 'sector') %>
         <div class="sector__header__content__text"><%= text %></div>
       <% end %>
-      <% if ( type == 'vivienda') %>
-        <div class="cnt-button">
-          <%= partial("modules/button", :locals => {
+      <%# if ( type == 'vivienda') %>
+        <!-- <div class="cnt-button"> -->
+          <%#= partial("modules/button", :locals => {
             :extra_classes => 'btn--sm btn--secondary',
             :type => "button",
             :text => "Solicita un catálogo"
           }) %>
-        </div>
-      <% end %>
+        <!-- </div> -->
+      <%# end %>
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
   </div>
