@@ -129,6 +129,7 @@
         <div class="row center-xs">
           <div class="col-md-3 col-sm-4">
             <%= partial("modules/button", :locals => {
+              :extra_attributes => ' data-modal-open="modal-catalog"',
               :extra_classes => 'btn--sm btn--primary',
               :type => "button",
               :text => "Solicita un catálogo"
@@ -145,3 +146,14 @@
     <% end %>
   </div>
 </div>
+
+<%= partial("modules/modal", :locals => {
+    :modal_selector => 'modal-catalog',
+    :extra_classes => 'modal-catalog',
+    :title => 'Solicita un catálogo',
+    :content => partial("modules/form-catalog", :locals => {
+        :extra_classes => '',
+        :prefix => "catalog"
+      })
+  }) %>
+  
