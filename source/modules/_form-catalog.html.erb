@@ -3,29 +3,13 @@
   prefix ||= ""
 %>
 
-<div class="form-info">
+<div class="form-catalog">
   <form>
     <div class="form-item">
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
-        :placeholder => "Nombre y apellidos",
+        :placeholder => "Nombre",
         :name => prefix+"-name",
-        :type => "text"
-      }) %>
-    </div>
-    <div class="form-item">
-
-      <%= partial("modules/select", :locals => {
-        :extra_classes => '',
-        :name => prefix+"-phone-prefix",
-        :options => ['+34', '+23', '+43']
-      }) %>
-
-
-      <%= partial("modules/input", :locals => {
-        :extra_classes => '',
-        :placeholder => "Número",
-        :name => prefix+"-phone",
         :type => "text"
       }) %>
     </div>
@@ -42,8 +26,8 @@
     <div class="form-item">
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
-        :placeholder => "Mensaje",
-        :name => prefix+"-message",
+        :placeholder => "Dirección",
+        :name => prefix+"-address",
         :type => "text"
       }) %>
     </div>
