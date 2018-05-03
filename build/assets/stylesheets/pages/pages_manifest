@@ -8,6 +8,7 @@ Error: File to import not found or unreadable: pages/home.
 4: @import "pages/viviendas";
 5: @import "pages/ubicacion";
 6: @import "pages/contacto";
+7: @import "pages/static";
 
 Backtrace:
 /Applications/XAMPP/xamppfiles/htdocs/casas-es-trenc/source/assets/stylesheets/pages/pages_manifest.scss:2
@@ -131,4 +132,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: pages/home.\A         on line 2 of /Applications/XAMPP/xamppfiles/htdocs/casas-es-trenc/source/assets/stylesheets/pages/pages_manifest.scss\A \A 1: // PAGES\A 2: @import \"pages/home\";\A 3: @import \"pages/sectores\";\A 4: @import \"pages/viviendas\";\A 5: @import \"pages/ubicacion\";\A 6: @import \"pages/contacto\";"; }
+  content: "Error: File to import not found or unreadable: pages/home.\A         on line 2 of /Applications/XAMPP/xamppfiles/htdocs/casas-es-trenc/source/assets/stylesheets/pages/pages_manifest.scss\A \A 1: // PAGES\A 2: @import \"pages/home\";\A 3: @import \"pages/sectores\";\A 4: @import \"pages/viviendas\";\A 5: @import \"pages/ubicacion\";\A 6: @import \"pages/contacto\";\A 7: @import \"pages/static\";"; }

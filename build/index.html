@@ -6,14 +6,25 @@
 <meta name=viewport
 content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+<link rel=apple-touch-icon-precomposed sizes=57x57 href="./apple-touch-icon-57x57.png"/>
+<link rel=apple-touch-icon-precomposed sizes=114x114 href="./apple-touch-icon-114x114.png"/>
+<link rel=apple-touch-icon-precomposed sizes=72x72 href="./apple-touch-icon-72x72.png"/>
+<link rel=apple-touch-icon-precomposed sizes=144x144 href="./apple-touch-icon-144x144.png"/>
+<link rel=apple-touch-icon-precomposed sizes=120x120 href="./apple-touch-icon-120x120.png"/>
+<link rel=apple-touch-icon-precomposed sizes=152x152 href="./apple-touch-icon-152x152.png"/>
+<link rel=icon type="image/png" href="./favicon-32x32.png" sizes=32x32 />
+<link rel=icon type="image/png" href="./favicon-16x16.png" sizes=16x16 />
+<meta name=application-name content="&nbsp;"/>
+<meta name=msapplication-TileColor content="#FFFFFF"/>
+<meta name=msapplication-TileImage content="./mstile-144x144.png"/>
 <title>Proyect Index</title>
 <link href="assets/stylesheets/stylesheets.css" rel=stylesheet />
 </head>
 <body>
 <div class=body-wrapper>
 <header class="header ">
-<button type=button class="btn-menu-mobile show-on-mobile"><span class=menu-bar></span></button>
-<div class=header__logo>
+<a href="//development.flyingpigs.es/casas-es-trenc/build/contacto/" class=header__logo>
 <div class=header__logo__left>
 <img src="assets/images/content/logo.png" class=logo alt=Logo />
 <p>(Directo del promotor)</p>
@@ -21,20 +32,20 @@ content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <div class=header__logo__urnova>
 <img src="assets/images/content/logo-urnova.png" class=urnova alt="Logo urnova"/>
 </div>
-</div>
+</a>
 <nav class=header__nav>
 <ul>
 <li>
-<a href="#">Sectores</a>
+<a href="//development.flyingpigs.es/casas-es-trenc/build/sectores/">Sectores</a>
 </li>
 <li>
-<a href="#">Viviendas</a>
+<a href="//development.flyingpigs.es/casas-es-trenc/build/viviendas/">Viviendas</a>
 </li>
 <li>
-<a href="#">Ubicación</a>
+<a href="//development.flyingpigs.es/casas-es-trenc/build/ubicacion/">Ubicación</a>
 </li>
 <li>
-<a href="#">Contacto</a>
+<a href="//development.flyingpigs.es/casas-es-trenc/build/contacto/">Contacto</a>
 </li>
 <li class=menu-lang>
 <div class=cnt-lang-selector>
@@ -65,14 +76,64 @@ content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </div>
 </li>
 <li class=header__nav__info>
-<button type=button class=btn-info>
+<button type=button class=btn-info data-modal-open=modal-info>
 <span class=icon-mail></span>
 <span class=text>+ info</span>
 </button>
 </li>
 </ul>
 </nav>
+<button type=button class="btn-menu-mobile show-on-mobile"><span class=menu-bar></span></button>
 </header>
+<div class="modal modal-info" data-modal=modal-info data-modal-close>
+<div class=modal__dialog>
+<div class=modal__dialog__close data-modal-close><span class=icon-close></span></div>
+<div class=modal__dialog__wrapper>
+<p class=modal__dialog__wrapper__title>Más información</p>
+<div class=modal__dialog__wrapper__content>
+<div class=form-info>
+<form>
+<div class=form-item>
+<div class="input ">
+<input id=modal-name name=modal-name placeholder="Nombre y apellidos" value="" class=input__field>
+</div>
+</div>
+<div class=form-item>
+<div class="select ">
+<select id=modal-phone-prefix class=select__field>
+<option>+34</option>
+<option>+23</option>
+<option>+43</option>
+</select>
+</div>
+<div class="input ">
+<input id=modal-phone name=modal-phone placeholder="Número" value="" class=input__field>
+</div>
+</div>
+<div class=form-item>
+<div class="input ">
+<input type=email id=modal-mail name=modal-mail placeholder=Mail value="" class=input__field>
+</div>
+</div>
+<div class=form-item>
+<div class="input ">
+<input id=modal-message name=modal-message placeholder=Mensaje value="" class=input__field>
+</div>
+</div>
+<div class=form-item>
+<div class="checkbox ">
+<input type=checkbox id=modal-lega name=modal-lega class=checkbox__field>
+<label for=modal-lega class=checkbox__label>Acepto la <a href='./politica-de-privacidad'>cláusula de privacidad.</a></label>
+</div>
+</div>
+<button type=submit class="btn btn--block btn--primary">
+Enviar solicitud
+</button>
+</form>
+</div></div>
+</div>
+</div>
+</div>
 <div class=content__wrapper>
 <h1>Page content</h1>
 <h1>Module content</h1>
@@ -127,13 +188,13 @@ content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </p>
 <ul>
 <li>
-<a href="#">Aviso legal</a>
+<a href="./aviso-legal">Aviso legal</a>
 </li>
 <li>
 |
 </li>
 <li>
-<a href="#">Política de privacidad</a>
+<a href="./politica-de-privacidad">Política de privacidad</a>
 </li>
 </ul>
 </div>
@@ -141,6 +202,7 @@ content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </div>
 </footer>
 </div>
+<script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyAo28Pb3POxP1WAe2gU42C_f0hjvnCpDgE"></script>
 <script src="assets/javascript/all.fn.js"></script><script src="assets/javascript/all.js"></script>
 </body>
 </html>
