@@ -7,7 +7,7 @@ if ( $('#map').length > 0 ) {
       center: {lat: 39.5261095, lng: 2.9138872}
     });
     var image = {
-      url: './assets/images/content/marker.png',
+      url: 'http://development.flyingpigs.es/casas-es-trenc/build/assets/images/content/marker.png',
       size: new google.maps.Size(150, 150),
       origin: new google.maps.Point(0, 0),
       anchor: new google.maps.Point(37, 37),
@@ -24,5 +24,7 @@ if ( $('#map').length > 0 ) {
       icon: image
     });
   }
-  initMap();
+  $(document).on('ready', function() {
+    initMap();
+  });
 }
