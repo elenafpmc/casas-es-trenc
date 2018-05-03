@@ -67,6 +67,12 @@
       width: 260px;
     }
   }
+
+  &.modal-catalog {
+    .modal__dialog {
+      width: 260px;
+    }
+  }
 }
 
 body.modal-open {
