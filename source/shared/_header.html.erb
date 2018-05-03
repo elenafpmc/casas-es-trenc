@@ -3,7 +3,7 @@
   active ||= ''
 %>
 <header class="header <%= extra_classes %>">
-  <div class="header__logo">
+  <a href="http://development.flyingpigs.es/casas-es-trenc/build/contacto/" class="header__logo">
     <div class="header__logo__left">
       <%= image_tag('content/logo.png', :class => 'logo') %>
       <p>(Directo del promotor)</p>
@@ -11,21 +11,21 @@
     <div class="header__logo__urnova">
       <%= image_tag('content/logo-urnova.png', :class => 'urnova') %>
     </div>
-  </div>
+  </a>
 
   <nav class="header__nav">
     <ul>
       <li <%= active == 'sectores' ? 'class="active"' : '' %> >
-        <a href="#">Sectores</a>
+        <a href="http://development.flyingpigs.es/casas-es-trenc/build/sectores/">Sectores</a>
       </li>
       <li <%= active == 'viviendas' ? 'class="active"' : '' %> >
-        <a href="#">Viviendas</a>
+        <a href="http://development.flyingpigs.es/casas-es-trenc/build/viviendas/">Viviendas</a>
       </li>
       <li <%= active == 'ubicacion' ? 'class="active"' : '' %> >
-        <a href="#">Ubicación</a>
+        <a href="http://development.flyingpigs.es/casas-es-trenc/build/ubicacion/">Ubicación</a>
       </li>
       <li <%= active == 'contacto' ? 'class="active"' : '' %> >
-        <a href="#">Contacto</a>
+        <a href="http://development.flyingpigs.es/casas-es-trenc/build/contacto/">Contacto</a>
       </li>
       <li class="menu-lang">
         <div class="cnt-lang-selector">
