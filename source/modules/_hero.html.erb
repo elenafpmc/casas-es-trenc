@@ -1,7 +1,5 @@
 <%
   extra_classes ||= ""
-  # title ||= ""
-  # text ||= ""
   images ||= ""
   form ||= false
 %>
@@ -18,73 +16,20 @@
       <% end %>
     </div>
 
-    <div class="swiper-button-prev hero__slider__prev"><span class="icon-arrow-right-hero"></span></div>
-    <div class="swiper-button-next hero__slider__next"><span class="icon-arrow-left-hero"></span></div>
+    <div class="swiper-button-prev hero__slider__prev"><span class="icon-arrow-left-hero"></span></div>
+    <div class="swiper-button-next hero__slider__next"><span class="icon-arrow-right-hero"></span></div>
   </div>
 
   <% if form == true %>
     <div class="hero__form">
-      <form>
-        <p class="hero__form__title">
-          Más información
-        </p>
-        <div class="form-item">
-          <%= partial("modules/input", :locals => {
-            :extra_classes => '',
-            :placeholder => "Nombre y apellidos",
-            :name => "hero-name",
-            :type => "text"
-          }) %>
-        </div>
-        <div class="form-item">
-
-          <%= partial("modules/select", :locals => {
-            :extra_classes => '',
-            :name => "hero-phone-prefix",
-            :options => ['+34', '+23', '+43']
-          }) %>
-
-
-          <%= partial("modules/input", :locals => {
-            :extra_classes => '',
-            :placeholder => "Número",
-            :name => "hero-phone",
-            :type => "text"
-          }) %>
-        </div>
-
-        <div class="form-item">
-          <%= partial("modules/input", :locals => {
-            :extra_classes => '',
-            :placeholder => "Mail",
-            :name => "hero-mail",
-            :type => "email"
-          }) %>
-        </div>
-
-        <div class="form-item">
-          <%= partial("modules/input", :locals => {
-            :extra_classes => '',
-            :placeholder => "Mensaje",
-            :name => "hero-message",
-            :type => "test"
-          }) %>
-        </div>
-
-        <div class="form-item">
-          <%= partial("modules/checkbox", :locals => {
-            :extra_classes => '',
-            :label => "Acepto la cláusula de privacidad.",
-            :name => "hero-lega",
-          }) %>
-        </div>
-
-        <%= partial("modules/button", :locals => {
-          :extra_classes => 'btn--block btn--primary',
-          :type => "submit",
-          :text => "Enviar solicitud"
-        }) %>
-      </form>
+    
+      <p class="hero__form__title">
+        Más información
+      </p>
+      <%= partial("modules/form-info", :locals => {
+        :extra_classes => '',
+        :prefix => "hero"
+      }) %>
     </div>
   <% end %>
 

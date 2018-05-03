@@ -1,4 +1,24 @@
 .contacto {
+  padding-top: 30px;
+  &__title {
+    font-family: $font_title;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 20px auto;
+  }
+  &__text {
+    font-size: 17px;
+    line-height: 24px;
+    color: $grey;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 30px auto;
+
+  }
   &__info {
     display: flex;
     align-items: stretch;
@@ -53,6 +73,8 @@
         margin-bottom: 5px;
         color: inherit;
         text-decoration: none;
+        display: inline-block;
+        clear: both;
         [class^="icon-"] {
           margin-left: 0;
           font-size: 16px;
@@ -61,33 +83,77 @@
           top: 0px;
           left: 0;
         }
+  &:after {
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: $black;
+    position: absolute;
+    left: 26px;
+    bottom: 0;
+    transition: width 0.5s;
+  }
+  &:hover {
+    &:after {
+      height: 1px;
+      width: calc(100% - 25px);
+    }
+  }
         &.link {
-          text-decoration: underline;
+          // text-decoration: underline;
+          display: inline-block;
+          &:after {
+            left: 26px;
+          }
         }
       }
     }
     &__map {
       width: calc(100% * 7 / 12);
       text-align: center;
+      display: flex;
+      align-items: stretch;
       @include media("<tablet") {
         width: 60%;
       }
       @include media("<phablet") {
         width: 100%;
       }
+      .map {
+        width: 100%;
+      }
     }
   }
   &__form {
     margin-bottom: 110px;
+    &__title {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+      color: $black;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 24px;
+      color: $grey;
+      margin-bottom: 24px;
+    }
     .form-item {
       margin-bottom: 5px;
       display: flex;
       justify-content: space-between;
       .select {
         padding-left: 16px;
+        padding-right: 16px;
         &.small {
           display: inline-block;
           width: 25%;
+          padding-right: 6px;
           & + .input {
             display: inline-block;
             width: 74%;

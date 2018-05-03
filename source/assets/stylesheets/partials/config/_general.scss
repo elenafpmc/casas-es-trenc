@@ -41,9 +41,27 @@ img {
   font-weight: 700;
   text-decoration: none;
   font-size: 14px;
+  position: relative;
   [class^="icon-"] {
     font-size: 11px;
     margin-left: 10px;
+  }
+  &:after {
+    display: block;
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: $black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: width 0.5s;
+  }
+  &:hover {
+    &:after {
+      height: 1px;
+      width: calc(100% - 25px);
+    }
   }
 }
 

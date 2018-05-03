@@ -1,0 +1,65 @@
+<%
+  extra_classes ||= ""
+  prefix ||= ""
+%>
+
+<div class="form-info">
+  <form>
+    <div class="form-item">
+      <%= partial("modules/input", :locals => {
+        :extra_classes => '',
+        :placeholder => "Nombre y apellidos",
+        :name => prefix+"-name",
+        :type => "text"
+      }) %>
+    </div>
+    <div class="form-item">
+
+      <%= partial("modules/select", :locals => {
+        :extra_classes => '',
+        :name => prefix+"-phone-prefix",
+        :options => ['+34', '+23', '+43']
+      }) %>
+
+
+      <%= partial("modules/input", :locals => {
+        :extra_classes => '',
+        :placeholder => "Número",
+        :name => prefix+"-phone",
+        :type => "text"
+      }) %>
+    </div>
+
+    <div class="form-item">
+      <%= partial("modules/input", :locals => {
+        :extra_classes => '',
+        :placeholder => "Mail",
+        :name => prefix+"-mail",
+        :type => "email"
+      }) %>
+    </div>
+
+    <div class="form-item">
+      <%= partial("modules/input", :locals => {
+        :extra_classes => '',
+        :placeholder => "Mensaje",
+        :name => prefix+"-message",
+        :type => "text"
+      }) %>
+    </div>
+
+    <div class="form-item">
+      <%= partial("modules/checkbox", :locals => {
+        :extra_classes => '',
+        :label => "Acepto la <a href='./politica-de-privacidad'>cláusula de privacidad.</a>",
+        :name => prefix+"-lega",
+      }) %>
+    </div>
+
+    <%= partial("modules/button", :locals => {
+      :extra_classes => 'btn--block btn--primary',
+      :type => "submit",
+      :text => "Enviar solicitud"
+    }) %>
+  </form>
+</div>

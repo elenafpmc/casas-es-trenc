@@ -3,7 +3,8 @@ title: Sectores
 layout: layout
 ---
 <%= partial("shared/header", :locals => {
-  :extra_classes => ''
+  :extra_classes => '',
+  :active => 'sectores'
 }) %>
 
 <div class="content__wrapper sectores">
@@ -11,14 +12,14 @@ layout: layout
   <%= partial("modules/sector", :locals => {
     :extra_classes => 'sector--left',
     :type => 'sector',
-    :title => 'Aves del paraíso',
-    :image => '../assets/images/content/sector-avedelparaiso.png',
+    :title => 'Ave del paraíso',
+    :image => '../assets/images/content/franciscogarvi.com_B7K7803.jpg',
     :text => '<p class="text">Pisos desde</p> <p class="price">220.000€</p>',
     :content => '<div class="sector__content__info">' +
                   image_tag('content/logo-avedelparaiso.png', :class => 'sector__content__info__logo') +
                   '<p class="sector__content__info__title">Apartamentos Aves del Paraíso</p>
                   <div class="sector__content__info__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p>En el sector Ave del Paraíso podrá disfrutar de una piscina para adultos de 20x11cm y otra piscina circular infantil de 8m de diámetro, zona solárium y una gran zona verde donde encontrará especies vegetales seleccionadas. Además, cuenta con plazas de aparcamiento privadas.</p>
                     <p class="price">
                       <span class="small">Pisos desde</span>
                        220.000€
@@ -27,33 +28,33 @@ layout: layout
                 </div>',
     :sector_list => [
       {
-        :image => 'content/sector-list-01.png',
+        :image => 'content/franciscogarvi.com_B7K7824.jpg',
         :title => 'Cocina americana',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-02.png',
+        :image => 'content/franciscogarvi.com_B7K7826.jpg',
         :title => 'Salón con vistas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       },
       {
-        :image => 'content/sector-list-03.png',
-        :title => 'Cocina americana',
+        :image => 'content/franciscogarvi.com_B7K3487.jpg',
+        :title => '2 baños completos',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-04.png',
-        :title => 'Salón con vistas',
+        :image => 'content/franciscogarvi.com_B7K3480.jpg',
+        :title => '2 dormitorios dobles',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       },
       {
-        :image => 'content/sector-list-05.png',
-        :title => 'Cocina americana',
+        :image => 'content/franciscogarvi.com_B7K3507.jpg',
+        :title => 'Amplias terrazas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-06.png',
-        :title => 'Salón con vistas',
+        :image => 'content/franciscogarvi.com_B7K3439.jpg',
+        :title => 'Zona común con jardines y piscinas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       }
     ]
@@ -63,13 +64,13 @@ layout: layout
     :extra_classes => 'sector--right',
     :type => 'sector',
     :title => 'Buganvilla',
-    :image => '../assets/images/content/sector-buganvilla.png',
+    :image => '../assets/images/content/sector-buganvilla.jpg',
     :text => '<p class="text">Pisos desde</p> <p class="price">295.000€</p>',
     :content => '<div class="sector__content__info">' +
                   image_tag('content/logo-buganvilla.png', :class => 'sector__content__info__logo') +
                   '<p class="sector__content__info__title">Apartamentos Buganvilla</p>
                   <div class="sector__content__info__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet eros venenatis tellus bibendum egestas ut non lacus.</p>
+                    <p>El sector Buganvilla cuenta con 15.000m2 de jardines, además de una gran piscina de agua salada de 33x14m más una piscina para niños y parque infantil, gimnasio con máquinas de última generación, sauna Freixenet, y una zona habilitada para la custodia y mantenimiento de bicicletas.</p>
                     <p class="price">
                       <span class="small">Pisos desde</span>
                        295.000€ a 360.000€
@@ -78,33 +79,33 @@ layout: layout
                 </div>',
     :sector_list => [
       {
-        :image => 'content/sector-list-01.png',
+        :image => 'content/franciscogarvi.com_B7K3457.jpg',
         :title => 'Cocina americana',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-02.png',
+        :image => 'content/franciscogarvi.com_B7K3449.jpg',
         :title => 'Salón con vistas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       },
       {
-        :image => 'content/sector-list-03.png',
-        :title => 'Cocina americana',
+        :image => 'content/franciscogarvi.com_B7K3487.jpg',
+        :title => '2 baños completos',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-04.png',
-        :title => 'Salón con vistas',
+        :image => 'content/franciscogarvi.com_B7K3480.jpg',
+        :title => '2 dormitorios dobles',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       },
       {
-        :image => 'content/sector-list-05.png',
-        :title => 'Cocina americana',
+        :image => 'content/franciscogarvi.com_B7K3507.jpg',
+        :title => 'Amplias terrazas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et enim vitae consectetur. Quisque et aliquet elit.'
       },
       {
-        :image => 'content/sector-list-06.png',
-        :title => 'Salón con vistas',
+        :image => 'content/franciscogarvi.com_B7K4299.jpg',
+        :title => 'Zona común con jardines y piscinas',
         :text => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend et.'
       }
     ]
