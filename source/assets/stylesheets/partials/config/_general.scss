@@ -123,3 +123,22 @@ body.no-scroll {
     display: none !important;
   }
 }
+
+.js_enabled #cookie-message {
+  display: none;
+
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  color: #727272;
+  padding-left: 33px;
+
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: $brown;
+  padding: 20px 0;
+}
