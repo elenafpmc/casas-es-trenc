@@ -41,4 +41,6 @@ layout: layout
   }) %>
 
 </div>
-<%= partial("shared/footer") %>
+<%= partial("shared/footer", :locals => {
+  :legal => false
+}) %>
