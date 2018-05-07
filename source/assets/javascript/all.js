@@ -4,6 +4,9 @@ Project.init = function(){
   
 };
 
+// Detect JS support
+document.body.className = document.body.className + " js_enabled";
+
 $(document).on("ready", function(){
   Project.init();
 });

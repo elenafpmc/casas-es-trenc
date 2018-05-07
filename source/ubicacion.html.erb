@@ -73,4 +73,6 @@ layout: layout
   <%= image_tag('content/mapa-ubicacion.jpg', :class => '') %>
 
 </div>
-<%= partial("shared/footer") %>
+<%= partial("shared/footer", :locals => {
+  :legal => false
+}) %>
