@@ -12,7 +12,9 @@ $(document).on("ready", function(){
 });
 
 $(window).on("load", function(){
-
+  $('.close-cookies').on('click', function(ev) {
+    $('#cookie-message').hide();
+  });
 });
 
 $(window).on("resize", function(){
