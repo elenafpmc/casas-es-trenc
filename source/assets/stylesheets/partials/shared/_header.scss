@@ -164,6 +164,7 @@
       text-align: center;
       .text {
         margin-left: 5px;
+        display: inline-block;
       }
     }
     .lang-list {
@@ -185,6 +186,11 @@
         min-height: 30px;
         line-height: 30px;
       }
+    }
+    .flag {
+      display: inline-block;
+      width: 14px;
+      vertical-align: text-top;
     }
     &.open {
       .lang-list {
@@ -253,15 +259,5 @@
         height: calc(100vh - 60px);
       }
     }
-  }
-}
-
-.flag {
-  display: inline-block;
-  width: 14px;
-  height: 8px;
-  background-repeat: no-repeat;
-  &.flag-es {
-    background-image: url(../images/icons/es.svg);
   }
 }

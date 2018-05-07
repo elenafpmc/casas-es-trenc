@@ -140,5 +140,16 @@ body.no-scroll {
   right: 0;
   z-index: 99999;
   background-color: $brown;
-  padding: 20px 0;
+  padding: 20px 20px;
+  a {
+    color: inherit;
+  }
+  .close-cookies {
+    background-color: transparent;
+    border: none;
+    
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
 }
