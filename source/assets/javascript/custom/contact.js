@@ -24,7 +24,7 @@ if ( $('#map').length > 0 ) {
       icon: image
     });
   }
-  $(document).on('ready', function() {
-    initMap();
-  });
+
+  google.maps.event.addDomListener(window, 'load', initMap);
+  
 }
