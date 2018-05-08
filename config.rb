@@ -62,22 +62,22 @@ configure :build do
   activate :relative_assets
   activate :minify_css
   activate :minify_javascript
-  activate :minify_html do |html|
-    html.remove_multi_spaces        = true   # Remove multiple spaces
-    html.remove_comments            = true   # Remove comments
-    html.remove_intertag_spaces     = true  # Remove inter-tag spaces
-    html.remove_quotes              = true   # Remove quotes
-    html.simple_doctype             = true  # Use simple doctype
-    html.remove_script_attributes   = true   # Remove script attributes
-    html.remove_style_attributes    = true   # Remove style attributes
-    html.remove_link_attributes     = true   # Remove link attributes
-    html.remove_form_attributes     = true  # Remove form attributes
-    html.remove_input_attributes    = true   # Remove input attributes
-    html.remove_javascript_protocol = true   # Remove JS protocol
-    html.remove_http_protocol       = true  # Remove HTTP protocol
-    html.remove_https_protocol      = true  # Remove HTTPS protocol
-    html.preserve_line_breaks       = true  # Preserve line breaks
-    html.simple_boolean_attributes  = true   # Use simple boolean attributes
-    html.preserve_patterns          = nil    # Patterns to preserve
-  end
+  # activate :minify_html do |html|
+  #   html.remove_multi_spaces        = false   # Remove multiple spaces
+  #   html.remove_comments            = true   # Remove comments
+  #   html.remove_intertag_spaces     = false  # Remove inter-tag spaces
+  #   html.remove_quotes              = false   # Remove quotes
+  #   html.simple_doctype             = true  # Use simple doctype
+  #   html.remove_script_attributes   = false   # Remove script attributes
+  #   html.remove_style_attributes    = false   # Remove style attributes
+  #   html.remove_link_attributes     = false   # Remove link attributes
+  #   html.remove_form_attributes     = false  # Remove form attributes
+  #   html.remove_input_attributes    = false   # Remove input attributes
+  #   html.remove_javascript_protocol = false   # Remove JS protocol
+  #   html.remove_http_protocol       = false  # Remove HTTP protocol
+  #   html.remove_https_protocol      = false  # Remove HTTPS protocol
+  #   html.preserve_line_breaks       = true  # Preserve line breaks
+  #   html.simple_boolean_attributes  = true   # Use simple boolean attributes
+  #   html.preserve_patterns          = nil    # Patterns to preserve
+  # end
 end
