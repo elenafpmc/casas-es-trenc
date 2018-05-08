@@ -25,6 +25,6 @@ if ( $('#map').length > 0 ) {
     });
   }
 
-  google.maps.event.addDomListener(window, 'load', initMap);
+  // google.maps.event.addDomListener(window, 'load', initMap);
   
 }
