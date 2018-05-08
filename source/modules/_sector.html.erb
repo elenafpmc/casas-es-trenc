@@ -7,6 +7,7 @@
   content ||= ""
   sector_list ||= []
   modal_prefix ||= ''
+  images_gallery ||= []
 %>
 
 
@@ -54,36 +55,13 @@
       <div class="gallery">
         <div class="swiper-container gallery__top">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
+            <% if images_gallery.count > 0 %>
+              <% images_gallery.each do | galleryImage | %>
+                <div class="swiper-slide">
+                  <%= image_tag(galleryImage, :class => '') %>
+                </div>
+              <% end %>
+            <% end %>
           </div>
         </div>
         <div class="swiper-container gallery__thumbs">
@@ -91,36 +69,13 @@
 
 
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
-            <div class="swiper-slide">
-              <%= image_tag('../assets/images/content/gallery-01.jpg', :class => '') %>
-            </div>
+            <% if images_gallery.count > 0 %>
+              <% images_gallery.each do | galleryThumb | %>
+                <div class="swiper-slide">
+                  <%= image_tag(galleryThumb, :class => '') %>
+                </div>
+              <% end %>
+            <% end %>
           </div>
 
 
