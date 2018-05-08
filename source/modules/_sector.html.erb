@@ -6,6 +6,7 @@
   text ||= ""
   content ||= ""
   sector_list ||= []
+  modal_prefix ||= ''
 %>
 
 
@@ -147,13 +148,15 @@
   </div>
 </div>
 
-<%= partial("modules/modal", :locals => {
-    :modal_selector => 'modal-catalog',
-    :extra_classes => 'modal-catalog',
-    :title => 'Solicita un catálogo',
-    :content => partial("modules/form-catalog", :locals => {
-        :extra_classes => '',
-        :prefix => "catalog"
-      })
-  }) %>
+<% if ( type == 'vivienda') %>
+  <%= partial("modules/modal", :locals => {
+      :modal_selector => 'modal-catalog',
+      :extra_classes => 'modal-catalog',
+      :title => 'Solicita un catálogo',
+      :content => partial("modules/form-catalog", :locals => {
+          :extra_classes => '',
+          :prefix => modal_prefix
+        })
+    }) %>
+  <% end %>
   
