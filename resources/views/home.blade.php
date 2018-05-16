@@ -4,16 +4,18 @@
 @section ('title')
 {{ __('home.TITLE') }}
 @endsection
+@section ('module_content')
+@endsection
 @section ('content')
 <div class="hero ">
 
   <div class="swiper-container hero__slider">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="hero__slider__bg" style="background-image: url(../assets/images/content/hero-home.jpg);"></div>
+          <div class="hero__slider__bg" style="background-image: url(/assets/images/content/hero-home.jpg);"></div>
         </div>
         <div class="swiper-slide">
-          <div class="hero__slider__bg" style="background-image: url(../assets/images/content/hero-home.jpg);"></div>
+          <div class="hero__slider__bg" style="background-image: url(/assets/images/content/hero-home.jpg);"></div>
         </div>
     </div>
 
@@ -110,20 +112,24 @@
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
-    <p class="title-small">nuestros</p>
-    <p class="title">Sectores</p>
-    <div class="slide-sectores-content ave-paraiso"><img src="../assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" /><p class="text">Desde 220.000€ a 250.000€</p>
-  <a href="http://development.flyingpigs.es/casas-es-trenc/build/sectores/" class="btn btn--ave" >
-    Ver Ave del Paraíso
+    <p class="title-small">{{ __('home.LOS_SECTORES_DE') }}</p>
+    <p class="title">{{ __('home.CASAS_ES_TRENC') }}</p>
+    <div class="slide-sectores-content ave-paraiso">
+  <a href="/sectores/" >
+		<img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
   </a>
-</div><div class="slide-sectores-content buganvilla"><img src="../assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" /><p class="text">Desde 295.000€ a 360.000€</p>
-  <a href="http://development.flyingpigs.es/casas-es-trenc/build/sectores/" class="btn btn--buganvilla" >
-    Ver Buganvilla
+	</div>
+	<p class="text">{{ __('home.DESDE_219') }}</p>
+    
+<div class="slide-sectores-content buganvilla">
+  <a href="/sectores/">
+	<img src="/assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" />
   </a>
+	<p class="text">{{ __('home.DESDE_285') }}</p>
 </div>
   </div>
   <div class="content-image__image">
-    <img src="../assets/images/content/slide-sectores.jpg" class="" alt="Slide sectores" />
+    <img src="/assets/images/content/slide-sectores.jpg" class="" alt="{{ __('home.SLIDE_SECTORES') }}" />
   </div>
 </div>
         </div>
@@ -132,14 +138,14 @@
 
 <div class="content-image content-image--left">
   <div class="content-image__content">
-    <p class="title-small">nuestras</p>
-    <p class="title">Viviendas</p>
-    <p class="text">Nuestros apartamentos están construidos en pequeños edificios singulares y aislados (2 -3 apartamentos por edificio) y constan de planta baja y primer piso (ático). </p>
-              <p class="text"><a href="http://development.flyingpigs.es/casas-es-trenc/build/viviendas/" class="link">Áticos con terraza <span class="icon-arrow-right"></a></p>
-              <p class="text"><a href="http://development.flyingpigs.es/casas-es-trenc/build/viviendas/" class="link">Bajos con jardín <span class="icon-arrow-right"></a></p>
+    <p class="title-small">{{ __('home.NUESTRAS') }}</p>
+    <p class="title">{{ __('home.VIVIENDAS') }}</p>
+    <p class="text">{{ __('home.NUESTROS_APARTAMENTOS') }}</p>
+              <p class="text"><a href="/viviendas/" class="link">{{ __('home.ATICOS_CON_TERRAZA') }} <span class="icon-arrow-right"></a></p>
+              <p class="text"><a href="/viviendas/" class="link">{{ __('home.BAJOS_CON_JARDIN') }}<span class="icon-arrow-right"></a></p>
   </div>
   <div class="content-image__image">
-    <img src="../assets/images/content/franciscogarvi.com_B7K3419.jpg" class="" alt="Franciscogarvi.com b7k3419" />
+    <img src="/assets/images/content/franciscogarvi.com_B7K3419.jpg" class="" alt="{{ __('home.FRANCISCOGARVI') }}" />
   </div>
 </div>
         </div>
@@ -149,12 +155,12 @@
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
-    <p class="title-small">inmejorable</p>
-    <p class="title">Ubicación</p>
-    <p class="text">Este nuevo complejo residencial, está situado en el sureste de la isla, cerca de Es Trenc, la playa más bella de Mallorca con aguas cristalinas y arena blanca. </p>
+    <p class="title-small">{{ __('home.INMEJORABLE') }}</p>
+    <p class="title">{{ __('home.UBICACION') }}</p>
+    <p class="text">{{ __('home.ESTE_NUEVO_COMPLEJO') }}</p>
   </div>
   <div class="content-image__image">
-    <img src="../assets/images/content/slide-ubicacion.jpg" class="" alt="Slide ubicacion" />
+    <img src="/assets/images/content/slide-ubicacion.jpg" class="" alt="{{ __('home.SLIDE_UBICACION') }}" />
   </div>
 </div>
         </div>

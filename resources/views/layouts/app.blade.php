@@ -229,7 +229,7 @@
           </li>
           <li>
             <span class="icon-worldwide"></span>
-            <span class="text">{{ __('home.PRESENCIA') }} <br /> {{ __('home.EN_30_PAISES') }}</span>
+            <span class="text">{{ __('home.PRESENCIA') }} <br /> {{ __('home.INTERNACIONAL') }}</span>
           </li>
         </ul>
       </div>
