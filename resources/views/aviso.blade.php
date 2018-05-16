@@ -1,0 +1,58 @@
+@extends('layouts.app')
+
+
+@section ('title')
+{{ __('Aviso') }}
+@endsection
+@section ('content')
+  <div class="container">
+    <div class="row center-xs">
+      <div class="col-sm-10 col-xs-12">
+        <p class="static__title">
+          Aviso legal
+        </p>
+        <div class="static__text">
+
+          <p>
+            Esta página Web es titularidad de URNOVA, S.L.U. (en adelante, URNOVA).
+          </p>
+          <ul>
+            <li>CIF: B-79308755.</li>
+            <li>Domicilio social: C/ Joan Maragall, 38, 07006 – Palma de Mallorca.</li>
+            <li>Datos de inscripción en el Registro Mercantil de Palma de Mallorca: Tomo 2119, Libro 0, Folio 82, Inscripción 9, Hoja PM-50.035.</li>
+            <li>Contacto:
+              <ul>
+                <li>Dirección de correo electrónico: <a href="mailto:business@urnova.com">business@urnova.com</a></li>
+                <li>Teléfono: <a href="tel:+34915615202">+ 34 (91.561.52.02)</a></li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            En cualquier momento, el interesado podrá guardar o imprimir este Aviso Legal.
+          </p>
+          <p>
+            La utilización de esta página Web atribuye la condición de usuario a quien lo haga e implica la aceptación de todas las condiciones incluidas en este Aviso Legal.
+          </p>
+          <p>
+            Todos los contenidos de esta Web (textos, fotografías, gráficos, imágenes, tecnología, software, links, contenidos audiovisuales, diseño gráfico, código fuente, etc.), así como las marcas y demás signos distintivos, son propiedad de URNOVA, no adquiriendo el usuario ningún derecho sobre ellos por el mero uso de esta Web.
+          </p>
+          <p>
+            Queda prohibido cualquier uso de esta Web que tenga como finalidad o produzca como resultado la lesión de bienes, derechos o intereses de URNOVA, del resto de las empresas del Grupo, de sus clientes, proveedores o de terceros. Queda igualmente prohibido realizar cualquier uso de esta Web que altere, dañe o inutilice las redes, servidores, equipos, productos y programas informáticos de URNOVA.
+          </p>
+          <p>
+            El usuario, deberá abstenerse de: a) reproducir, copiar, distribuir, poner a disposición de terceros, comunicar públicamente, transformar o modificar los contenidos de esta Web, salvo en los casos contemplados en la ley o expresamente autorizados por URNOVA o por el titular de dichos derechos; b) reproducir o copiar para uso privado el software o las bases de datos existentes en esta Web, así como comunicarlos públicamente o ponerlos a disposición de terceros cuando ello conlleve su reproducción; c) extraer o reutilizar la totalidad o una parte sustancial de los contenidos integrantes de esta Web. En cualquier caso, se exceptúa de lo anterior la utilización o reproducción de contenidos o bases de datos que sea expresamente autorizada por URNOVA.
+          </p>
+          <p>
+            El Usuario que quiera introducir enlaces a esta Web debe cumplir las condiciones siguientes: a) no podrán establecerse frames o marcos de cualquier tipo que rodeen la Web o permitan visualizarla a través de direcciones de Internet distintas o conjuntamente con contenidos ajenos a esta Web, de forma que produzca, o pueda producir, error o confusión en los usuarios sobre la procedencia del servicio o su contenido, implique un acto de comparación o imitación desleal, sirva para aprovechar la reputación, marca y prestigio de URNOVA, del resto de las empresas del Grupo o sus clientes o se haga de cualquier otro modo que esté prohibido por la Ley; b) desde la página que realice el enlace no podrá efectuarse ningún tipo de manifestación falsa o inexacta sobre URNOVA, sobre la calidad de sus servicios o sobre sus proveedores, empleados o clientes o del resto de las empresas del Grupo; c) El remitente no podrá utilizar la marca o cualquier otro signo distintivo de URNOVA dentro de su página Web, salvo en los casos autorizados por la ley o permitidos expresamente por URNOVA; d) la página que establezca el enlace deberá observar la legalidad vigente y no podrá disponer de o enlazar con contenidos ilícitos, nocivos, contrarios a la moral y a las buenas costumbres, que produzcan o puedan producir la falsa idea de que URNOVA respalda o apoya las ideas, manifestaciones o actuaciones del remitente o que resulten inadecuados en relación con la actividad desarrollada por URNOVA, el resto de las empresas del Grupo y sus clientes, teniendo en cuenta los contenidos y la temática general de la página Web donde se establezca el enlace.
+          </p>
+          <p>
+            Esta Web puede incluir dispositivos técnicos de enlace que permiten al usuario acceder a otras páginas de Internet (enlaces). URNOVA no conoce los contenidos y servicios de los enlaces y por tanto no se hace responsable por los daños derivados de su falta de calidad, desactualización, indisponibilidad, error, inutilidad o ilegalidad y no responde de las manifestaciones realizadas o de los contenidos o servicios proporcionados a través de ellos. Si cualquier usuario tuviera conocimiento de que los enlaces remiten a páginas cuyos contenidos o servicios sean ilícitos, nocivos, denigrantes, violentos o inmorales, podrá ponerse en contacto con URNOVA indicándolo.
+          </p>
+          <p>
+            El presente Aviso Legal se rige íntegramente por la legislación española. El usuario se compromete a hacer un uso correcto de esta Web de conformidad con la Ley, con el presente Aviso Legal, así como con las demás condiciones, reglamentos e instrucciones que, en su caso, pudieran ser de aplicación.”
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+@endsection
