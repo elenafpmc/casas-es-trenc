@@ -26,7 +26,7 @@
     <div class="hero__form">
     
       <p class="hero__form__title">
-        {{ __('home.MAS_INFORMACION') }}
+        {{ __('common.MAS_INFORMACION') }}
       </p>
       
 <div class="form-info">
@@ -34,7 +34,7 @@
     <div class="alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
-                <li>{{ __('home.'.$error) }}</li>
+                <li>{{ __('common.'.$error) }}</li>
             @endforeach
         </ul>
     </div>
@@ -44,7 +44,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="text" id="hero-name" name="hero-name" placeholder="{{ __('home.NOMBRE_Y_APELLIDOS') }}" value="{{ old('hero-name') }}{{ old('modal-name') }}" class="input__field">
+  <input type="text" id="hero-name" name="hero-name" placeholder="{{ __('common.NOMBRE_Y_APELLIDOS') }}" value="{{ old('hero-name') }}{{ old('modal-name') }}" class="input__field">
 </div>
 
     </div>
@@ -63,7 +63,7 @@
 
       
 <div class="input ">
-  <input type="text" id="hero-phone" name="hero-phone" placeholder="{{ __('home.NUMERO') }}" value="{{ old('hero-phone') }}{{ old('modal-phone') }}" class="input__field">
+  <input type="text" id="hero-phone" name="hero-phone" placeholder="{{ __('common.NUMERO') }}" value="{{ old('hero-phone') }}{{ old('modal-phone') }}" class="input__field">
 </div>
 
     </div>
@@ -71,7 +71,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="email" id="hero-mail" name="hero-mail" placeholder="{{ __('home.MAIL') }}" value="{{ old('hero-mail') }}{{ old('modal-mail') }}" class="input__field">
+  <input type="email" id="hero-mail" name="hero-mail" placeholder="{{ __('common.MAIL') }}" value="{{ old('hero-mail') }}{{ old('modal-mail') }}" class="input__field">
 </div>
 
     </div>
@@ -79,7 +79,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="text" id="hero-message" name="hero-message" placeholder="{{ __('home.MENSAJE') }}" value="{{ old('hero-message') }}{{ old('modal-message') }}" class="input__field">
+  <input type="text" id="hero-message" name="hero-message" placeholder="{{ __('common.MENSAJE') }}" value="{{ old('hero-message') }}{{ old('modal-message') }}" class="input__field">
 </div>
 
     </div>
@@ -88,14 +88,14 @@
       
 <div class="checkbox ">
   <input type="checkbox" id="hero-lega" name="hero-lega" class="checkbox__field"{{ old('hero-lega')?'checked':'' }}>
-  <label for="hero-lega" class="checkbox__label">{{ __('home.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/'>{{ __('home.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="hero-lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/'>{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
 
     
   <button type="submit" class="btn btn--block btn--primary" >
-    {{ __('home.ENVIAR_SOLICITUD') }}
+    {{ __('common.ENVIAR_SOLICITUD') }}
   </button>
 
   </form>

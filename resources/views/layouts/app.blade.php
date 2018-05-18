@@ -50,9 +50,9 @@
   <body>
     <div id="cookie-message">
         <p>
-            Nuestra web utiliza cookies propias para ofrecerle un mejor servicio. Si continúa navegando, consideramos que acepta su uso.
+            {{ __('common.MENSAJE_COOKIES') }}
             <br />
-            <a href="/politica-de-privacidad/">Puede obtener más información aquí.</a>
+            <a href="/politica-de-privacidad/">{{ __('common.MAS_INFO_COOKIES') }}</a>
             <button type="button" class="close-cookies">x</button>
         </p>
     </div>
@@ -61,7 +61,7 @@
   <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'home') }}" class="header__logo">
     <div class="header__logo__left">
       <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
-      <p>({{ __('home.DIRECTO_DEL_PROMOTOR') }})</p>
+      <p>({{ __('common.DIRECTO_DEL_PROMOTOR') }})</p>
     </div>
     <div class="header__logo__urnova">
       <img src="/assets/images/content/logo-urnova.png" class="urnova" alt="Logo urnova" />
@@ -71,16 +71,16 @@
   <nav class="header__nav">
     <ul>
       <li class="{{ @($section=='sectores')?' active':'' }}">
-        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'sectores') }}">{{ __('home.SECTORES') }}</a>
+        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'sectores') }}">{{ __('common.SECTORES') }}</a>
       </li>
       <li class="{{ @($section=='viviendas')?' active':'' }}">
-        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'viviendas') }}">{{ __('home.VIVIENDAS') }}</a>
+        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'viviendas') }}">{{ __('common.VIVIENDAS') }}</a>
       </li>
       <li class="{{ @($section=='ubicacion')?' active':'' }}">
-        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'ubicacion') }}">{{ __('home.UBICACION') }}</a>
+        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'ubicacion') }}">{{ __('common.UBICACION') }}</a>
       </li>
       <li class="{{ @($section=='contacto')?' active':'' }}">
-        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'contacto') }}">{{ __('home.CONTACTO') }}</a>
+        <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'contacto') }}">{{ __('common.CONTACTO') }}</a>
       </li>
       <li class="menu-lang">
 @if($countries=['es'=>'es','en'=>'uk','de'=>'de'])
@@ -133,14 +133,14 @@
   <div class="modal__dialog">
     <div class="modal__dialog__close" data-modal-close><span class="icon-close"></span></div>
     <div class="modal__dialog__wrapper">
-      <p class="modal__dialog__wrapper__title">{{ __('home.MAS_INFORMACION') }}</p>
+      <p class="modal__dialog__wrapper__title">{{ __('common.MAS_INFORMACION') }}</p>
       <div class="modal__dialog__wrapper__content">
 <div class="form-info">
     @if ($errors->any())
     <div class="alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
-                <li>{{ __('home.'.$error) }}</li>
+                <li>{{ __('common.'.$error) }}</li>
             @endforeach
         </ul>
     </div>
@@ -149,7 +149,7 @@
 {{ csrf_field() }}
     <div class="form-item">
 <div class="input ">
-  <input type="text" id="modal-name" name="modal-name" placeholder="{{ __('home.NOMBRE_Y_APELLIDOS') }}" value="{{ old('modal-name') }}{{ old('hero-name') }}" class="input__field">
+  <input type="text" id="modal-name" name="modal-name" placeholder="{{ __('common.NOMBRE_Y_APELLIDOS') }}" value="{{ old('modal-name') }}{{ old('hero-name') }}" class="input__field">
 </div>
 
     </div>
@@ -168,7 +168,7 @@
 
       
 <div class="input ">
-  <input type="text" id="modal-phone" name="modal-phone" placeholder="{{ __('home.NUMERO') }}" value="{{ old('modal-phone') }}{{ old('hero-phone') }}" class="input__field">
+  <input type="text" id="modal-phone" name="modal-phone" placeholder="{{ __('common.NUMERO') }}" value="{{ old('modal-phone') }}{{ old('hero-phone') }}" class="input__field">
 </div>
 
     </div>
@@ -176,7 +176,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="email" id="modal-mail" name="modal-mail" placeholder="{{ __('home.MAIL') }}" value="{{ old('modal-mail') }}{{ old('hero-mail') }}" class="input__field">
+  <input type="email" id="modal-mail" name="modal-mail" placeholder="{{ __('common.MAIL') }}" value="{{ old('modal-mail') }}{{ old('hero-mail') }}" class="input__field">
 </div>
 
     </div>
@@ -184,7 +184,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="text" id="modal-message" name="modal-message" placeholder="{{ __('home.MENSAJE') }}" value="{{ old('modal-message') }}{{ old('hero-message') }}" class="input__field">
+  <input type="text" id="modal-message" name="modal-message" placeholder="{{ __('common.MENSAJE') }}" value="{{ old('modal-message') }}{{ old('hero-message') }}" class="input__field">
 </div>
 
     </div>
@@ -193,14 +193,14 @@
       
 <div class="checkbox ">
   <input type="checkbox" id="modal-lega" name="modal-lega" class="checkbox__field"{{ old('hero-lega')?' checked':'' }} />
-  <label for="modal-lega" class="checkbox__label">{{ __('home.ACEPTO_LA') }} <a href='/politica-de-privacidad/'>{{ __('home.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="modal-lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/politica-de-privacidad/'>{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
 
     
   <button type="submit" class="btn btn--block btn--primary" >
-    {{ __('home.ENVIAR_SOLICITUD') }}
+    {{ __('common.ENVIAR_SOLICITUD') }}
   </button>
 
   </form>
@@ -216,29 +216,31 @@
 @yield('module_content','module_content')
 </div>
 <footer class="footer ">
+@if($section!='static')
     <div class="footer__banner">
       <div class="content__wrapper">
         <ul class="footer__banner__list">
           <li>
             <span class="icon-sketch"></span>
-            <span class="text">{{ __('home.30_ANOS') }} <br /> {{ __('home.DE_EXPERIENCIA') }}</span>
+            <span class="text">{{ __('common.30_ANOS') }} <br /> {{ __('common.DE_EXPERIENCIA') }}</span>
           </li>
           <li>
             <span class="icon-house"></span>
-            <span class="text">{{ __('home.MAS_DE') }} <br /> {{ __('home.1000_OBRAS') }}</span>
+            <span class="text">{{ __('common.MAS_DE') }} <br /> {{ __('common.1000_OBRAS') }}</span>
           </li>
           <li>
             <span class="icon-worldwide"></span>
-            <span class="text">{{ __('home.PRESENCIA') }} <br /> {{ __('home.INTERNACIONAL') }}</span>
+            <span class="text">{{ __('common.PRESENCIA') }} <br /> {{ __('common.INTERNACIONAL') }}</span>
           </li>
         </ul>
       </div>
     </div>
-
+@endif
   <div class="content__wrapper">
+@if($section!='static')
     <div class="footer__contact">
         <div class="footer__contact__adress">
-          <p class="title">CASAS ES TRENC {{ __('home.OFICINA_DE_VENTAS') }}</p>
+          <p class="title">CASAS ES TRENC {{ __('common.OFICINA_DE_VENTAS') }}</p>
           <p class="text">Carrer sa Vinyola</p>
           <p class="text">07639 Sa Ràpita - Campos</p>
           <p class="text">Illes Balears, Spain</p>
@@ -257,19 +259,20 @@
             </a>
           </ul>
         </div>
+@endif
       <div class="footer__contact__legal">
         <p>
-          {{ __('home.RESERVADOS_DERECHOS') }}
+          {{ __('common.RESERVADOS_DERECHOS') }}
         </p>
         <ul>
           <li>
-            <a href="/aviso-legal/">{{ __('home.AVISO_LEGAL') }}</a>
+            <a href="/aviso-legal/">{{ __('common.AVISO_LEGAL') }}</a>
           </li>
           <li>
             |
           </li>
           <li>
-            <a href="/politica-de-privacidad/">{{ __('home.POLITICA_DE_PRIVACIDAD') }}</a>
+            <a href="/politica-de-privacidad/">{{ __('common.POLITICA_DE_PRIVACIDAD') }}</a>
           </li>
         </ul>
       </div>
@@ -278,10 +281,10 @@
 
 </footer>
 @if (session('success'))
-    <div class="mensaje"><div class="success"><h1>Enviado{{ __('home.'.session('success')) }}</h1></div></div>
+    <div class="mensaje"><div class="success"><h1>Enviado{{ __('common.'.session('success')) }}</h1></div></div>
 @endif
 @if (session('error'))
-    <div class="mensaje"><div class="error"><h1>{{ __('home.'.session('error')) }}</h1></div></div>
+    <div class="mensaje"><div class="error"><h1>{{ __('common.'.session('error')) }}</h1></div></div>
 @endif
 
     </div>
