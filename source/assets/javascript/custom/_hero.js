@@ -3,9 +3,9 @@ if ( $('.hero').length > 0 ) {
     autoplay: true,
     slidesPerView: 1,
     spaceBetween: 25,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets'
     }
   };
   var charsSwiper = new Swiper('.hero__slider', swiperParams);

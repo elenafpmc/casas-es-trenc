@@ -12,21 +12,12 @@
         height: 460px;
       }
     }
-    &__next,
-    &__prev {
-      background-image: none;
-      font-size: 146px;
-      color: $white;
-
-      height: auto;
-      width: auto;
-      margin-top: -73px;
-      @include media("<phablet") {
-        font-size: 60px;
-        margin-top: -30px;
-      }
-      [class^="icon-"] {
-        display: block;
+    &__pagination {
+      .swiper-pagination-bullet {
+        background-color: $grey-light;
+        &-active {
+          background-color: $white;
+        }
       }
     }
   }
