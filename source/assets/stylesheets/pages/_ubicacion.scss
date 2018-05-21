@@ -2,6 +2,14 @@
   .sector__header {
     justify-content: center;
     position: relative;
+    margin-bottom: 40px;
+  }
+  .sector {
+    &.open {
+      .sector__header {
+        margin-bottom: 0;
+      }
+    }
   }
   .sector__header__content {
     max-width: 570px;
