@@ -17,10 +17,10 @@ if ( $('#map').length > 0 ) {
     };
     var imageAirport = {
       url: 'http://development.flyingpigs.es/casas-es-trenc/build/assets/images/content/airport-marker.png',
-      size: new google.maps.Size(150, 150),
+      size: new google.maps.Size(50, 74),
       origin: new google.maps.Point(0, 0),
-      anchor: new google.maps.Point(37, 37),
-      scaledSize: new google.maps.Size(75, 75)
+      anchor: new google.maps.Point(25, 37),
+      scaledSize: new google.maps.Size(50, 74)
     };
     var markerVentas = new google.maps.Marker({
       position: ventas,
