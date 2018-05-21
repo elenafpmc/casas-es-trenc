@@ -2,7 +2,7 @@ if ( $('#map').length > 0 ) {
   function initMap() {
     var ventas = {lat: 39.3867945, lng: 2.9422595};
     var urnova = {lat: 39.5625241, lng: 2.6637964};
-    var airport = {lat: 39.5551265, lng: 2.7914326};
+    var airport = {lat: 39.5430402, lng: 2.7320915};
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
       center: {lat: 39.5261095, lng: 2.9138872},
@@ -17,10 +17,10 @@ if ( $('#map').length > 0 ) {
     };
     var imageAirport = {
       url: 'http://development.flyingpigs.es/casas-es-trenc/build/assets/images/content/airport-marker.png',
-      size: new google.maps.Size(50, 74),
+      size: new google.maps.Size(29, 45),
       origin: new google.maps.Point(0, 0),
       anchor: new google.maps.Point(25, 37),
-      scaledSize: new google.maps.Size(50, 74)
+      scaledSize: new google.maps.Size(29, 45)
     };
     var markerVentas = new google.maps.Marker({
       position: ventas,
