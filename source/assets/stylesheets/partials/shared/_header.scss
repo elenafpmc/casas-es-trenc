@@ -53,32 +53,49 @@
   &__logo {
     display: flex;
     padding: 10px 0 13px 30px;
+    padding: 0 0 0 30px;
     text-decoration: none;
     @include media("<tablet") {
       padding-right: 30px;
       padding-left: 10px;
     }
+    @include media("<phablet") {
+      padding-right: 0;
+    }
     &__left {
-      padding-right: 20px;
+      padding-right: 10px;
+      display: flex;
+      align-items: center;
+      @include media("<phablet") {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+      }
       .logo {
-        display: block;
+        display: inline-block;
         width: auto;
-        margin-bottom: 5px;
-        height: 17px;
+        margin-right: 10px;
+        height: 20px;
+        @include media("<phablet") {
+          display: block;
+          height: 17px;
+        }
       }
       p {
-        font-size: 12px;
-        line-height: 15px;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 16px;
         color: $grey;
       }
     }
     &__urnova {
-      padding-left: 16px;
-      border-left: 1px solid $grey-lighter;
       display: flex;
       align-items: center;
       .urnova {
-        width: 61px;
+        width: 122px;
+        @include media("<phablet") {
+          width: 100px;
+        }
       }
     }
   }
@@ -87,7 +104,7 @@
       display: flex;
       justify-content: flex-end;
       li {
-        padding: 0 15px;
+        padding: 0 10px;
         @include media("<tablet") {
           padding: 0 5px;
         }
@@ -109,18 +126,18 @@
             border: 0;
             color: $white;
             text-align: center;
-            width: 60px;
+            width: 110px;
             height: 60px;
-            padding-top: 10px;
             [class^="icon-"] {
-              display: block;
-              font-size: 12px;
-              margin-bottom: 4px;
+              font-size: 14px;
+              margin-right: 5px;
             }
             .text {
-              font-size: 10px;
+              font-size: 12px;
               letter-spacing: 2px;
               text-transform: uppercase;
+              position: relative;
+              top: -2px;
             }
           }
         }
