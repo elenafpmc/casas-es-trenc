@@ -11,7 +11,7 @@
 <div class="sector sector--left">
   <div class="sector__header" style="background-image: url(/assets/images/content/vivienda-atico.jpg);">
     <div class="sector__header__content">
-      <p class="sector__header__content__title">{{ __('viviendas.ATICOS_CON_TERRAZA' }}</p>
+      <p class="sector__header__content__title">{{ __('viviendas.ATICOS_CON_TERRAZA') }}</p>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
@@ -19,11 +19,11 @@
   </div>
   <div class="sector__content">
     <div class="sector__content__info">
-                  <p class="sector__content__info__title">{{ __('viviendas.ATICOS' }}</p>
+                  <p class="sector__content__info__title">{{ __('viviendas.ATICOS') }}</p>
                   <div class="sector__content__info__text">
-                    <p>{{ __('viviendas.IMPRESIONANTES_ATICOS' }}</p>
-                    <p>{{ __('viviendas.LE_OFRECEMOS_ATICOS' }}</p>
-                    <p>{{ __('viviendas.TODO_EN_UN_ENTORNO' }}</p>
+                    <p>{{ __('viviendas.IMPRESIONANTES_ATICOS') }}</p>
+                    <p>{{ __('viviendas.LE_OFRECEMOS_ATICOS') }}</p>
+                    <p>{{ __('viviendas.TODO_EN_UN_ENTORNO') }}</p>
                   </div>
                 </div>
 
