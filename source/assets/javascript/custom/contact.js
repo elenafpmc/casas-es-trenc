@@ -9,14 +9,14 @@ if ( $('#map').length > 0 ) {
       styles: mapStyle
     });
     var image = {
-      url: 'http://development.flyingpigs.es/casas-es-trenc/build/assets/images/content/marker.png',
+      url: '../images/content/marker.png',
       size: new google.maps.Size(150, 150),
       origin: new google.maps.Point(0, 0),
       anchor: new google.maps.Point(37, 37),
       scaledSize: new google.maps.Size(75, 75)
     };
     var imageAirport = {
-      url: 'http://development.flyingpigs.es/casas-es-trenc/build/assets/images/content/airport-marker.png',
+      url: '../images/content/airport-marker.png',
       size: new google.maps.Size(29, 45),
       origin: new google.maps.Point(0, 0),
       anchor: new google.maps.Point(25, 37),
