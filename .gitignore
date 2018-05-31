@@ -3,8 +3,12 @@
 /public/storage
 /storage/*.key
 #/vendor
+/resources/views/vendor
+/config/tinker.php
+/config/trustedproxy.php
 /.idea
 /.vagrant
+.env.example
 Homestead.json
 Homestead.yaml
 npm-debug.log
