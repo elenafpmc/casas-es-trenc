@@ -5,6 +5,11 @@
     padding-left: 34px;
     .logos-home-link {
       display: block;
+      &:hover {
+        img {
+          box-shadow: $box-shadow;
+        }
+      }
     }
     .logos-home {
       width: auto;
