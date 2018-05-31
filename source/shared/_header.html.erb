@@ -3,15 +3,19 @@
   active ||= ''
 %>
 <header class="header <%= extra_classes %>">
-  <a href="http://development.flyingpigs.es/casas-es-trenc/build/home/" class="header__logo">
+  <div class="header__logo">
     <div class="header__logo__left">
-      <%= image_tag('content/logo.png', :class => 'logo') %>
-      <p>Directo del promotor</p>
+      <a href="http://development.flyingpigs.es/casas-es-trenc/build/home/">
+        <%= image_tag('content/logo.png', :class => 'logo') %>
+        <p>Directo del promotor</p>
+      </a>
     </div>
     <div class="header__logo__urnova">
-      <%= image_tag('content/logo-urnova1.png', :class => 'urnova') %>
+      <a href="http://www.urnova.com/" target="_blank">
+        <%= image_tag('content/logo-urnova1.png', :class => 'urnova') %>
+      </a>
     </div>
-  </a>
+  </div>
 
   <nav class="header__nav">
     <ul>

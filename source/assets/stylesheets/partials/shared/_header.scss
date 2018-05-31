@@ -62,6 +62,9 @@
     @include media("<phablet") {
       padding-right: 0;
     }
+    a {
+      text-decoration: none;
+    }
     &__left {
       padding-right: 10px;
       display: flex;
