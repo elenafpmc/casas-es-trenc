@@ -75,6 +75,13 @@
                 <div class="swiper-slide">
                   <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-roof-tarrace-solarium-1618x1080.jpg" class="" alt="Casas es trenc roof tarrace solarium 1618x1080" />
                 </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/aticos/galeria-ave-del-paraiso.jpg" class="" alt="Galeria ave del paraiso" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/aticos/galeria-buganvilla1.jpg" class="" alt="Galeria buganvilla1" />
+                </div>
+
           </div>
         </div>
         <div class="swiper-container gallery__thumbs">
@@ -127,6 +134,12 @@
                 <div class="swiper-slide">
                   <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-roof-tarrace-solarium-1618x1080.jpg" class="" alt="Casas es trenc roof tarrace solarium 1618x1080" />
                 </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/aticos/galeria-ave-del-paraiso.jpg" class="" alt="Galeria ave del paraiso" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/aticos/galeria-buganvilla1.jpg" class="" alt="Galeria buganvilla1" />
+                </div>
           </div>
 
 
@@ -136,9 +149,9 @@
         <div class="row center-xs">
           <div class="col-md-3 col-sm-4">
             
-  <button type="button" class="btn btn--sm btn--primary"  data-modal-open="modal-catalog">
+  <!-- <button type="button" class="btn btn--sm btn--primary"  data-modal-open="modal-catalog">
     Solicita un catálogo
-  </button>
+  </button> -->
 
           </div>
         </div>
@@ -153,7 +166,7 @@
 </div>
 
   
-<div class="modal modal-catalog" data-modal="modal-catalog" data-modal-close>
+<!-- <div class="modal modal-catalog" data-modal="modal-catalog" data-modal-close>
   <div class="modal__dialog">
     <div class="modal__dialog__close" data-modal-close><span class="icon-close"></span></div>
     <div class="modal__dialog__wrapper">
@@ -203,7 +216,7 @@
 </div></div>
     </div>
   </div>
-</div>
+</div> -->
 
   
 
@@ -275,6 +288,12 @@
                 <div class="swiper-slide">
                   <img src="/assets/images/content/gallery/bajos/Cases-es-Trenc-188-f1-pb-salon-1618x1080.jpg" class="" alt="Cases es trenc 188 f1 pb salon 1618x1080" />
                 </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/bajos/galeria-buganvilla2.jpg" class="" alt="Galeria buganvilla2" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/assets/images/content/gallery/bajos/galeria-buganvilla3.jpg" class="" alt="Galeria buganvilla3" />
+                </div>
           </div>
         </div>
         <div class="swiper-container gallery__thumbs">
@@ -327,6 +346,12 @@
                 <div class="swiper-slide">
                   <img src="/assets/images/content/gallery/bajos/Cases-es-Trenc-188-f1-pb-salon-1618x1080.jpg" class="" alt="Cases es trenc 188 f1 pb salon 1618x1080" />
                 </div>
+                <div class="swiper-slide">
+                  <img src="../assets/images/content/gallery/bajos/galeria-buganvilla2.jpg" class="" alt="Galeria buganvilla2" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/images/content/gallery/bajos/galeria-buganvilla3.jpg" class="" alt="Galeria buganvilla3" />
+                </div>
           </div>
 
 
@@ -336,9 +361,9 @@
         <div class="row center-xs">
           <div class="col-md-3 col-sm-4">
             
-  <button type="button" class="btn btn--sm btn--primary"  data-modal-open="modal-catalog">
+  <!-- <button type="button" class="btn btn--sm btn--primary"  data-modal-open="modal-catalog">
     Solicita un catálogo
-  </button>
+  </button> -->
 
           </div>
         </div>
@@ -354,7 +379,7 @@
 
 
 
-  
+  <!-- 
 <div class="modal modal-catalog" data-modal="modal-catalog" data-modal-close>
   <div class="modal__dialog">
     <div class="modal__dialog__close" data-modal-close><span class="icon-close"></span></div>
@@ -406,5 +431,5 @@
 </div></div>
     </div>
   </div>
-</div>
+</div> -->
 @endsection

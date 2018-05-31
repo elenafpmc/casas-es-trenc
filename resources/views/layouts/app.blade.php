@@ -58,15 +58,19 @@
     </div>
     <div class="body-wrapper">
       <header class="header ">
-  <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'home') }}" class="header__logo">
+  <div class="header__logo">
     <div class="header__logo__left">
-      <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
-      <p>({{ __('common.DIRECTO_DEL_PROMOTOR') }})</p>
+      <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'home') }}">
+        <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
+        <p>{{ __('common.DIRECTO_DEL_PROMOTOR') }}</p>
+      </a>
     </div>
     <div class="header__logo__urnova">
-      <img src="/assets/images/content/logo-urnova.png" class="urnova" alt="Logo urnova" />
+      <a href="http://www.urnova.com/" target="_blank">
+        <img src="/assets/images/content/logo-urnova1.png" class="urnova" alt="Logo urnova" />
+      </a>
     </div>
-  </a>
+  </div>
 
   <nav class="header__nav">
     <ul>
@@ -125,7 +129,7 @@
       </li>
     </ul>
   </nav>
-  <button type="button" class="btn-menu-mobile show-on-mobile"><span class="menu-bar"></span></button>
+  <button type="button" class="btn-menu-mobile show-on-tablet"><span class="menu-bar"></span></button>
 </header>
 
 
@@ -240,7 +244,7 @@
 @if($section!='static')
     <div class="footer__contact">
         <div class="footer__contact__adress">
-          <p class="title">CASAS ES TRENC {{ __('common.OFICINA_DE_VENTAS') }}</p>
+          <p class="title"><img src="../assets/images/content/logo.png" class="logo" alt="Logo" />  {{ __('common.OFICINA_DE_VENTAS') }}</p>
           <p class="text">Carrer sa Vinyola</p>
           <p class="text">07639 Sa Ràpita - Campos</p>
           <p class="text">Illes Balears, Spain</p>
@@ -254,9 +258,9 @@
             <a href="https://www.youtube.com/channel/UCe-9jlQXIZno4bkr6NxWRLQ/videos" target="_blank">
               <span class="icon-youtube"></span>
             </a>
-            <a href="https://www.facebook.com/balearichouses/" target="_blank">
+            <!-- <a href="https://www.facebook.com/balearichouses/" target="_blank">
               <span class="icon-facebook"></span>
-            </a>
+            </a> -->
           </ul>
         </div>
 @endif

@@ -11,15 +11,15 @@
 <div class="sector sector--left">
   <div class="sector__header" style="background-image: url(../assets/images/content/franciscogarvi.com_B7K7803.jpg);">
     <div class="sector__header__content">
-      <p class="sector__header__content__title">Ave del paraíso</p>
-        <div class="sector__header__content__text"><p class="text">Pisos desde</p> <p class="price">220.000€</p></div>
+      <p class="sector__header__content__title">Ave del Paraíso</p>
+        <div class="sector__header__content__text"><p class="text">Desde</p> <p class="price">220.000€</p></div>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
   </div>
   <div class="sector__content">
-    <div class="sector__content__info"><img src="../assets/images/content/logo-avedelparaiso.png" class="sector__content__info__logo" alt="Logo avedelparaiso" /><p class="sector__content__info__title">Apartamentos Aves del Paraíso</p>
+    <div class="sector__content__info"><img src="../assets/images/content/logo-avedelparaiso.png" class="sector__content__info__logo" alt="Logo avedelparaiso" /><p class="sector__content__info__title">Apartamentos Ave del Paraíso</p>
                   <div class="sector__content__info__text">
                     <p>En el sector Ave del Paraíso podrá disfrutar de una piscina para adultos de 20x11cm y otra piscina circular infantil de 8m de diámetro, zona solárium y una gran zona verde donde encontrará especies vegetales seleccionadas. Además, cuenta con plazas de aparcamiento privadas.</p>
                     <p class="price">
@@ -30,7 +30,8 @@
                 </div>
       <div class="sector__content__list">
           <div class="sector__content__list__item">
-            <img src="../assets/images/content/franciscogarvi.com_B7K7824.jpg" class="item-image" alt="Franciscogarvi.com b7k7824" />
+            <img src="../assets/images/content/cocina-americana-sectores-avedelparaiso.jpg" class="item-image" alt="Cocina americana sectores avedelparaiso" />
+
             <p class="title">
               Cocina americana
             </p>
@@ -48,7 +49,7 @@
             </p>
           </div>
           <div class="sector__content__list__item">
-            <img src="../assets/images/content/franciscogarvi.com_B7K3487.jpg" class="item-image" alt="Franciscogarvi.com b7k3487" />
+            <img src="../assets/images/content/banos-completos-sectores-buganvilla.jpg" class="item-image" alt="Banos completos sectores buganvilla" />
             <p class="title">
               2 baños completos
             </p>
@@ -57,7 +58,7 @@
             </p>
           </div>
           <div class="sector__content__list__item">
-            <img src="../assets/images/content/franciscogarvi.com_B7K3480.jpg" class="item-image" alt="Franciscogarvi.com b7k3480" />
+            <img src="../assets/images/content/dormitorios-dobles-sectores-buganvilla.jpg" class="item-image" alt="Dormitorios dobles sectores buganvilla" />
             <p class="title">
               2 dormitorios dobles
             </p>
@@ -98,7 +99,7 @@
   <div class="sector__header" style="background-image: url(../assets/images/content/sector-buganvilla.jpg);">
     <div class="sector__header__content">
       <p class="sector__header__content__title">Buganvilla</p>
-        <div class="sector__header__content__text"><p class="text">Pisos desde</p> <p class="price">295.000€</p></div>
+        <div class="sector__header__content__text"><p class="text">Desde</p> <p class="price">295.000€</p></div>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>

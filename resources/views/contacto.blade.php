@@ -37,9 +37,10 @@
           <br />
           07006 Palma de Mallorca, España
         </p>
-        <p><a href="mailto:info@urnova.com"><span class="icon-mail"></span>info@urnova.com</a></p>
+        <p><a href="mailto:sales@grupournova.com"><span class="icon-mail"></span>sales@grupournova.com</a></p>
+
         <p><a href="tel:+34971274282"><span class="icon-tel"></span>(+34) 971274282</a></p>
-        <p><a href="http://www.urnova.com" class="link" target="_blank">www.urnova.com</a></p>
+        <p><a href="http://www.urnova.com/mallorca/es" class="link" target="_blank">www.urnova.com</a></p>
       </div>
     </div>
     <div class="contacto__info__map">

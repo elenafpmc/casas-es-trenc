@@ -104,5 +104,5 @@
 
   
 
-  <img src="/images/content/mapa-ubicacion.jpg" class="" alt="Mapa ubicacion" />
+  <img src="/images/content/mapa-ubicacion.jpg" class="map-img" alt="Mapa ubicacion" />
 @endsection
