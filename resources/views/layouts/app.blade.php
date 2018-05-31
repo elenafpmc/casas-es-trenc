@@ -64,7 +64,9 @@
       <p>({{ __('common.DIRECTO_DEL_PROMOTOR') }})</p>
     </div>
     <div class="header__logo__urnova">
-      <img src="/assets/images/content/logo-urnova.png" class="urnova" alt="Logo urnova" />
+      <a href="http://www.urnova.com/" target="_bank">
+        <img src="/assets/images/content/logo-urnova.png" class="urnova" alt="Logo urnova" />
+      </a>
     </div>
   </a>
 
