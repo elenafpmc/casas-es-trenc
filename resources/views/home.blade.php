@@ -38,12 +38,12 @@
         </ul>
     </div>
 	@endif
-  <form action="/InfoRequest" method="POST">
+  <form action="/InfoRequest" method="POST" class="hero_form-info__form">
   {{ csrf_field() }}
     <div class="form-item">
       
 <div class="input ">
-  <input type="text" id="hero-name" name="hero-name" placeholder="{{ __('common.NOMBRE_Y_APELLIDOS') }}" value="{{ old('hero-name') }}{{ old('modal-name') }}" class="input__field">
+  <input type="text" id="hero_name" name="hero_name" placeholder="{{ __('common.NOMBRE_Y_APELLIDOS') }}" value="{{ old('hero_name') }}{{ old('modal_name') }}" class="input__field">
 </div>
 
     </div>
@@ -51,10 +51,10 @@
 
       
 <div class="select ">
-  <select id="hero-phone-prefix" name="hero-phone-prefix" class="select__field">
-    <option value="+34"{{ ( old('modal-phone-prefix')=='+34' || old('hero-phone-prefix')=='+34' )?' selected':'' }}>+34</option>
-    <option value="+23"{{ ( old('modal-phone-prefix')=='+23' || old('hero-phone-prefix')=='+23' )?' selected':'' }}>+23</option>
-    <option value="+43"{{ ( old('modal-phone-prefix')=='+43' || old('hero-phone-prefix')=='+43' )?' selected':'' }}>+43</option>
+  <select id="hero_phone-prefix" name="hero_phone-prefix" class="select__field">
+    <option value="+34"{{ ( old('modal_phone-prefix')=='+34' || old('hero_phone-prefix')=='+34' )?' selected':'' }}>+34</option>
+    <option value="+23"{{ ( old('modal_phone-prefix')=='+23' || old('hero_phone-prefix')=='+23' )?' selected':'' }}>+23</option>
+    <option value="+43"{{ ( old('modal_phone-prefix')=='+43' || old('hero_phone-prefix')=='+43' )?' selected':'' }}>+43</option>
   </select>
 </div>
 
@@ -62,7 +62,7 @@
 
       
 <div class="input ">
-  <input type="text" id="hero-phone" name="hero-phone" placeholder="{{ __('common.NUMERO') }}" value="{{ old('hero-phone') }}{{ old('modal-phone') }}" class="input__field">
+  <input type="text" id="hero_phone" name="hero_phone" placeholder="{{ __('common.NUMERO') }}" value="{{ old('hero_phone') }}{{ old('modal_phone') }}" class="input__field">
 </div>
 
     </div>
@@ -70,7 +70,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="email" id="hero-mail" name="hero-mail" placeholder="{{ __('common.MAIL') }}" value="{{ old('hero-mail') }}{{ old('modal-mail') }}" class="input__field">
+  <input type="email" id="hero_mail" name="hero_mail" placeholder="{{ __('common.MAIL') }}" value="{{ old('hero_mail') }}{{ old('modal_mail') }}" class="input__field">
 </div>
 
     </div>
@@ -78,7 +78,7 @@
     <div class="form-item">
       
 <div class="input ">
-  <input type="text" id="hero-message" name="hero-message" placeholder="{{ __('common.MENSAJE') }}" value="{{ old('hero-message') }}{{ old('modal-message') }}" class="input__field">
+  <input type="text" id="hero_message" name="hero_message" placeholder="{{ __('common.MENSAJE') }}" value="{{ old('hero_message') }}{{ old('modal_message') }}" class="input__field">
 </div>
 
     </div>
@@ -86,8 +86,8 @@
     <div class="form-item">
       
 <div class="checkbox ">
-  <input type="checkbox" id="hero-lega" name="hero-lega" class="checkbox__field"{{ old('hero-lega')?'checked':'' }}>
-  <label for="hero-lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/'>{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <input type="checkbox" id="hero_lega" name="hero_lega" class="checkbox__field"{{ old('hero_lega')?'checked':'' }}>
+  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/'>{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>

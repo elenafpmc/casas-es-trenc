@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 class InfoRequestController extends Controller
 {
     public function information(Request $request){
-		$prepend=(null!==($request->{'modal-name'}))?'modal-':'hero-';
+		$prepend=(null!==($request->{'modal_name'}))?'modal_':'hero_';
 		$name=$prepend.'name';
 		$prefijo=$prepend.'phone-prefix';
 		$phone=$prepend.'phone';
