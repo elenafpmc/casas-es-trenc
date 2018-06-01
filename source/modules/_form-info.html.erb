@@ -4,12 +4,13 @@
 %>
 
 <div class="form-info">
-  <form>
+  <form method="post" action="" class="<%= prefix %>_form-info__form">
     <div class="form-item">
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
+        :extra_attributes => '',
         :placeholder => "Nombre y apellidos",
-        :name => prefix+"-name",
+        :name => prefix+"_name",
         :type => "text"
       }) %>
     </div>
@@ -17,7 +18,7 @@
 
       <%= partial("modules/select", :locals => {
         :extra_classes => '',
-        :name => prefix+"-phone-prefix",
+        :name => prefix+"_phone-prefix",
         :options => ['+34', '+23', '+43']
       }) %>
 
@@ -25,7 +26,7 @@
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
         :placeholder => "Número",
-        :name => prefix+"-phone",
+        :name => prefix+"_phone",
         :type => "text"
       }) %>
     </div>
@@ -33,8 +34,10 @@
     <div class="form-item">
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
+        :extra_attributes => '',
+        # :extra_attributes => ' required data-rule-email="true" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address"',
         :placeholder => "Mail",
-        :name => prefix+"-mail",
+        :name => prefix+"_mail",
         :type => "email"
       }) %>
     </div>
@@ -42,8 +45,10 @@
     <div class="form-item">
       <%= partial("modules/input", :locals => {
         :extra_classes => '',
+        :extra_attributes => '',
+        # :extra_attributes => ' data-rule-required="true" data-msg-required="Please enter a message"',
         :placeholder => "Mensaje",
-        :name => prefix+"-message",
+        :name => prefix+"_message",
         :type => "text"
       }) %>
     </div>
@@ -52,7 +57,7 @@
       <%= partial("modules/checkbox", :locals => {
         :extra_classes => '',
         :label => "Acepto la <a href='http://development.flyingpigs.es/casas-es-trenc/build/politica-de-privacidad/'>política de privacidad.</a>",
-        :name => prefix+"-lega",
+        :name => prefix+"_lega"
       }) %>
     </div>
 

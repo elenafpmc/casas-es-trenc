@@ -1,10 +1,11 @@
 <%
   extra_classes ||= ""
+  extra_attributes ||= ""
   label ||= ""
   name ||= ""
 %>
 
 <div class="checkbox <%= extra_classes %>">
-  <input type="checkbox" id="<%= name %>" name="<%= name %>" class="checkbox__field">
+  <input type="checkbox" id="<%= name %>" name="<%= name %>" class="checkbox__field" <%= extra_attributes %>>
   <label for="<%= name %>" class="checkbox__label"><%= label %></label>
 </div>
