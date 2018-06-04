@@ -19,7 +19,7 @@ Route::get('/ubicacion',                        function ()        {App::setLoca
 Route::get('/aviso-legal',                      function ()        {App::setLocale('es');   return view('aviso',    ['section'=>'static']);});
 Route::get('/politica-de-privacidad',           function ()        {App::setLocale('es');   return view('politica', ['section'=>'static']);});
 Route::get('/contacto',                         function ()        {App::setLocale('es');   return view('contacto', ['section'=>'contacto']);});
-Route::get('/{locale}/home',                    function ($locale) {App::setLocale($locale);return view('home');}                                )->where( ['locale'=>'es|en|de']);
+Route::get('/{locale}/home',                    function ($locale) {App::setLocale($locale);return view('home',     ['section'=>'']);}           )->where( ['locale'=>'es|en|de']);
 Route::get('/{locale}/sectores',                function ($locale) {App::setLocale($locale);return view('sectores', ['section'=>'sectores']);}   )->where( ['locale'=>'es|en|de']);
 Route::get('/{locale}/viviendas',               function ($locale) {App::setLocale($locale);return view('viviendas',['section'=>'viviendas']);}  )->where( ['locale'=>'es|en|de']);
 Route::get('/{locale}/ubicacion',               function ($locale) {App::setLocale($locale);return view('ubicacion',['section'=>'ubicacion']);}  )->where( ['locale'=>'es|en|de']);

@@ -1,6 +1,6 @@
 <?php
 return[
-    'Aviso legal'              => 'Aviso legal',
+    'AVISO_LEGAL'              => 'Aviso legal',
     'ESTA_PAGINA_WEB'          => 'Esta página Web es titularidad de URNOVA, S.L.U. (en adelante, URNOVA).',
     'CIF'                      => 'CIF: B-79308755.',
     'DOMICILIO_SOCIAL'         => 'Domicilio social: C/ Joan Maragall, 38, 07006 – Palma de Mallorca.',

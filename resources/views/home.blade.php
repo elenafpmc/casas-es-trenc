@@ -137,8 +137,8 @@
   <p class="text">{{ __('home.DESDE_285') }}</p>
 </div> -->
 
-    <p class="title-small">los sectores de</p>
-    <p class="title">Casas es Trenc</p>
+    <p class="title-small">{{ __('home.LOS_SECTORES_DE') }}</p>
+    <p class="title">{{ __('home.CASAS_ES_TRENC') }}</p>
     <div class="slide-sectores-content ave-paraiso">
       <a class="logos-home-link" href="/sectores/">
         <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
@@ -183,7 +183,7 @@
     <p class="title">{{ __('home.UBICACION') }}</p>
     <p class="text">{{ __('home.ESTE_NUEVO_COMPLEJO') }}</p>
     <!-- TRADUCCIÓN -->
-    <p class="text"><a href="/ubicacion/" class="link">Ver ubicación<span class="icon-arrow-right"></a></p>
+    <p class="text"><a href="/ubicacion/" class="link">{{ __('home.VER') }} {{ __('home.UBICACION') }}<span class="icon-arrow-right"></a></p>
     <!-- /TRADUCCIÓN -->
   </div>
   <div class="content-image__image">

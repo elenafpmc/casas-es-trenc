@@ -1,0 +1,16 @@
+<?php
+return[
+    'POLITICA_DE_PRIVACIDAD'   => 'PRIVACY POLICY',
+    'A_LOS_EFECTOS_DE_LO'      => 'For the purposes of the provisions of Organic Law 15/1999, of December 13, on the Protection of Personal Data, users of this website are informed that the personal data they provide through it, both by completing any form, and by email or by any other means will be treated in accordance with this Data Protection Policy.',
+    'LOS_DATOS_FACILITADOS'    => 'The data provided will become part of the files for which URNOVA, S.L.U. is responsible. which are conveniently registered in the General Registry of the Spanish Agency for Data Protection. Depending on the purpose for which the data are provided, these will be processed in order to respond to your request, query, suggestion or doubt.',
+    'SI_SE_NOS_PROPORCIONA'    => 'If we are provided with data from third parties, the person who does so must, under their responsibility, inform the affected party of the provisions of this clause and obtain their consent in advance.',
+    'EN_TODO_CASO'             => 'In any case, the rights of access, rectification, cancellation and opposition can be exercised at the following address: C / Joan Maragall, 38, 07002 (Palma de Mallorca) or by sending an e-mail to',
+    'POLITICA_DE_COOKIES'      => 'COOKIES POLICY',
+    'UNA_COOKIE_ES_UN_FICHERO' => 'A cookie is a file that is downloaded to your computer when you access certain web pages. Cookies allow a web page, among other things, to store and retrieve information about the browsing habits of a user or their equipment and, depending on the information they contain and the way in which their equipment is used, they can be used to recognize it',
+    'NO_OBSTANTE_ESTOS_MEDIOS' => 'However, these means only obtain information related to the number of pages visited, the city to which the IP address from which it is accessed is assigned, the number of new users, the frequency and recidivism of the visits, the time of visit , the browser or the operator or type of terminal from which the visit is made. In no case are data obtained about the name, surname or postal address from which the user has connected.',
+    'LAS_COOKIES_UTILIZADAS'   => 'The cookies used in this web page and the specific purpose of each of them are the following:',
+    'COOKIE_GA'                => 'Cookie _ga: This cookie is intended to control unique visits. The first time a user enters the URNOVA website, S.L.U. this cookie will be installed through a browser. When this user re-enters our page with the same browser, the cookie will consider that it is the same user. Only in the case that the user changes the browser, Google Analytics will consider another user.',
+    'COOKIE_DATR'              => 'Cookie datr: Facebook cookies that are intended to enable logging on the website through the Facebook account.',
+    'PUEDE_USTED_PERMITIR'     => 'You can allow, block or delete the cookies installed on your computer by configuring the options of your browser. You can find information on how to do it, in relation to the most common browsers, in the links that are included below:',
+    'LE_INFORMAMOS_NO_OBSTANTE'=> 'We inform you, however, of the possibility that the deactivation of any cookie prevents or hinders navigation or the provision of the services offered on this website.',
+];
