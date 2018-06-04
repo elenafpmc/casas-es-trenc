@@ -96,7 +96,7 @@
       
 <div class="checkbox ">
   <input type="checkbox" id="hero_lega" name="hero_lega" class="checkbox__field"{{ old('hero_lega')?'checked':'' }}>
-  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/'>{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/' target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
