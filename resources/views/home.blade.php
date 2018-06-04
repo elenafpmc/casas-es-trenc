@@ -169,7 +169,7 @@
               <p class="text"><a href="/viviendas/" class="link">{{ __('home.BAJOS_CON_JARDIN') }}<span class="icon-arrow-right"></a></p>
   </div>
   <div class="content-image__image">
-    <img src="/assets/images/content/franciscogarvi.com_B7K3419.jpg" class="" alt="{{ __('home.FRANCISCOGARVI') }}" />
+    <img src="/assets/images/content/slide-viviendas.jpg" class="" alt="{{ __('home.FRANCISCOGARVI') }}" />
   </div>
 </div>
         </div>
@@ -187,7 +187,7 @@
     <!-- /TRADUCCIÓN -->
   </div>
   <div class="content-image__image">
-    <img src="/assets/images/content/slide-ubicacion.jpg" class="" alt="{{ __('home.SLIDE_UBICACION') }}" />
+    <img src="/assets/images/content/slide-entorno.jpg" class="" alt="{{ __('home.SLIDE_UBICACION') }}" />
   </div>
 </div>
         </div>
