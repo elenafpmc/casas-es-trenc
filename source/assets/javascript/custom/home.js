@@ -13,7 +13,7 @@ if ( $('.carousel-home').length > 0 ) {
 $(function() {
 
   if ( $(".hero_form-info__form").length > 0 ) {
-    $.validator.addMethod('legalCheck', function (value, element) {
+    $.validator.addMethod('herpLegalCheck', function (value, element) {
       return $('[name="hero_lega"]').is(':checked');
     }, '');
 
@@ -42,7 +42,7 @@ $(function() {
           required: true
         },
         hero_lega: {
-          legalCheck: true
+          herpLegalCheck: true
         }
       },
       messages: {
@@ -57,7 +57,7 @@ $(function() {
           required: 'Por favor escriba un mensaje.'
         },
         hero_lega: {
-          legalCheck: 'Por favor acepte la politica de privacidad.'
+          herpLegalCheck: 'Por favor acepte la politica de privacidad.'
         }
       }
 
