@@ -12,10 +12,19 @@
   <div class="swiper-container hero__slider">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="hero__slider__bg" style="background-image: url(/assets/images/content/hero-home.jpg);"></div>
+          <div class="hero__slider__bg" style="background-image: url('/assets/images/content/hero-home-01.jpg');"></div>
         </div>
         <div class="swiper-slide">
-          <div class="hero__slider__bg" style="background-image: url(/assets/images/content/hero-home.jpg);"></div>
+          <div class="hero__slider__bg" style="background-image: url('/assets/images/content/hero-home-02.jpg');"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero__slider__bg" style="background-image: url('/assets/images/content/hero-home-03.jpg');"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero__slider__bg" style="background-image: url('/assets/images/content/hero-home-04.jpg');"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero__slider__bg" style="background-image: url('/assets/images/content/hero-home-05.jpg');"></div>
         </div>
     </div>
 
