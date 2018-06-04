@@ -108,7 +108,7 @@
   <div class="sector__content">
     <div class="sector__content__info"><img src="../assets/images/content/logo-buganvilla.png" class="sector__content__info__logo" alt="Logo buganvilla" /><p class="sector__content__info__title">Apartamentos Buganvilla</p>
                   <div class="sector__content__info__text">
-                    <p>El sector Buganvilla cuenta con 15.000m2 de jardines, adema´s de una gran piscina de agua salada de 33x14m ma´s una piscina para nin~os y parque infantil, gimnasio con ma´quinas de u´ltima generacio´n, sauna Freixenet, y una zona habilitada para la custodia y mantenimiento de bicicletas.</p>
+                    <p>El sector Buganvilla cuenta con 15.000m2 de jardines, además de una gran piscina de agua salada de 33x14 metros más una piscina para niños y parque infantil, gimnasio con máquinas de última generación, sauna Freixenet, y una zona habilitada para la custodia y mantenimiento de bicicletas.</p>
                     <p class="price">
                       <span class="small">Pisos desde</span>
                        295.000€ a 360.000€
