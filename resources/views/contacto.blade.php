@@ -8,15 +8,15 @@
 @section ('module_content')
 @endsection
 @section ('content')
-  <p class="contacto__title">Contacte con nosotros</p>
+  <p class="contacto__title">{{ __('contacto.CONTACTE_CON_NOSOTROS') }}</p>
   <p class="contacto__text">
-    ¿Necesita más información o desea concertar una visita? Nuestro equipo de profesionales de Urnova en Mallorca están a su disposición.
+    {{ __('contacto.NECESITA_MAS_INFORMACION') }}
   </p>
   <div class="contacto__info">
     <div class="contacto__info__content">
       <div class="contacto__info__content__block">
         <p class="contacto__info__content__title">
-          CASAS ES TRENC OFICINA DE VENTAS
+          {{ __('contacto.CASAS_ES_TRENC_OFICINA') }}
         </p>
         <p class="contacto__info__content__address">
           Carrer de sa Vinyola
@@ -30,7 +30,7 @@
       </div>
       <div class="contacto__info__content__block">
         <p class="contacto__info__content__title">
-          URNOVA, OFICINA EN MALLORCA
+          {{ __('contacto.URNOVA_OFICINA_EN') }}
         </p>
         <p class="contacto__info__content__address">
           C/ Joan Maragall, 38 Local 9
