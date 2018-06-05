@@ -18,7 +18,7 @@
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
     <div class="sector__header__ribbon">
-      <span class="content">9 últimas unidades</span>
+      <span class="content">{{ __('sectores.9_ULTIMAS_UNIDADES') }}</span>
     </div>
 
   </div>
