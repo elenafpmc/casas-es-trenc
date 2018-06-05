@@ -12,11 +12,19 @@
   <div class="sector__header" style="background-image: url(../assets/images/content/franciscogarvi.com_B7K7803.jpg);">
     <div class="sector__header__content">
       <p class="sector__header__content__title">Ave del Paraíso</p>
+<<<<<<< HEAD
         <div class="sector__header__content__text"><p class="text">{{ __('sectores.DESDE') }}</p> <p class="price">220.000€</p> <p class="text">{{ __('sectores.ULTIMOS_9_PISOS') }}</p></div>
+=======
+        <div class="sector__header__content__text"><p class="text">Desde</p> <p class="price">220.000€</p></div>
+>>>>>>> baa7b547f204ddc7914994a896e4f113bf3cd78d
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
+    <div class="sector__header__ribbon">
+      <span class="content">9 últimas unidades</span>
+    </div>
+
   </div>
   <div class="sector__content">
     <div class="sector__content__info"><img src="../assets/images/content/logo-avedelparaiso.png" class="sector__content__info__logo" alt="Logo avedelparaiso" /><p class="sector__content__info__title">{{ __('sectores.APARTAMENTOS_AVE_DEL') }}</p>
