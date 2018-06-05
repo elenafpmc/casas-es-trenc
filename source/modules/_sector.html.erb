@@ -8,6 +8,7 @@
   sector_list ||= []
   modal_prefix ||= ''
   images_gallery ||= []
+  ribbon ||= false
 %>
 
 
@@ -32,6 +33,11 @@
       <%# end %>
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
     </div>
+    <% if ( ribbon ) %>
+      <div class="sector__header__ribbon">
+        <span class="content">9 últimas unidades</span>
+      </div>
+    <% end %>
   </div>
   <div class="sector__content">
     <%= content %>
