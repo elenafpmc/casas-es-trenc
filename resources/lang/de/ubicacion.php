@@ -25,7 +25,7 @@ return[
     'VENGA_A_PRACTICAR'        => 'Kommen und wandern Sie in der Schönheit des Südens von Mallorca. Genießen Sie Ihr eigenes exklusives Haus in der Nähe des Naturparks Es Trenc Salobrar.',
     'PRACTIQUE_EL_SENDERISMO'  => 'Wandern Sie auf Mallorca inmitten der Natur in perfektem Gebiet. Las Casas Es Trenc - Bougainvillea befinden sich in unmittelbarer Nähe des Naturparks Es Trenc Salobrar, der schöne Touren anbietet, um Ihren Sport durch Wälder und Küstentürme zu üben.',
     'SU_CASA_EN_PLENA'         => 'Ihr Haus mitten in der Natur, um eindrucksvolle Routen zu genießen. Alle Arten von Touren überqueren die Insel. Von Wegen aus der arabischen Zeit bis zu alten Straßen, die von Schmugglern geöffnet wurden, um unzugängliche Orte an der Küste zu erreichen. Ein Paradies voller Abenteuer für Wanderfreunde.',
-    'ATICOS'                   => 'Wandergebiet',
+    'UBICACION_SENDERISMO'     => 'Wandergebiet',
     'RECORRE_EL_SURESTE'       => 'Reisen Sie den Südosten von Mallorca',
     'BICI'                     => 'Fahrrad',
     'SU_CASA_EN_MAYORCA'       => 'Ihr Haus auf Mallorca zum Radfahren. Fühlen Sie die sanfte Brise des Meeres und des Berges, während Sie mit Ihrer Familie Fahrrad fahren.',

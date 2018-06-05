@@ -25,7 +25,7 @@ return[
     'VENGA_A_PRACTICAR'        => 'Come and go hiking in the beauty of the south of Mallorca. Enjoy your own exclusive home near the natural park Es Trenc Salobrar.',
     'PRACTIQUE_EL_SENDERISMO'  => 'Practice hiking in Mallorca surrounded by nature in a perfect territory. Las Casas Es Trenc - Buganvilla are located very close to the natural park Es Trenc Salobrar that offers beautiful tours to practice your sport through forests and coastal watchtowers.',
     'SU_CASA_EN_PLENA'         => 'Your house in the middle of nature to enjoy impressive routes. All kinds of tours cross the island. From trails from the Arab era to old roads opened by smugglers to reach inaccessible places on the coast. A paradise full of adventures for lovers of hiking.',
-    'ATICOS'                   => 'Location Trekking',
+    'UBICACION_SENDERISMO'     => 'Location Trekking',
     'RECORRE_EL_SURESTE'       => 'travel the southeast of mallorca',
     'BICI'                     => 'Bike',
     'SU_CASA_EN_MAYORCA'       => 'Your house in Mallorca to practice cycling. Feel the gentle breeze of the sea and the mountain while you pedele with your family.',

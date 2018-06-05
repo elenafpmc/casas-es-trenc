@@ -25,7 +25,7 @@ return[
     'VENGA_A_PRACTICAR'        => 'Venga a practicar el senderismo en la belleza del sur de Mallorca. Disfrute de su propia y exclusiva vivienda cerca del parque natural Es Trenc Salobrar.',
     'PRACTIQUE_EL_SENDERISMO'  => 'Practique el senderismo en Mallorca rodeado de naturaleza en un territorio perfecto. Las Casas Es Trenc – Buganvilla están situadas muy cerca del parque natural Es Trenc Salobrar que le brinda bellísimos recorridos para practicar su deporte a través de bosques y atalayas costeras.',
     'SU_CASA_EN_PLENA'         => 'Su casa en plena naturaleza para disfrutar de impresionantes rutas. Todo tipo de recorridos surcan la isla. Desde senderos de la época árabe a antiguos caminos abiertos por contrabandistas para alcanzar lugares inaccesibles en la costa. Un paraíso lleno de aventuras para los amantes del senderismo.',
-    'ATICOS'                   => 'Ubicacion senderismo',
+    'UBICACION_SENDERISMO'     => 'Ubicacion senderismo',
     'RECORRE_EL_SURESTE'       => 'recorre el sureste de mallorca',
     'BICI'                     => 'Bici',
     'SU_CASA_EN_MAYORCA'       => 'Su casa en Mallorca para practicar ciclismo. Sienta las suave brisa del mar y de la montaña mientras pasea con su familia.',
