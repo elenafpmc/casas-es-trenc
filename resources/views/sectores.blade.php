@@ -103,7 +103,7 @@
   <div class="sector__header" style="background-image: url(../assets/images/content/sector-buganvilla.jpg);">
     <div class="sector__header__content">
       <p class="sector__header__content__title">Buganvilla</p>
-        <div class="sector__header__content__text"><p class="text">{{ __('sectores.CONSTA_DE_DOS_PISCINAS') }}</p> <p class="price">295.000€</p></div>
+        <div class="sector__header__content__text"><p class="text">{{ __('sectores.DESDE') }}</p> <p class="price">295.000€</p></div>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
