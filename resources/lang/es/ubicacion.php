@@ -40,5 +40,5 @@ return[
     'UBICACION_OCIO'           => 'Ubicacion ocio',
     'MAPA_UBICACION'           => 'Mapa ubicacion',
 	'SI_LE_GUSTA_LA_NATURALEZA'=> 'Si le gusta la naturaleza y practicar el senderismo, en Mallorca encontrará un territorio perfecto.',
-	'IMAGINE_TENER_SU_PROPIA'   => 'Imagine tener su propia vivienda cerca del parque natural protegido Es Trenc Salobrar. Su propia casa en la naturaleza para disfrutar de impresionantes rutas. Todo tipo de recorridos surcan la isla. Desde senderos de la época árabe a caminos abiertos por contrabandistas para alcanzar lugares inaccesibles en la costa. Un paraíso lleno de aventuras para los amantes del senderismo.',
+	'IMAGINE_TENER_SU_PROPIA'  => 'Imagine tener su propia vivienda cerca del parque natural protegido Es Trenc Salobrar. Su propia casa en la naturaleza para disfrutar de impresionantes rutas. Todo tipo de recorridos surcan la isla. Desde senderos de la época árabe a caminos abiertos por contrabandistas para alcanzar lugares inaccesibles en la costa. Un paraíso lleno de aventuras para los amantes del senderismo.',
 ];

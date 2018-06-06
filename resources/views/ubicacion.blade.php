@@ -63,8 +63,8 @@
   <div class="content-image__content">
     <p class="title-small">{{ __('ubicacion.AMANTES_DEL_TREKKING') }}</p>
     <p class="title">{{ __('ubicacion.SENDERISMO') }}</p>
-    <p class="text lead">{{ __('ubicacion.LA_PLAYA_DE_ES_TRENC_ES') }}</p>
-                    <p class="text">{{ __('ubicacion.SI_LE_GUSTA_LA_NATURALEZA') }}</p>
+    <p class="text lead">{{ __('ubicacion.SI_LE_GUSTA_LA_NATURALEZA') }}</p>
+                    
                     <p class="text">{{ __('ubicacion.IMAGINE_TENER_SU_PROPIA') }}</p>
   </div>
   <div class="content-image__image">
