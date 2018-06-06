@@ -31,49 +31,49 @@
         <div class="swiper-container gallery__top">
           <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc_MG_4471-1.jpg" class="" alt="Casas es trenc mg 4471 1" />
+                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc_MG_4471-1.jpg" class="" alt="{{ __('viviendas.ALT_01') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-81-1618x1080.jpg" class="" alt="Casas es trenc 81 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-81-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_02') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-319-1618x1080.jpg" class="" alt="Casas es trenc 319 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-319-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_03') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-340-1618x1080.jpg" class="" alt="Casas es trenc 340 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-340-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_04') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bathroom-1-n-1618x1080.jpg" class="" alt="Casas es trenc b bathroom 1 n 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bathroom-1-n-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_05') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bedroom-1a-n-1618x1080.jpg" class="" alt="Casas es trenc b bedroom 1a n 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bedroom-1a-n-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_06') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bedroom-2-n-1618x1080.jpg" class="" alt="Casas es trenc b bedroom 2 n 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-bedroom-2-n-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_07') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-kitchen-n-1618x1080.jpg" class="" alt="Casas es trenc b kitchen n 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-kitchen-n-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_08') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-tarrase-n-1618x1080.jpg" class="" alt="Casas es trenc b tarrase n 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-es-Trenc-B-tarrase-n-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_09') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-Buganvilla-107-1618x1080.jpg" class="" alt="Casas es trenc buganvilla 107 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-Buganvilla-107-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_10') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-IMG_3710-1620x1080.jpg" class="" alt="Casas es trenc f1 img 3710 1620x1080" />
+                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-IMG_3710-1620x1080.jpg" class="" alt="{{ __('viviendas.ALT_11') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-salon2-1-1621x1080.jpg" class="" alt="Casas es trenc f1 salon2 1 1621x1080" />
+                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-salon2-1-1621x1080.jpg" class="" alt="{{ __('viviendas.ALT_12') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-salon4-1-1643x1080.jpg" class="" alt="Casas es trenc f1 salon4 1 1643x1080" />
+                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1-salon4-1-1643x1080.jpg" class="" alt="{{ __('viviendas.ALT_13') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1a-dormitorio2-z-1622x1080.jpg" class="" alt="Casas es trenc f1a dormitorio2 z 1622x1080" />
+                  <img src="/assets/images/content/gallery/aticos/casas-es-trenc-f1a-dormitorio2-z-1622x1080.jpg" class="" alt="{{ __('viviendas.ALT_14') }}" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-roof-tarrace-solarium-1618x1080.jpg" class="" alt="Casas es trenc roof tarrace solarium 1618x1080" />
+                  <img src="/assets/images/content/gallery/aticos/Casas-Es-Trenc-roof-tarrace-solarium-1618x1080.jpg" class="" alt="{{ __('viviendas.ALT_15') }}" />
                 </div>
                 <div class="swiper-slide">
                   <img src="/assets/images/content/gallery/aticos/galeria-ave-del-paraiso.jpg" class="" alt="Galeria ave del paraiso" />
@@ -156,11 +156,13 @@
           </div>
         </div>
 
-        <div class="row center-xs">
+        <!--
+		<div class="row center-xs">
           <div class="col-md-3 col-sm-4">
-            <a href="#" class="link">Ver memoria de calidades <span class="icon-arrow-right"></span></a>
+            <a href="#" class="link">{{ __('viviendas.VER_MEMORIA_DE_CALIDADES') }} <span class="icon-arrow-right"></span></a>
           </div>
         </div>
+		-->
       </div>
   </div>
 </div>
@@ -225,7 +227,7 @@
 <div class="sector sector--right">
   <div class="sector__header" style="background-image: url(/assets/images/content/vivienda-bajo.jpg);">
     <div class="sector__header__content">
-      <p class="sector__header__content__title">Bajo con jardín</p>
+      <p class="sector__header__content__title">{{ __('viviendas.BAJO_CON_JARDIN') }}</p>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
@@ -233,10 +235,10 @@
   </div>
   <div class="sector__content">
     <div class="sector__content__info">
-                  <p class="sector__content__info__title">Bajos</p>
+                  <p class="sector__content__info__title">{{ __('viviendas.BAJOS') }}</p>
                   <div class="sector__content__info__text">
-                    <p>Casas de arquitectura mediterránea clásica con lujosos y luminosos interiores de moderno diseño en un espectacular entorno y con las mejores calidades. Listas para entrar a vivir y con todas las licencias aprobadas. Casas Es Trenc – Buganvilla, venta de viviendas muy próximas a la playa de Es Trenc en una zona muy tranquila.</p>
-                    <p>Aproveche las ventajas de vivir en una planta baja. Acceda directamente a la piscina desde su casa o simplemente siéntese a disfrutar de los amplios jardines llenos de plantas que rodean su vivienda.</p>
+                    <p>{{ __('viviendas.CASAS_DE_ARQUITECTURA') }}</p>
+                    <p>{{ __('viviendas.APROVECHE_LAS_VENTAJES') }}</p>
                   </div>
                 </div>
 
@@ -347,10 +349,10 @@
                   <img src="/assets/images/content/gallery/bajos/Cases-es-Trenc-188-f1-pb-salon-1618x1080.jpg" class="" alt="Cases es trenc 188 f1 pb salon 1618x1080" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/images/content/gallery/bajos/galeria-buganvilla2.jpg" class="" alt="Galeria buganvilla2" />
+                  <img src="/assets/images/content/gallery/bajos/galeria-buganvilla2.jpg" class="" alt="Galeria buganvilla2" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/images/content/gallery/bajos/galeria-buganvilla3.jpg" class="" alt="Galeria buganvilla3" />
+                  <img src="/assets/images/content/gallery/bajos/galeria-buganvilla3.jpg" class="" alt="Galeria buganvilla3" />
                 </div>
           </div>
 
@@ -367,12 +369,13 @@
 
           </div>
         </div>
-
+		<!--
         <div class="row center-xs">
           <div class="col-md-3 col-sm-4">
             <a href="#" class="link">Ver memoria de calidades <span class="icon-arrow-right"></span></a>
           </div>
         </div>
+		-->
       </div>
   </div>
 </div>

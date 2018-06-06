@@ -71,14 +71,13 @@ class InfoRequestController extends Controller
          );
 
         if ($validator->fails()) {
-		// dd($validator);
             return redirect($request->session()->previousUrl())
                         ->withErrors($validator)
                         ->withInput();
         }else{
 			$mail = new InfoRequest($params);
 			$mail->build();
-			Mail::to('ultano@gmail.com')->send($mail);
+			Mail::to('elena@flyingpigs.es')->send($mail);
 			if(count(Mail::failures()) > 0){
 				return redirect($request->session()->previousUrl())->with('error','ERROR_MENSAJE');
 			}else{

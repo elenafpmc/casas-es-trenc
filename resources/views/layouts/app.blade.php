@@ -108,8 +108,8 @@
 			  url(
 				($lang!='es')?$lang:'',
 				(App::getLocale()!='es')?
-				preg_replace('/'.App::getLocale().'\//','',$request_path)
-				:Request::path()
+				preg_replace('/'.App::getLocale().'\//','',($section=='')?'':$request_path)
+				:rtrim(Request::path(),'/')
 			  )
 			  }}" class="lang-selector-val">
                 <img src="/assets/images/icons/{{ $country }}.png" class="flag" alt="{{ ucfirst($country) }}" />
@@ -197,7 +197,7 @@
       
 <div class="checkbox ">
   <input type="checkbox" id="modal_lega" name="modal_lega" class="checkbox__field"{{ old('hero_lega')?' checked':'' }} />
-  <label for="modal_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/politica-de-privacidad/' target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="modal_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url(App::getLocale(),'politica-de-privacidad') }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
@@ -270,13 +270,13 @@
         </p>
         <ul>
           <li>
-            <a href="/aviso-legal/">{{ __('common.AVISO_LEGAL') }}</a>
+            <a href="{{ url(App::getLocale(),'aviso-legal') }}">{{ __('common.AVISO_LEGAL') }}</a>
           </li>
           <li>
             |
           </li>
           <li>
-            <a href="/politica-de-privacidad/" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}</a>
+            <a href="{{ url(App::getLocale(),'politica-de-privacidad') }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}</a>
           </li>
         </ul>
       </div>
