@@ -6,9 +6,8 @@
 	<ul>
 		<li><strong>Nombre: </strong>{{ $name }}</li>
 		<li><strong>Prefijo: </strong>{{ $prefijo }}</li>
-		<li><strong>Teléfono: </strong>{{ $phone }}</li>
+		<li><strong>TelÃ©fono: </strong>{{ $phone }}</li>
 		<li><strong>Mail: </strong>{{ $mail }}</li>
 		<li><strong>Mensaje: </strong>{{ $mensaje }}</li>
-		<li><strong>Acepta Política de Privacidad: </strong>{{ $lega }}</li>
 	</ul>
 </div>

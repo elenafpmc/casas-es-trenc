@@ -32,11 +32,11 @@
   </div>
 
     <div class="hero__form">
-    
+
       <p class="hero__form__title">
         {{ __('common.MAS_INFORMACION') }}
       </p>
-      
+
 <div class="form-info">
 	@if ($errors->any())
     <div class="alert alert-danger">
@@ -50,7 +50,7 @@
   <form action="/InfoRequest" method="POST" class="hero_form-info__form">
   {{ csrf_field() }}
     <div class="form-item">
-      
+
 <div class="input ">
   <input type="text" id="hero_name" name="hero_name" placeholder="{{ __('common.NOMBRE_Y_APELLIDOS') }}" value="{{ old('hero_name') }}{{ old('modal_name') }}" class="input__field">
 </div>
@@ -58,7 +58,7 @@
     </div>
     <div class="form-item">
 
-      
+
 <div class="select ">
   <select id="hero_phone-prefix" name="hero_phone-prefix" class="select__field">
     <option value="+34"{{ ( old('modal_phone-prefix')=='+34' || old('hero_phone-prefix')=='+34' )?' selected':'' }}>+34</option>
@@ -69,7 +69,7 @@
 
 
 
-      
+
 <div class="input ">
   <input type="text" id="hero_phone" name="hero_phone" placeholder="{{ __('common.NUMERO') }}" value="{{ old('hero_phone') }}{{ old('modal_phone') }}" class="input__field">
 </div>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="form-item">
-      
+
 <div class="input ">
   <input type="email" id="hero_mail" name="hero_mail" placeholder="{{ __('common.MAIL') }}" value="{{ old('hero_mail') }}{{ old('modal_mail') }}" class="input__field">
 </div>
@@ -85,7 +85,7 @@
     </div>
 
     <div class="form-item">
-      
+
 <div class="input ">
   <input type="text" id="hero_message" name="hero_message" placeholder="{{ __('common.MENSAJE') }}" value="{{ old('hero_message') }}{{ old('modal_message') }}" class="input__field">
 </div>
@@ -93,15 +93,15 @@
     </div>
 
     <div class="form-item">
-      
+
 <div class="checkbox ">
   <input type="checkbox" id="hero_lega" name="hero_lega" class="checkbox__field"{{ old('hero_lega')?'checked':'' }}>
-  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href='/build/politica-de-privacidad/' target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'politica-de-privacidad') }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
 
-    
+
   <button type="submit" class="btn btn--block btn--primary" >
     {{ __('common.ENVIAR_SOLICITUD') }}
   </button>
@@ -116,7 +116,7 @@
     <div class="swiper-container carousel-home__slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          
+
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
@@ -129,7 +129,7 @@
   </a>
   </div>
   <p class="text">{{ __('home.DESDE_219') }}</p>
-    
+
 <div class="slide-sectores-content buganvilla">
   <a href="/sectores/">
   <img src="/assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" />
@@ -158,7 +158,7 @@
 </div>
         </div>
         <div class="swiper-slide">
-          
+
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
@@ -174,7 +174,7 @@
 </div>
         </div>
         <div class="swiper-slide">
-          
+
 
 
 <div class="content-image content-image--right">
