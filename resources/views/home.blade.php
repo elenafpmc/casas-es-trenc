@@ -137,8 +137,7 @@
   <p class="text">{{ __('home.DESDE_285') }}</p>
 </div> -->
 
-    <p class="title-small">&nbsp;</p>
-    <p class="title">&nbsp;</p>
+    
     <div class="slide-sectores-content ave-paraiso">
       <a class="logos-home-link" href="/sectores/">
         <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
