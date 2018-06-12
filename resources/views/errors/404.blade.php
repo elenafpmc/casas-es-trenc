@@ -194,8 +194,7 @@
 
   
 <div class="error">
-  <div class="error__image">
-    <img src="/assets/images/content/franciscogarvi.com_B7K8527.jpg" class="" alt="Franciscogarvi.com b7k8527" />
+  <div class="error__image" style="background-image: url('assets/images/content/franciscogarvi.com_B7K8527.jpg');">
   </div>
   <div class="error__content">
     <div class="content__wrapper">
