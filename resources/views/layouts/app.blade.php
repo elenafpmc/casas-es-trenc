@@ -62,7 +62,6 @@
     <div class="header__logo__left">
       <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'home') }}">
         <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
-        <p>{{ __('common.DIRECTO_DEL_PROMOTOR') }}</p>
       </a>
     </div>
     <div class="header__logo__urnova">
@@ -70,6 +69,7 @@
         <img src="/assets/images/content/logo-urnova1.png" class="urnova" alt="Logo urnova" />
       </a>
     </div>
+    <p class="header__logo__parr">{{ __('common.DIRECTO_DEL_PROMOTOR') }}</p>
   </div>
 
   <nav class="header__nav">
