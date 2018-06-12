@@ -11,7 +11,7 @@ return[
     'VIVIENDAS'                => 'Wohnungen',
     'DESDE_220'                => 'Von € 220.000 bis € 250.000',
     'DESDE_219'                => 'Von € 219.000 bis € 249.000',
-    'DESDE_295'                => 'Von € 295.000 bis € 360.000',
+    'DESDE_295'                => 'Von € 295.000 bis € 350.000',
     'DESDE_285'                => 'Von € 285.000 bis € 341.000',
     'VER_AVE_DEL_PARAISO'      => 'Siehe Ave del Paraíso',
     'VER_BUGANVILLA'           => 'Siehe Buganvilla',

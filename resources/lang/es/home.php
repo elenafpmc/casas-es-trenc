@@ -11,7 +11,7 @@ return[
     'VIVIENDAS'                => 'Viviendas',
     'DESDE_220'                => 'Desde 220.000€ a 250.000€',
     'DESDE_219'                => 'Desde 219.000€ a 249.000€',
-    'DESDE_295'                => 'Desde 295.000€ a 360.000€',
+    'DESDE_295'                => 'Desde 295.000€ a 350.000€',
     'DESDE_285'                => 'Desde 285.000€ a 341.000€',
     'VER_AVE_DEL_PARAISO'      => 'Ver Ave del Paraíso',
     'VER_BUGANVILLA'           => 'Ver Buganvilla',

@@ -137,19 +137,19 @@
   <p class="text">{{ __('home.DESDE_285') }}</p>
 </div> -->
 
-    <p class="title-small">{{ __('home.LOS_SECTORES_DE') }}</p>
-    <p class="title">{{ __('home.CASAS_ES_TRENC') }}</p>
+    <p class="title-small">&nbsp;</p>
+    <p class="title">&nbsp;</p>
     <div class="slide-sectores-content ave-paraiso">
       <a class="logos-home-link" href="/sectores/">
         <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
       </a>
-      <p class="text">{{ __('home.DESDE_219') }}</p>
+      <p class="text">{{ __('home.DESDE_220') }}</p>
     </div>
     <div class="slide-sectores-content buganvilla">
       <a class="logos-home-link" href="/sectores/">
         <img src="/assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" />
       </a>
-      <p class="text">{{ __('home.DESDE_285') }}</p>
+      <p class="text">{{ __('home.DESDE_295') }}</p>
     </div>
   </div>
   <div class="content-image__image">

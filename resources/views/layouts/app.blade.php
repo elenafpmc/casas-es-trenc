@@ -226,11 +226,7 @@
         <ul class="footer__banner__list">
           <li>
             <span class="icon-sketch"></span>
-            <span class="text">{{ __('common.30_ANOS') }} <br /> {{ __('common.DE_EXPERIENCIA') }}</span>
-          </li>
-          <li>
-            <span class="icon-house"></span>
-            <span class="text">{{ __('common.MAS_DE') }} <br /> {{ __('common.1000_OBRAS') }}</span>
+            <span class="text">{{ __('common.MAS_DE') }} {{ __('common.30_ANOS') }} <br /> {{ __('common.DE_EXPERIENCIA') }}</span>
           </li>
           <li>
             <span class="icon-worldwide"></span>

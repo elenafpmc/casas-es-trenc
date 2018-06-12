@@ -6,7 +6,7 @@ return[
 	'9_ULTIMAS_UNIDADES'       => '9 últimas unidades.',
 	'APARTAMENTOS_AVE_DEL'     => 'Apartamentos Ave del Paraíso',
 	'DESDE_219'                => 'Desde 219.000€ a 249.000€',
-	'PISOS_DESDE'              => 'Pisos desde',
+	'PISOS_DESDE'              => 'Desde',
 	'219_A_249'                => '',
     'DESCRIPCION_AVE'          => 'En el sector Ave del Paraíso podrá disfrutar de una piscina para adultos de 20x11 metros y otra piscina circular infantil de 8 metros de diámetro, zona solárium y una gran zona verde donde encontrará especies vegetales seleccionadas. Además, cuenta con plazas de aparcamiento privadas.',
     'COCINA_AMERICANA'         => 'Cocina americana',

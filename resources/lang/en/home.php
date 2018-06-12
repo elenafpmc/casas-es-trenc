@@ -11,7 +11,7 @@ return[
     'VIVIENDAS'                => 'homes',
     'DESDE_220'                => 'From € 220,000 to € 250,000',
     'DESDE_219'                => 'From € 219,000 to € 249,000',
-    'DESDE_295'                => 'From € 295,000 to € 360,000',
+    'DESDE_295'                => 'From € 295,000 to € 350,000',
     'DESDE_285'                => 'From € 285,000 to € 341,000',
     'VER_AVE_DEL_PARAISO'      => 'See Ave del Paraíso',
     'VER_BUGANVILLA'           => 'See Buganvilla',
