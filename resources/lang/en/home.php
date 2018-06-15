@@ -23,5 +23,5 @@ return[
     'FRANCISCOGARVI'           => 'Franciscogarvi.com b7k3419',
     'INMEJORABLE'              => 'unbeatable',
 	'UBICACION'                => 'Location',
-    'ESTE_NUEVO_COMPLEJO'      => 'This new residential complex is located in the southeast of the island, near Es Trenc, the most beautiful beach in Mallorca with crystal clear waters and white sand.',
+    'ESTE_NUEVO_COMPLEJO'      => 'This new residential complex is located in the southeast of the island, near Es Trenc, the most beautiful beach in Mallorca with crystal clear water and white sand.',
 ];

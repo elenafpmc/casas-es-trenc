@@ -17,7 +17,7 @@ return[
     'VER_BUGANVILLA'           => 'Siehe Buganvilla',
     'SLIDE_SECTORES'           => 'Slide Sektoren',
     'SLIDE_UBICACION'          => 'Slide Standort',
-    'NUESTROS_APARTAMENTOS'    => 'Unsere Wohnungen sind in kleinen einzigartigen Gebäuden (2 -3 Wohnungen pro Gebäude) gebaut und bestehen aus Erdgeschoss und ersten Stock (Dachgeschoss).',
+    'NUESTROS_APARTAMENTOS'    => 'Unsere Wohnungen sind in kleinen einzigartigen und einzelstehenden Gebäuden (2 -3 Wohnungen pro Gebäude) gebaut und bestehen aus Erdgeschoss und ersten Stock (Dachgeschoss).',
     'ATICOS_CON_TERRAZA'       => 'Penthäuser mit Terrasse',
     'BAJOS_CON_JARDIN'         => 'Erdgeschoss mit Garten',
     'FRANCISCOGARVI'           => 'Franciscogarvi.com b7k3419',
