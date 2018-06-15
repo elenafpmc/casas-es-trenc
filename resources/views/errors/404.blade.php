@@ -61,7 +61,6 @@
         <div class="header__logo">
           <div class="header__logo__left">
             <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
-            <p>Directo del promotor</p>
           </div>
           <div class="header__logo__urnova">
             <img src="/assets/images/content/logo-urnova1.png" class="urnova" alt="Logo urnova" />
