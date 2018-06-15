@@ -1,6 +1,6 @@
 <?php
 return[
-    'TITLE'                    => 'Pisos desde',
+  'TITLE'                    => 'Pisos desde',
 	'DESDE'                    => 'Desde',
 	'ULTIMOS_9_PISOS'          => 'Últimos 9 pisos disponibles.',
 	'9_ULTIMAS_UNIDADES'       => '9 últimas unidades.',
@@ -14,7 +14,7 @@ return[
 	'SECTORES'                 => 'sectores',
 	'SALON_CON_VISTAS'         => 'Salón con vistas',
 	'AMPLIO_SALON_COMEDOR'     => 'Amplio salón comedor, desde el que podrá disfrutar de unas vistas privilegiadas en un entorno rodeado de naturaleza a escasos metros de la playa.',
-	'BANOS_COMPLETOS'          => 'Banos completos',
+	'BANOS_COMPLETOS'          => 'Baños completos',
 	'DOS_BANOS_COMPLETOS'      => '2 baños completos',
 	'AMBOS_BANOS_CONSTAN_DE'   => 'Ambos baños constan de encimera de mármol crema marfil, sanitarios y espejo. En uno de los baños se encuentran el termo y la lavadora.',
 	'DORMITORIOS_DOBLES'       => 'Dormitorios dobles',
@@ -34,8 +34,5 @@ return[
 	'INSTALACIONES_PARA_BICIS' => 'Instalaciones para bicicletas',
 	'LA_URBANIZACION_CUENTA'   => 'La urbanización cuenta con una zona de mantenimiento para sus bicicletas donde podrá ponerlas a punto con diversas herramientas para sus paseos por la isla.',
 	'GIMNASIO'                 => 'Gimnasio',
-	'ZONA_INDEPENDIENTE_PARA'  => 'Zona independiente para actividades de ocio con un área especialmente dedicada a gimnasio exclusivo para residentes.',
-	'' => '',
-	'' => '',
-	'' => '',
+	'ZONA_INDEPENDIENTE_PARA'  => 'Zona independiente para actividades de ocio con un área especialmente dedicada a gimnasio exclusivo para residentes.'
 ];
