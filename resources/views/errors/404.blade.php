@@ -59,11 +59,13 @@
     <div class="body-wrapper">
       <header class="header ">
         <div class="header__logo">
-          <div class="header__logo__left">
+          <a href="/home/" class="header__logo__left">
             <img src="/assets/images/content/logo.png" class="logo" alt="Logo" />
-          </div>
+          </a>
           <div class="header__logo__urnova">
-            <img src="/assets/images/content/logo-urnova1.png" class="urnova" alt="Logo urnova" />
+            <a href="http://www.urnova.com/" target="_blank">
+              <img src="/assets/images/content/logo-urnova1.png" class="urnova" alt="Logo urnova" />
+            </a>
           </div>
           <p class="header__logo__parr">Directo del promotor</p>
         </div>
