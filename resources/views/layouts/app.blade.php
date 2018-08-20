@@ -241,9 +241,9 @@
     <div class="footer__contact">
         <div class="footer__contact__adress">
           <p class="title"><img src="../assets/images/content/logo.png" class="logo" alt="Logo" />  {{ __('common.OFICINA_DE_VENTAS') }}</p>
-          <p class="text">Carrer sa Vinyola</p>
+          <p class="text">Carrer Sa Vinyola</p>
           <p class="text">07639 Sa Ràpita - Campos</p>
-          <p class="text">Illes Balears, Spain</p>
+          <p class="text">Illes Balears, España</p>
         </div>
         <div class="footer__contact__mail">
           <p><a href="mailto:sales@grupournova.com">sales@grupournova.com</a></p>
@@ -254,9 +254,9 @@
             <a href="https://www.youtube.com/channel/UCe-9jlQXIZno4bkr6NxWRLQ/videos" target="_blank">
               <span class="icon-youtube"></span>
             </a>
-            <!-- <a href="https://www.facebook.com/balearichouses/" target="_blank">
+            <a href="https://www.facebook.com/balearichouses/" target="_blank">
               <span class="icon-facebook"></span>
-            </a> -->
+            </a>
           </ul>
         </div>
 @endif

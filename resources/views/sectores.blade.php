@@ -12,7 +12,7 @@
   <div class="sector__header" style="background-image: url(../assets/images/content/franciscogarvi.com_B7K7803.jpg);">
     <div class="sector__header__content">
       <p class="sector__header__content__title">Ave del Paraíso</p>
-        <div class="sector__header__content__text"><p class="text">{{ __('sectores.DESDE') }}</p> <p class="price">220.000€</p></div>
+        <div class="sector__header__content__text"><p class="text">{{-- __('sectores.DESDE') --}}&nbsp;</p> <p class="price">{{-- 220.000€ --}}&nbsp;</p></div>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
@@ -26,10 +26,10 @@
     <div class="sector__content__info"><img src="../assets/images/content/logo-avedelparaiso.png" class="sector__content__info__logo" alt="Logo avedelparaiso" /><p class="sector__content__info__title">{{ __('sectores.APARTAMENTOS_AVE_DEL') }}</p>
                   <div class="sector__content__info__text">
                     <p>{{ __('sectores.DESCRIPCION_AVE') }}</p>
-                    <p class="price">
+                    <p{{-- class="price">
                       <span class="small">{{ __('sectores.PISOS_DESDE') }}</span>
                        220.000€
-                    </p>
+                   --}} </p>
                   </div>
                 </div>
       <div class="sector__content__list">
@@ -103,7 +103,7 @@
   <div class="sector__header" style="background-image: url(../assets/images/content/sector-buganvilla.jpg);">
     <div class="sector__header__content">
       <p class="sector__header__content__title">Buganvilla</p>
-        <div class="sector__header__content__text"><p class="text">{{ __('sectores.DESDE') }}</p> <p class="price">295.000€</p></div>
+        <div class="sector__header__content__text"><p class="text">{{-- __('sectores.DESDE') --}}&nbsp</p> <p class="price">{{--295.000€--}}&nbsp</p></div>
         <!-- <div class="cnt-button"> -->
         <!-- </div> -->
       <button type="button" class="btn-arrow-down btn-sector"><span class="icon-arrow-down"></span></button>
@@ -114,8 +114,8 @@
                   <div class="sector__content__info__text">
                     <p>{{ __('sectores.EL_SECTOR_BUGANVILLA') }}</p>
                     <p class="price">
-                      <span class="small">{{ __('sectores.PISOS_DESDE') }}</span>
-                       {{ __('sectores.295_A_360') }}
+                      <span class="small">{{-- __('sectores.PISOS_DESDE') }}</span>
+                       {{ __('sectores.295_A_360') --}}
                     </p>
                   </div>
                 </div>

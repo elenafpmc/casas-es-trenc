@@ -3,7 +3,7 @@ return[
   'TITLE'                    => 'Wohnungen ab',
   'DESDE'                    => 'Ab',
   'ULTIMOS_9_PISOS'          => 'Letzte 9 Wohnungen verfügbar.',
-  '9_ULTIMAS_UNIDADES'       => 'Letzte 9 Einheiten.',
+  '9_ULTIMAS_UNIDADES'       => 'LAST UNITS',
   'APARTAMENTOS_AVE_DEL'     => 'Ave del Paraíso Apartments',
   'DESDE_219'                => 'Von 219.000 € bis 249.000 €',
   'PISOS_DESDE'              => 'Ab',

@@ -9,7 +9,7 @@
 @endsection
 @section ('content')
 <div class="sector sector--fullwidth">
-  <div class="sector__header" style="background-image: url(/images/content/ubicacion.jpg);">
+  <div class="sector__header" style="background-image: url(/images/content/ubicacion-playa.jpg);">
     <div class="sector__header__content">
         <div class="sector__header__content__text"><p class="title">{{ __('ubicacion.PENSADO_PARA_DESCANSAR') }}</p></div>
       <p class="sector__header__content__title">{{ __('ubicacion.EL_MEJOR_ENTORNO_Y') }}</p>
@@ -104,5 +104,5 @@
 
   
 
-  <img src="/images/content/mapa-ubicacion.jpg" class="map-img" alt="{{ __('ubicacion.MAPA_UBICACION') }}" />
+  <img src="/images/content/mapa-palma.jpg" class="map-img" alt="{{ __('ubicacion.MAPA_UBICACION') }}" />
 @endsection

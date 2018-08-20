@@ -31,7 +31,7 @@ return[
     'PRESENCIA'                => 'Presencia',
     'EN_30_PAISES'             => 'en 30 países',
     'INTERNACIONAL'            => 'internacional',
-	'OFICINA_DE_VENTAS'        => 'OFICINA DE VENTAS',
+	'OFICINA_DE_VENTAS'        => 'CASAS ES TRENC  SALES OFFICE',
 	'RESERVADOS_DERECHOS'      => '2018. Reservados todos los derechos',
 	'AVISO_LEGAL'              => 'Aviso legal',
 ];
