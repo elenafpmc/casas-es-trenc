@@ -23,7 +23,7 @@
           <br />
           07639 Sa Ràpita - Campos
           <br />
-          Illes Balears, Spain
+          Illes Balears, España
         </p>
         <p><a href="mailto:info@casasestrencmallorca.com"><span class="icon-mail"></span>{{--info@casasestrencmallorca.com--}}sales@grupournova.com</a></p>
         <p><a href="tel:+34871811998"><span class="icon-tel"></span>(+34) 871811998</a></p>

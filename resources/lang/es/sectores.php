@@ -3,7 +3,7 @@ return[
   'TITLE'                    => 'Pisos desde',
 	'DESDE'                    => 'Desde',
 	'ULTIMOS_9_PISOS'          => 'Últimos 9 pisos disponibles.',
-	'9_ULTIMAS_UNIDADES'       => 'ÚLTIMAS UNIDADES.',
+	'9_ULTIMAS_UNIDADES'       => 'ÚLTIMAS UNIDADES',
 	'APARTAMENTOS_AVE_DEL'     => 'Apartamentos Ave del Paraíso',
 	'DESDE_219'                => 'Desde 219.000€ a 249.000€',
 	'PISOS_DESDE'              => 'Desde',

@@ -3,7 +3,7 @@ return[
   'TITLE'                    => 'Flats from',
   'DESDE'                    => 'Since',
   'ULTIMOS_9_PISOS'          => 'Last 9 flats available.',
-  '9_ULTIMAS_UNIDADES'       => 'LAST UNITS.',
+  '9_ULTIMAS_UNIDADES'       => 'LAST UNITS',
   'APARTAMENTOS_AVE_DEL'     => 'Ave del Paraíso Apartments',
   'DESDE_219'                => 'From 219,000 € to 249,000 €',
   'PISOS_DESDE'              => 'Since',

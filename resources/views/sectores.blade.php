@@ -8,6 +8,34 @@
 @section ('module_content')
 @endsection
 @section ('content')
+<style type="text/css">
+    .sector__header__ribbon {
+        width: auto;
+        height: auto;
+        padding: 10px 30px;
+        left: 0;
+        right: auto;
+        top: -10px;
+        background-color: #d72a6b; !important;
+        background-image: none !important;
+        font-size: 26px;
+        line-height: 35px;
+        transform: rotate(0deg);
+    }
+    @media(max-width: 767px){
+        .sector__header__ribbon {
+            font-size: 22px;
+            top: 0;
+        }
+    }
+    .sector__header__ribbon .content {
+        display: block;
+        padding-left: 0;
+        padding-top: 5px;
+        line-height: 30px;
+        transform: rotate(0deg);
+    }
+</style>
 <div class="sector sector--left">
   <div class="sector__header" style="background-image: url(../assets/images/content/franciscogarvi.com_B7K7803.jpg);">
     <div class="sector__header__content">
