@@ -137,7 +137,7 @@
   <p class="text">{{ __('home.DESDE_285') }}</p>
 </div> -->
 
-    
+
     <div class="slide-sectores-content ave-paraiso">
       <a class="logos-home-link" href="/sectores/">
         <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
@@ -152,7 +152,8 @@
     </div>
   </div>
   <div class="content-image__image">
-    <img src="/assets/images/content/slide-sectores.jpg" class="" alt="{{ __('home.SLIDE_SECTORES') }}" />
+    <!-- <img src="/assets/images/content/slide-sectores.jpg" class="" alt="{{ __('home.SLIDE_SECTORES') }}" /> -->
+    <img src="/assets/images/content/franciscogarvi.com_B7K4283.jpg" class="" alt="{{ __('home.SLIDE_SECTORES') }}" />
   </div>
 </div>
         </div>
