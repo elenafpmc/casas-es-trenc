@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Datenschutzrichtlinie | Urnova | Casas Es Trenc – Ave del Paraíso',
+    'meta-description'         => 'Datenschutzrichtlinie – Urnova, Mallorca. Kauf von Luxuswohnungen auf Mallorca in privater Wohnanlage Casas Es Trenc – Ave del Paraíso',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'de_DE',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'en_GB',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Datenschutzrichtlinie | Urnova | Casas Es Trenc – Ave del Paraíso',
+    'OG_description'           => 'Datenschutzrichtlinie – Urnova, Mallorca. Kauf von Luxuswohnungen auf Mallorca in privater Wohnanlage Casas Es Trenc – Ave del Paraíso',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/de/datenschutzrichtlinie-casas-es-trenc-ave-del-paraiso/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Datenschutzrichtlinie – Urnova, Mallorca. Kauf von Luxuswohnungen auf Mallorca in privater Wohnanlage Casas Es Trenc – Ave del Paraíso',
+    'TW_title'                 => 'Datenschutzrichtlinie | Urnova | Casas Es Trenc – Ave del Paraíso',
+
     'POLITICA_DE_PRIVACIDAD'   => 'Datenschutzrichtlinie',
     'A_LOS_EFECTOS_DE_LO'      => 'Im Sinne der Bestimmungen des Organgesetzes 15/1999 vom 13. Dezember über den Schutz personenbezogener Daten werden die Benutzer dieser Website darüber informiert, dass die persönlichen Daten, die sie durch sie bereitstellen, Sowohl beim Ausfüllen eines Formulars als auch per E-Mail oder auf andere Weise werden diese Datenschutzerklärungen behandelt.',
     'LOS_DATOS_FACILITADOS'    => 'Die zur Verfügung gestellten Daten werden Teil der Dateien, für die URNOVA, S.L.U. verantwortlich ist, die im Generalregister der spanischen Agentur für Datenschutz registriert sind. Je nach dem Zweck, für den die Daten bereitgestellt werden, werden diese verarbeitet, um auf Ihre Anfrage, Fragen, Vorschlag oder Zweifel zu antworten.',

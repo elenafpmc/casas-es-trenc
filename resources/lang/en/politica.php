@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Privacy policy | Urnova | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Privacy policy - Urnova, Mallorca. Purchase your luxury home in Mallorca in the private development Casas Es Trenc - Ave del Paraíso',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'en_GB',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Privacy policy | Urnova | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Privacy policy - Urnova, Mallorca. Purchase your luxury home in Mallorca in the private development Casas Es Trenc - Ave del Paraíso',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/en/privacy-policy-casas-es-trenc-ave-del-paraiso/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Privacy policy - Urnova, Mallorca. Purchase your luxury home in Mallorca in the private development Casas Es Trenc - Ave del Paraíso',
+    'TW_title'                 => 'Privacy policy | Urnova | Casas Es Trenc - Ave del Paraíso',
+
     'POLITICA_DE_PRIVACIDAD'   => 'PRIVACY POLICY',
     'A_LOS_EFECTOS_DE_LO'      => 'For the purposes of the provisions of Organic Law 15/1999, of December 13, on the Protection of Personal Data, users of this website are informed that the personal data they provide through it, both by completing any form, and by email or by any other means will be treated in accordance with this Data Protection Policy.',
     'LOS_DATOS_FACILITADOS'    => 'The data provided will become part of the files for which URNOVA, S.L.U. is responsible. which are conveniently registered in the General Registry of the Spanish Agency for Data Protection. Depending on the purpose for which the data are provided, these will be processed in order to respond to your request, query, suggestion or doubt.',

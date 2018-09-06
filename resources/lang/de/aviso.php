@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Impressum | Urnova Mallorca | Casas Es Trenc – Ave del Paraíso',
+    'meta-description'         => 'Impressum – Urnova Mallorca. Verkauf von Luxusapartments in privater Wohnanlage auf Mallorca. Casas Es Trenc – Ave del Paraíso.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'de_DE',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'en_GB',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Impressum | Urnova Mallorca | Casas Es Trenc – Ave del Paraíso',
+    'OG_description'           => 'Impressum – Urnova Mallorca. Verkauf von Luxusapartments in privater Wohnanlage auf Mallorca. Casas Es Trenc – Ave del Paraíso.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/de/impressum-urnova-mallorca/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Impressum – Urnova Mallorca. Verkauf von Luxusapartments in privater Wohnanlage auf Mallorca. Casas Es Trenc – Ave del Paraíso.',
+    'TW_title'                 => 'Impressum | Urnova Mallorca | Casas Es Trenc – Ave del Paraíso',
+
     'AVISO_LEGAL'              => 'Rechtlicher Hinweis',
     'ESTA_PAGINA_WEB'          => 'Diese Website gehört URNOVA, S.L.U. (im Folgenden URNOVA).',
     'CIF'                      => 'CIF: B-79308755.',

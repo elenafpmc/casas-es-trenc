@@ -11,21 +11,34 @@
 |
 */
 
-Route::get('/',                                        function ()        {App::setLocale('es');   return view('home',     ['section'=>'']);});
-Route::get('/'.__('url.home'),                             function ()        {App::setLocale('es');   return view('home',     ['section'=>'']);});
-Route::get('/'.__('url.sectores'),                         function ()        {App::setLocale('es');   return view('sectores', ['section'=>'sectores']);});
-Route::get('/'.__('url.viviendas'),                        function ()        {App::setLocale('es');   return view('viviendas',['section'=>'viviendas']);});
-Route::get('/'.__('url.ubicacion'),                        function ()        {App::setLocale('es');   return view('ubicacion',['section'=>'ubicacion']);});
-Route::get('/'.__('url.aviso-legal'),                      function ()        {App::setLocale('es');   return view('aviso',    ['section'=>'static']);});
-Route::get('/'.__('url.politica-de-privacidad'),           function ()        {App::setLocale('es');   return view('politica', ['section'=>'static']);});
-Route::get('/'.__('url.contacto'),                         function ()        {App::setLocale('es');   return view('contacto', ['section'=>'contacto']);});
-Route::get('/{locale}/'.__('url.home'),                    function ($locale) {App::setLocale($locale);return view('home',     ['section'=>'']);}           )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.sectores'),                function ($locale) {App::setLocale($locale);return view('sectores', ['section'=>'sectores']);}   )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.viviendas'),               function ($locale) {App::setLocale($locale);return view('viviendas',['section'=>'viviendas']);}  )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.ubicacion'),               function ($locale) {App::setLocale($locale);return view('ubicacion',['section'=>'ubicacion']);}  )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.contacto'),                function ($locale) {App::setLocale($locale);return view('contacto', ['section'=>'contacto']);}   )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.aviso-legal'),             function ($locale) {App::setLocale($locale);return view('aviso',    ['section'=>'static']);}     )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}/'.__('url.politica-de-privacidad'),  function ($locale) {App::setLocale($locale);return view('politica', ['section'=>'static']);}     )->where( ['locale'=>'es|en|de']);
-Route::get('/{locale}',                                function ($locale) {App::setLocale($locale);return view('home',     ['section'=>'']);}           )->where( ['locale'=>'es|en|de']);
+
+Route::get('/',                                                                function ()        {App::setLocale('es');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/home',                                                            function ()        {App::setLocale('es');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/apartamentos-con-piscina-mallorca-venta',                         function ()        {App::setLocale('es');   return view('sectores', ['meta'=>'sectores', 'section'=>'sectores']);});
+Route::get('/apartamentos-de-lujo-mallorca-venta',                             function ()        {App::setLocale('es');   return view('viviendas',['meta'=>'viviendas', 'section'=>'viviendas']);});
+Route::get('/venta-viviendas-mallorca-es-trenc',                               function ()        {App::setLocale('es');   return view('ubicacion',['meta'=>'ubicacion', 'section'=>'ubicacion']);});
+Route::get('/aviso-legal-urnova-mallorca',                                     function ()        {App::setLocale('es');   return view('aviso',    ['meta'=>'aviso', 'section'=>'static','static'=>'aviso-legal']);});
+Route::get('/politica-de-privacidad-casas-es-trenc-ave-del-paraiso',           function ()        {App::setLocale('es');   return view('politica', ['meta'=>'politica', 'section'=>'static','static'=>'politica-de-privacidad']);});
+Route::get('/proyectos-inmobiliarios-mallorca-compra-venta-obra-nueva',        function ()        {App::setLocale('es');   return view('contacto', ['meta'=>'contacto', 'section'=>'contacto']);});
+
+Route::get('/en',                                                              function ()        {App::setLocale('en');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/en/home',                                                         function ()        {App::setLocale('en');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/en/houses-with-swimming-pool-mallorca-for-sale',                  function ()        {App::setLocale('en');   return view('sectores', ['meta'=>'sectores', 'section'=>'sectores']);});
+Route::get('/en/luxury-apartments-for-sale-mallorca',                          function ()        {App::setLocale('en');   return view('viviendas',['meta'=>'viviendas', 'section'=>'viviendas']);});
+Route::get('/en/homes-for-sale-es-trenc-mallorca',                             function ()        {App::setLocale('en');   return view('ubicacion',['meta'=>'ubicacion', 'section'=>'ubicacion']);});
+Route::get('/en/legal-notice-urnova-mallorca',                                 function ()        {App::setLocale('en');   return view('aviso',    ['meta'=>'aviso', 'section'=>'static','static'=>'aviso-legal']);});
+Route::get('/en/privacy-policy-casas-es-trenc-ave-del-paraiso',                function ()        {App::setLocale('en');   return view('politica', ['meta'=>'politica', 'section'=>'static','static'=>'politica-de-privacidad']);});
+Route::get('/en/new-build-properties-for-sale-mallorca',                       function ()        {App::setLocale('en');   return view('contacto', ['meta'=>'contacto', 'section'=>'contacto']);});
+
+Route::get('/de',                                                              function ()        {App::setLocale('de');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/de/home',                                                         function ()        {App::setLocale('de');   return view('home',     ['meta'=>'home', 'section'=>'']);});
+Route::get('/de/verkauf-von-hauser-mit-pool-auf-mallorca',                     function ()        {App::setLocale('de');   return view('sectores', ['meta'=>'sectores', 'section'=>'sectores']);});
+Route::get('/de/verkauf-von-luxusapartments-auf-mallorca',                     function ()        {App::setLocale('de');   return view('viviendas',['meta'=>'viviendas', 'section'=>'viviendas']);});
+Route::get('/de/verkauf-von-wohnungen-auf-mallorca-es-trenc',                  function ()        {App::setLocale('de');   return view('ubicacion',['meta'=>'ubicacion', 'section'=>'ubicacion']);});
+Route::get('/de/impressum-urnova-mallorca',                                    function ()        {App::setLocale('de');   return view('aviso',    ['meta'=>'aviso', 'section'=>'static','static'=>'aviso-legal']);});
+Route::get('/de/datenschutzrichtlinie-casas-es-trenc-ave-del-paraiso',         function ()        {App::setLocale('de');   return view('politica', ['meta'=>'politica', 'section'=>'static','static'=>'politica-de-privacidad']);});
+Route::get('/de/neubau-immobilien-verkauf-mallorca',                           function ()        {App::setLocale('de');   return view('contacto', ['meta'=>'contacto', 'section'=>'contacto']);});
+
+
 
 Route::post('/InfoRequest', 'InfoRequestController@information');

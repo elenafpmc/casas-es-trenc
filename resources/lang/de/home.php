@@ -1,7 +1,21 @@
 <?php
 return[
-    'TITLE'                    => 'Home',
-	'MAS_INFORMACION'          => 'Mehr Informationen',
+    'TITLE'                    => 'Verkauf von Luxusimmobilien auf Mallorca Es Trenc | Casas Es Trenc – Ave del Paraíso',
+    'meta-description'         => 'Verkauf von Luxusimmobilien in der schönsten Gegend Mallorcas. Nur 2,5km vom Strand Es Trenc und 20 minuten vom Flughafen von Palma de Mallorca entfernt.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'de_DE',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'en_GB',
+    'OG_type'                  => 'website',
+    'OG_title'                 => 'Verkauf von Luxusimmobilien auf Mallorca Es Trenc | Casas Es Trenc – Ave del Paraíso',
+    'OG_description'           => 'Verkauf von Luxusimmobilien in der schönsten Gegend Mallorcas. Nur 2,5km vom Strand Es Trenc und 20 minuten vom Flughafen von Palma de Mallorca entfernt.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/de/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Verkauf von Luxusimmobilien in der schönsten Gegend Mallorcas. Nur 2,5km vom Strand Es Trenc und 20 minuten vom Flughafen von Palma de Mallorca entfernt.',
+    'TW_title'                 => 'Verkauf von Luxusimmobilien auf Mallorca Es Trenc | Casas Es Trenc – Ave del Paraíso',
+
+  	'MAS_INFORMACION'          => 'Mehr Informationen',
     'LOS_SECTORES_DE'          => 'Die Sektoren von',
     'CASAS_ES_TRENC'           => 'Casas Es Trenc',
     'NUESTROS'                 => 'unser', //AQUÍ DEPENDERÁ DE LA PALABRA QUE VIENE DESPUES!

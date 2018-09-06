@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Aviso legal | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Aviso legal - Urnova Mallorca. Venta de apartamentos de lujo en Mallorca en urbanización privada. Casas Es Trenc - Ave del Paraíso.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'es_ES',
+    'OG_alternate_1'           => 'en_GB',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Aviso legal | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Aviso legal - Urnova Mallorca. Venta de apartamentos de lujo en Mallorca en urbanización privada. Casas Es Trenc - Ave del Paraíso.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/es/aviso-legal-urnova-mallorca/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Aviso legal - Urnova Mallorca. Venta de apartamentos de lujo en Mallorca en urbanización privada. Casas Es Trenc - Ave del Paraíso.',
+    'TW_title'                 => 'Aviso legal | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+
     'AVISO_LEGAL'              => 'Aviso legal',
     'ESTA_PAGINA_WEB'          => 'Esta página Web es titularidad de URNOVA, S.L.U. (en adelante, URNOVA).',
     'CIF'                      => 'CIF: B-79308755.',

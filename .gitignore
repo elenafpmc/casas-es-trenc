@@ -2,7 +2,8 @@
 /public/hot
 /public/storage
 /storage/*.key
-#/vendor
+/vendor
+vendor
 /resources/views/vendor
 /config/tinker.php
 /config/trustedproxy.php
@@ -13,4 +14,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+composer.lock
 .env

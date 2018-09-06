@@ -1,7 +1,21 @@
 <?php
 return[
-    'TITLE'                    => 'Home',
-	'MAS_INFORMACION'          => 'More information',
+    'TITLE'                    => 'Luxury homes for sale in Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Sale of luxury homes in the best part of Mallorca. 2.5 km from the idyllic Es Trenc beach and 20 minutes from the airport of Palma de Mallorca.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'en_GB',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'website',
+    'OG_title'                 => 'Luxury homes for sale in Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Sale of luxury homes in the best part of Mallorca. 2.5 km from the idyllic Es Trenc beach and 20 minutes from the airport of Palma de Mallorca.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/en/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Sale of luxury homes in the best part of Mallorca. 2.5 km from the idyllic Es Trenc beach and 20 minutes from the airport of Palma de Mallorca.',
+    'TW_title'                 => 'Luxury homes for sale in Mallorca | Casas Es Trenc - Ave del Paraíso',
+
+	  'MAS_INFORMACION'          => 'More information',
     'LOS_SECTORES_DE'          => 'The sectors of',
     'CASAS_ES_TRENC'           => 'Casas Es Trenc',
     'NUESTROS'                 => 'our',

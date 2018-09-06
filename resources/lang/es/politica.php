@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Política de privacidad | Urnova | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Política de privacidad - Urnova, Mallorca. Compra viviendas de lujo en Mallorca en urbanización privada Casas Es Trenc - Ave del Paraíso',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'es_ES',
+    'OG_alternate_1'           => 'en_GB',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Política de privacidad | Urnova | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Política de privacidad - Urnova, Mallorca. Compra viviendas de lujo en Mallorca en urbanización privada Casas Es Trenc - Ave del Paraíso',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/es/politica-de-privacidad-casas-es-trenc-ave-del-paraiso/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Política de privacidad - Urnova, Mallorca. Compra viviendas de lujo en Mallorca en urbanización privada Casas Es Trenc - Ave del Paraíso',
+    'TW_title'                 => 'Política de privacidad | Urnova | Casas Es Trenc - Ave del Paraíso',
+
     'POLITICA_DE_PRIVACIDAD'   => 'POLÍTICA DE PRIVACIDAD',
     'A_LOS_EFECTOS_DE_LO'      => 'A los efectos de lo previsto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, se informa a los usuarios de esta página Web de que los datos de carácter personal que faciliten a través de ella, tanto cumplimentando cualquier formulario, como a través de correo electrónico o por cualquier otro medio serán tratados de conformidad con la presente Política de Protección de Datos.',
     'LOS_DATOS_FACILITADOS'    => 'Los datos facilitados pasarán a formar parte de los ficheros de los que es responsable URNOVA, S.L.U. y que se encuentran convenientemente inscritos en el Registro General de la Agencia Española de Protección de Datos. En función del fin para el que los datos sean facilitados, estos serán tratados con objeto de dar respuesta a su solicitud, consulta, sugerencia o duda.',

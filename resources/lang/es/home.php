@@ -1,7 +1,21 @@
 <?php
 return[
-    'TITLE'                    => 'Home',
-	'MAS_INFORMACION'          => 'Más información',
+    'TITLE'                    => 'Venta de viviendas de lujo en Mallorca Es Trenc | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Venta de viviendas de lujo en la mejor zona de Mallorca. A 2,5 km de la paradisíaca playa de Es Trenc y a 20 minutos del aeropuerto de Palma de Mallorca.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'es_ES',
+    'OG_alternate_1'           => 'en_GB',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'website',
+    'OG_title'                 => 'Venta de viviendas de lujo en Mallorca Es Trenc | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Venta de viviendas de lujo en la mejor zona de Mallorca. A 2,5 km de la paradisíaca playa de Es Trenc y a 20 minutos del aeropuerto de Palma de Mallorca.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/es/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Venta de viviendas de lujo en la mejor zona de Mallorca. A 2,5 km de la paradisíaca playa de Es Trenc y a 20 minutos del aeropuerto de Palma de Mallorca.',
+    'TW_title'                 => 'Venta de viviendas de lujo en Mallorca Es Trenc | Casas Es Trenc - Ave del Paraíso',
+
+	  'MAS_INFORMACION'          => 'Más información',
     'LOS_SECTORES_DE'          => 'Los sectores de',
     'CASAS_ES_TRENC'           => 'Casas Es Trenc',
     'NUESTROS'                 => 'nuestros',
@@ -22,6 +36,6 @@ return[
     'BAJOS_CON_JARDIN'         => 'Bajos con jardín',
     'FRANCISCOGARVI'           => 'Franciscogarvi.com b7k3419',
     'INMEJORABLE'              => 'inmejorable',
-	'UBICACION'                => 'Ubicación',
+	  'UBICACION'                => 'Ubicación',
     'ESTE_NUEVO_COMPLEJO'      => 'Este nuevo complejo residencial, está situado en el sureste de la isla, cerca de Es Trenc, la playa más bella de Mallorca con aguas cristalinas y arena blanca.',
 ];

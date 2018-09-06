@@ -1,5 +1,20 @@
 <?php
 return[
+    'TITLE'                    => 'Legal notice | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => 'Legal notice - Urnova Mallorca. Sale of luxury apartments in Mallorca in a private development. Casas Es Trenc - Ave del Paraíso.',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'OG_locale'                => 'en_EN',
+    'OG_alternate_1'           => 'es_ES',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_type'                  => 'article',
+    'OG_title'                 => 'Legal notice | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => 'Legal notice - Urnova Mallorca. Sale of luxury apartments in Mallorca in a private development. Casas Es Trenc - Ave del Paraíso.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/en/legal-notice-urnova-mallorca/',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'TW_card'                  => 'summary',
+    'TW_description'           => 'Legal notice - Urnova Mallorca. Sale of luxury apartments in Mallorca in a private development. Casas Es Trenc - Ave del Paraíso.',
+    'TW_title'                 => 'Legal notice | Urnova Mallorca | Casas Es Trenc - Ave del Paraíso',
+
     'AVISO_LEGAL'              => 'Legal Notice',
     'ESTA_PAGINA_WEB'          => 'This website is owned by URNOVA, S.L.U. (hereinafter, URNOVA).',
     'CIF'                      => 'CIF: B-79308755.',

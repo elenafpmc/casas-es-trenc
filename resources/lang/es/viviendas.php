@@ -1,5 +1,24 @@
 <?php
 return [
+    'TITLE'                    => 'Venta apartamentos de lujo | Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'meta-description'         => '¡Compre ya su apartamento de lujo en Mallorca! Casas Es Trenc - Ave del Paraíso para disfrutar de sus vacaciones o para residir todo el año.',
+    'OG_title'                 => 'Venta apartamentos de lujo | Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'OG_description'           => '¡Compre ya su apartamento de lujo en Mallorca! Casas Es Trenc - Ave del Paraíso para disfrutar de sus vacaciones o para residir todo el año.',
+    'OG_url'                   => 'http://mallorcacasasestrenc.com/es/apartamentos-de-lujo-mallorca-venta/',
+    'TW_description'           => '¡Compre ya su apartamento de lujo en Mallorca! Casas Es Trenc - Ave del Paraíso para disfrutar de sus vacaciones o para residir todo el año.',
+    'TW_title'                 => 'Venta apartamentos de lujo | Mallorca | Casas Es Trenc - Ave del Paraíso',
+    'publisher'                => 'https://plus.google.com/107506369446415063450',
+    'TW_card'                  => 'summary',
+    'OG_type'                  => 'article',
+    'OG_locale'                => 'es_ES',
+    'OG_alternate_1'           => 'en_GB',
+    'OG_alternate_2'           => 'de_DE',
+    'OG_site_name'             => 'Casas de Es Trenc',
+    'OG_image'                 => 'http://mallorcacasasestrenc.com/images/content/casas-es-trenc-f1-salon2-1.jpg',
+    'TW_image'                 => 'http://mallorcacasasestrenc.com/images/content/casas-es-trenc-f1-salon2-1.jpg',
+    'OG_image_width'           => '2500',
+    'OG_image_height'          => '1666',
+
     'ATICOS_CON_TERRAZA'       => 'Áticos con terraza',
     'ATICOS'                   => 'Áticos',
     'IMPRESIONANTES_ATICOS'    => 'Impresionantes áticos en venta en Mallorca para entrar a vivir ya. Con todas las licencias aprobadas le esperamos en Casas Es Trenc – Buganvilla. Su casa a menos de cinco minutos en coche de las mejores playas del mar Mediterráneo. Disfrute de las vistas y del sol de Mallorca en su propia terraza en una ubicación privilegiada.',
@@ -20,7 +39,7 @@ return [
     'ALT_13'                   => 'Casas es trenc f1 salon4 1 1643x1080',
     'ALT_14'                   => 'Casas es trenc f1a dormitorio2 z 1622x1080',
     'ALT_15'                   => 'Casas es trenc roof tarrace solarium 1618x1080',
-	
+
     'ALT_16'                   => 'Casas es trenc 81 1618x1080',
     'ALT_17'                   => 'Casas es trenc 319 1618x1080',
     'ALT_18'                   => 'Casas es trenc 340 1618x1080',
