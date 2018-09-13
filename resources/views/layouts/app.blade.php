@@ -148,7 +148,7 @@
       <p class="modal__dialog__wrapper__title">{{ __('common.MAS_INFORMACION') }}</p>
       <div class="modal__dialog__wrapper__content">
 <div class="form-info">
-    @if ($errors->any())
+    @if (@get_class(@$errors)=='ViewErrorBag' && $errors->any())
     <div class="alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
@@ -220,13 +220,20 @@
     </div>
   </div>
 </div>
-
-
+@if(@$static=='error_404')
+<div class="error">
+  <div class="error__image" style="background-image: url('/assets/images/content/franciscogarvi.com_B7K8527.jpg');"></div>
+  <div class="error__content">
+@endif
 
 <div class="content__wrapper {{ $section or '' }}">
 @yield('content','content')
 @yield('module_content','module_content')
 </div>
+@if(@$static=='error_404')
+  </div>
+</div>
+@endif
 <footer class="footer ">
 @if($section!='static')
     <div class="footer__banner">
@@ -274,13 +281,13 @@
         </p>
         <ul>
           <li>
-            <a href="{{ url(App::getLocale(),__('url.aviso-legal')) }}">{{ __('common.AVISO_LEGAL') }}</a>
+            <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.aviso-legal')) }}">{{ __('common.AVISO_LEGAL') }}</a>
           </li>
           <li>
             |
           </li>
           <li>
-            <a href="{{ url(App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}</a>
+            <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}</a>
           </li>
         </ul>
       </div>
@@ -289,7 +296,14 @@
 
 </footer>
 @if (session('success'))
-    <div class="mensaje"><div class="success"><h1>Enviado{{ __('common.'.session('success')) }}</h1></div></div>
+  <div class="mensaje" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:200;background-color:rgba(40,40,40,0.7);">
+    <div class="success" style="background-color:#FFFFFF;width:260px;margin:100px auto 0;padding:20px;">
+      <span style="float:right;" class="icon-close" onclick="$(this).parent().parent().fadeOut();"></span>
+      <p>&nbsp;</p>
+      <p>{{ __('common.'.session('success')) }}</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
 @endif
 @if (session('error'))
     <div class="mensaje"><div class="error"><h1>{{ __('common.'.session('error')) }}</h1></div></div>
