@@ -12,6 +12,7 @@
 */
 
 
+Route::get('/es',                                                              function ()        { return redirect('/',301);});
 Route::get('/',                                                                function ()        {App::setLocale('es');   return view('home',     ['meta'=>'home', 'section'=>'']);});
 Route::get('/home',                                                            function ()        {App::setLocale('es');   return view('home',     ['meta'=>'home', 'section'=>'']);});
 Route::get('/apartamentos-con-piscina-mallorca-venta',                         function ()        {App::setLocale('es');   return view('sectores', ['meta'=>'sectores', 'section'=>'sectores']);});

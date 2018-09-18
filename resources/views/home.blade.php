@@ -96,7 +96,7 @@
 
 <div class="checkbox ">
   <input type="checkbox" id="hero_lega" name="hero_lega" class="checkbox__field"{{ old('hero_lega')?'checked':'' }}>
-  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url(((App::getLocale()!='es')?App::getLocale():''),'politica-de-privacidad') }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="hero_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
@@ -120,32 +120,16 @@
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
-    <!-- <p class="title-small">{{ __('home.LOS_SECTORES_DE') }}</p> -->
-    <!-- <p class="title">{{ __('home.CASAS_ES_TRENC') }}</p> -->
-
-<!--     <div class="slide-sectores-content ave-paraiso">
-  <a href="/sectores/" >
-    <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
-  </a>
-  </div>
-  <p class="text">{{ __('home.DESDE_219') }}</p>
-
-<div class="slide-sectores-content buganvilla">
-  <a href="/sectores/">
-  <img src="/assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" />
-  </a>
-  <p class="text">{{ __('home.DESDE_285') }}</p>
-</div> -->
 
 
     <div class="slide-sectores-content ave-paraiso">
-      <a class="logos-home-link" href="/sectores/">
+      <a class="logos-home-link" href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.sectores')) }}">
         <img src="/assets/images/content/logo-avedelparaiso.png" class="logos-home" alt="Logo avedelparaiso" />
       </a>
       <p class="text">{{ __('home.DESDE_220') }}</p>
     </div>
     <div class="slide-sectores-content buganvilla">
-      <a class="logos-home-link" href="/sectores/">
+      <a class="logos-home-link" href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.sectores')) }}">
         <img src="/assets/images/content/logo-buganvilla.png" class="logos-home" alt="Logo buganvilla" />
       </a>
       <p class="text">{{ __('home.DESDE_295') }}</p>
@@ -165,8 +149,8 @@
     <p class="title-small">{{ __('home.NUESTRAS') }}</p>
     <p class="title">{{ __('home.VIVIENDAS') }}</p>
     <p class="text">{{ __('home.NUESTROS_APARTAMENTOS') }}</p>
-              <p class="text"><a href="/viviendas/" class="link">{{ __('home.ATICOS_CON_TERRAZA') }} <span class="icon-arrow-right"></a></p>
-              <p class="text"><a href="/viviendas/" class="link">{{ __('home.BAJOS_CON_JARDIN') }}<span class="icon-arrow-right"></a></p>
+              <p class="text"><a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.viviendas')) }}" class="link">{{ __('home.ATICOS_CON_TERRAZA') }} <span class="icon-arrow-right"></a></p>
+              <p class="text"><a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.viviendas')) }}" class="link">{{ __('home.BAJOS_CON_JARDIN') }}<span class="icon-arrow-right"></a></p>
   </div>
   <div class="content-image__image">
     <img src="/assets/images/content/slide-viviendas.jpg" class="" alt="{{ __('home.FRANCISCOGARVI') }}" />
@@ -183,7 +167,7 @@
     <p class="title">{{ __('home.UBICACION') }}</p>
     <p class="text">{{ __('home.ESTE_NUEVO_COMPLEJO') }}</p>
     <!-- TRADUCCIÓN -->
-    <p class="text"><a href="/ubicacion/" class="link">{{ __('home.VER') }} {{ __('home.UBICACION') }}<span class="icon-arrow-right"></a></p>
+    <p class="text"><a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.ubicacion')) }}" class="link">{{ __('home.VER') }} {{ __('home.UBICACION') }}<span class="icon-arrow-right"></a></p>
     <!-- /TRADUCCIÓN -->
   </div>
   <div class="content-image__image">

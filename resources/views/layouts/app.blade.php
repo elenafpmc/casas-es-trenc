@@ -55,7 +55,7 @@
         <p>
             {{ __('common.MENSAJE_COOKIES') }}
             <br />
-            <a href="/politica-de-privacidad/">{{ __('common.MAS_INFO_COOKIES') }}</a>
+            <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}">{{ __('common.MAS_INFO_COOKIES') }}</a>
             <button type="button" class="close-cookies">x</button>
         </p>
     </div>
@@ -205,7 +205,7 @@
 
 <div class="checkbox ">
   <input type="checkbox" id="modal_lega" name="modal_lega" class="checkbox__field"{{ old('hero_lega')?' checked':'' }} />
-  <label for="modal_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url(App::getLocale(),'politica-de-privacidad') }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
+  <label for="modal_lega" class="checkbox__label">{{ __('common.ACEPTO_LA') }} <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}.</a></label>
 </div>
 
     </div>
@@ -276,9 +276,13 @@
         </div>
 @endif
       <div class="footer__contact__legal">
-        <p>
-          {{ __('common.RESERVADOS_DERECHOS') }}
-        </p>
+        <ul>
+          <li>
+            <p>
+              {{ __('common.RESERVADOS_DERECHOS') }} - Web by <a href="https://www.flyingpigs.es">Flying Pigs</a>
+            </p>
+          </li>
+        </ul>
         <ul>
           <li>
             <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.aviso-legal')) }}">{{ __('common.AVISO_LEGAL') }}</a>

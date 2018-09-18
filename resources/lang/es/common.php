@@ -13,7 +13,7 @@ return[
     'MAIL'                     => 'Mail',
     'MENSAJE'                  => 'Mensaje',
     'ACEPTO_LA'                => 'Acepto la ',
-    'POLITICA_DE_PRIVACIDAD'   => 'política de privacidad',
+    'POLITICA_DE_PRIVACIDAD'   => 'Política de privacidad',
     'ENVIAR_SOLICITUD'         => 'Enviar solicitud',
     'MENSAJE_ENVIADO'          => 'Su mensaje ha sido enviado',
     'ERROR_MENSAJE'            => 'Hubo un error al enviar su mensaje',
