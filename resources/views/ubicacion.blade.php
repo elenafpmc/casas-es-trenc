@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="sector__content">
-    
+
 
 <div class="content-image content-image--right">
   <div class="content-image__content">
@@ -51,7 +51,7 @@
   <div class="content-image__content">
     <p class="title-small">{{ __('ubicacion.BUEN_SWING') }}</p>
     <p class="title">{{ __('ubicacion.GOLF') }}</p>
-    <p class="text lead">{{ __('ubicacion.EXCELENTES_CAMPOS_DE') }}<a href="http://development.flyingpigs.es/casas-es-trenc/build/sectores/">Casas Es Trenc – Buganvilla.</a></p>
+    <p class="text lead">{{ __('ubicacion.EXCELENTES_CAMPOS_DE') }}<a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.sectores')) }}">Casas Es Trenc – Buganvilla.</a></p>
                     <p class="text">{{ __('ubicacion.EN_SOLO_15_MINUTOS') }}</p>
   </div>
   <div class="content-image__image">
@@ -64,7 +64,7 @@
     <p class="title-small">{{ __('ubicacion.AMANTES_DEL_TREKKING') }}</p>
     <p class="title">{{ __('ubicacion.SENDERISMO') }}</p>
     <p class="text lead">{{ __('ubicacion.SI_LE_GUSTA_LA_NATURALEZA') }}</p>
-                    
+
                     <p class="text">{{ __('ubicacion.IMAGINE_TENER_SU_PROPIA') }}</p>
   </div>
   <div class="content-image__image">
@@ -102,7 +102,7 @@
 </div>
 
 
-  
+
 
   <img src="/images/content/mapa-palma.jpg" class="map-img" alt="{{ __('ubicacion.MAPA_UBICACION') }}" />
 @endsection
