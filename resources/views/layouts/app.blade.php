@@ -279,7 +279,7 @@
         <ul>
           <li>
             <p>
-              {{ __('common.RESERVADOS_DERECHOS') }} - Web by <a href="https://www.flyingpigs.es">Flying Pigs</a>
+              {{ __('common.RESERVADOS_DERECHOS') }} - Web by <a target="_blank" href="https://www.flyingpigs.es">Flying Pigs</a>
             </p>
           </li>
         </ul>
