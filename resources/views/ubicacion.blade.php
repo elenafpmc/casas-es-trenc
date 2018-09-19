@@ -91,7 +91,7 @@
     <p class="title-small">{{ __('ubicacion.EL_MEJOR') }}</p>
     <p class="title">{{ __('ubicacion.OCIO') }}</p>
     <p class="text lead">{{ __('ubicacion.CONOZCA_MAYORCA') }}</p>
-                    <p class="text">{{ __('ubicacion.DESCUBRA_MAYORCA') }}<a href="#">Es Trenc – Buganvilla.</a></p>
+                    <p class="text">{{ __('ubicacion.DESCUBRA_MAYORCA') }}<a href="http://casasestrencmallorca.com/{{ App::getLocale() }}">Es Trenc – Buganvilla.</a></p>
   </div>
   <div class="content-image__image">
     <img src="/images/content/ubicacion-ocio.jpg" class="" alt="{{ __('ubicacion.UBICACION_OCIO') }}" />
