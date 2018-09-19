@@ -32,19 +32,19 @@
     <meta property="og:url" content="{{__($meta.'.OG_url')}}" />
     <meta property="og:site_name" content="{{__($meta.'.OG_site_name')}}" />
   @if(__($meta.'.OG_image')!=$meta.'.OG_image')
-  <meta property="og:image" content="{{__($meta.'.OG_image')}}" />
+    <meta property="og:image" content="{{__($meta.'.OG_image')}}" />
   @endif
   @if(__($meta.'.OG_image_width')!=$meta.'.OG_image_width')
-<meta property="og:image:width" content="{{__($meta.'.OG_image_width')}}" />
+    <meta property="og:image:width" content="{{__($meta.'.OG_image_width')}}" />
   @endif
   @if(__($meta.'.OG_image_height')!=$meta.'.OG_image_height')
-<meta property="og:image:height" content="{{__($meta.'.OG_image_height')}}" />
+    <meta property="og:image:height" content="{{__($meta.'.OG_image_height')}}" />
   @endif
-  <meta name="twitter:card" content="{{__($meta.'.TW_card')}}" />
+    <meta name="twitter:card" content="{{__($meta.'.TW_card')}}" />
     <meta name="twitter:description" content="{{__($meta.'.TW_description')}}" />
     <meta name="twitter:title" content="{{__($meta.'.TW_title')}}" />
   @if(__($meta.'.TW_image')!=$meta.'.TW_image')
-  <meta name="twitter:image" content="{{__($meta.'.TW_image')}}" />
+    <meta name="twitter:image" content="{{__($meta.'.TW_image')}}" />
   @endif
 
 
@@ -55,7 +55,7 @@
         <p>
             {{ __('common.MENSAJE_COOKIES') }}
             <br />
-            <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }}">{{ __('common.MAS_INFO_COOKIES') }}</a>
+            <a href="{{ url((App::getLocale()=='es')?'':App::getLocale(),__('url.politica-de-privacidad')) }}" target="_blank">{{ __('common.POLITICA_DE_PRIVACIDAD') }} - {{ __('common.MAS_INFO_COOKIES') }}</a>
             <button type="button" class="close-cookies">x</button>
         </p>
     </div>
@@ -279,7 +279,7 @@
         <ul>
           <li>
             <p>
-              {{ __('common.RESERVADOS_DERECHOS') }} - Web by <a target="_blank" href="https://www.flyingpigs.es">Flying Pigs</a>
+              {{ __('common.RESERVADOS_DERECHOS') }} - Web by <a href="https://www.flyingpigs.es" target="_blank">Flying Pigs</a>
             </p>
           </li>
         </ul>
