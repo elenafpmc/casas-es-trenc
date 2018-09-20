@@ -16,7 +16,7 @@ class InfoRequestController extends Controller
 		$mail=$prepend.'mail';
 		$mensaje=$prepend.'message';
 		$lega=$prepend.'lega';
-		
+
 		$params=[
 			'name'=>$request->$name,
 			'prefijo'=>$request->$prefijo,
@@ -31,7 +31,7 @@ class InfoRequestController extends Controller
 		$mail='mail';
 		$mensaje='mensaje';
 		$lega='lega';
-		/* 
+		/*
 		$this->validate($request, [
 				[
 					$name=>'required',
@@ -67,7 +67,7 @@ class InfoRequestController extends Controller
 					$mensaje.'.required'=>'MENSAJE_OBLIGATORIO',
 					$lega.'.required'=>'LEGAL_OBLIGATORIO',
 				]
-			
+
          );
 
         if ($validator->fails()) {
@@ -77,7 +77,7 @@ class InfoRequestController extends Controller
         }else{
 			$mail = new InfoRequest($params);
 			$mail->build();
-			Mail::to('elena@flyingpigs.es')->send($mail);
+			Mail::to('sales@grupournova.com')->send($mail);
 			if(count(Mail::failures()) > 0){
 				return redirect($request->session()->previousUrl())->with('error','ERROR_MENSAJE');
 			}else{
