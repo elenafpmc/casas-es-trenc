@@ -149,7 +149,7 @@
       <div class="modal__dialog__wrapper__content">
 <div class="form-info">
     @if (@get_class(@$errors)=='ViewErrorBag' && $errors->any())
-    <div class="alert alert-danger">
+    <div class="alert alert-danger" style="color:#F33">
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ __('common.'.$error) }}</li>

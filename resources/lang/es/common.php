@@ -19,7 +19,7 @@ return[
     'ERROR_MENSAJE'            => 'Hubo un error al enviar su mensaje',
     'NOMBRE_OBLIGATORIO'       => 'El nombre es obligatorio',
     'TELEFONO_OBLIGATORIO'     => 'El número de teléfono es obligatorio',
-    'TELEFONO_NUMERICO'        => 'El número de teléfono debe ser numérico',
+    'TELEFONO_NUMERICO'        => 'El número de teléfono debe ser numérico y no debe contener espacios',
     'LEGAL_OBLIGATORIO'        => 'Debes aceptar la política de privacidad',
     'EMAIL_OBLIGATORIO'        => 'El email es obligatorio',
     'FORMATO_EMAIL'            => 'El email debe ser un email válido',

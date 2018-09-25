@@ -39,7 +39,7 @@
 
 <div class="form-info">
 	@if ($errors->any())
-    <div class="alert alert-danger">
+    <div class="alert alert-danger" style="color:#F33">
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ __('common.'.$error) }}</li>
